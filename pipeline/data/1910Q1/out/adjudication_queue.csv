@@ -1,0 +1,17 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,2,English,Miscellaneous,1,internal,copies,30000,,copies outside plausible range
+13,13,Punjabi,Poetry,24,flag,date,,,no date of issue printed
+17,17,Punjabi,Poetry,52,flag,date,,,year printed 1909; likely 1910 given quarter context
+18,18,Punjabi,Poetry,67,flag,reg,,,"printed reg reads 570, far above the quarter's ~1-383 range; likely misread of a smaller number (e.g. 70/170) — transcribed as printed"
+22,22,Sindhi,Fiction,3,flag,serial,,,printed serial 3 follows 1; serial 2 not present on page
+42,42,Urdu,Religion,15,flag,reg,,,printed reg 249 also recorded at p28 s12 (Ramuz-i-Haqiqat); possible misread/collision
+49,49,English,Law,6,flag,reg,,,printed reg 306 also recorded at p38 s8 (Gauhar-i-Sukhan); possible misread/collision
+5,5,Hindi,Miscellaneous,1,internal,reg,326,,registration no. appears 2x in quarter
+31,31,Urdu,Medicine,12,internal,reg,326,,registration no. appears 2x in quarter
+28,28,Urdu,Fiction,12,internal,reg,249,,registration no. appears 2x in quarter
+42,42,Urdu,Religion,15,internal,reg,249,,registration no. appears 2x in quarter
+38,38,Urdu,Poetry,8,internal,reg,306,,registration no. appears 2x in quarter
+49,49,English,Law,6,internal,reg,306,,registration no. appears 2x in quarter
+22,22,Sindhi,Fiction,1,internal,serial,1->3,,non-consecutive serials in Sindhi-Fiction
+30,30,Urdu,Law,1,internal,serial,2->1,,non-consecutive serials in Urdu-Law
+31,31,Urdu,Miscellaneous,1,internal,serial,46->1,,non-consecutive serials in Urdu-Miscellaneous

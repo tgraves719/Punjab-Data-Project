@@ -1,0 +1,56 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,98,English,Medicine,2,flag,reg,,,866 vs 868 — final digit degraded
+2,98,English,Law,5,flag,copyright,,,register number partially legible
+2,98,English,Language,6,flag,reg,,,765 vs 766 — final digit slightly degraded
+3,99,English,Science (Mathematical),6,flag,reg,,,866 also read for English—Medicine s2 on p2 — one is 868; adjudicate
+3,99,English,Miscellaneous,7,flag,reg,,,765 also read for English—Language s6 on p2 — one of the two is 766; adjudicate
+3,99,English,Miscellaneous,8,flag,copyright,,,register number partially legible
+4,100,Arabic,Religion,7,flag,pp_verbatim,,,second pagination component printed in native numerals
+5,101,Hindi,Language,6,flag,serial,,,serial digit could be 6 or 8 — read as 6 from column position
+6,102,Hindi,Religion,7,flag,pubcity,,,city obscured by stamp — Karnal conjectural
+6,102,Hindi,Religion,7,flag,price,,,14 annas unusual for Pp 17 — digit may be 1½/4; verify
+7,103,Hindi,Religion,7,flag,serial,,,serial 7 duplicates previous page's Hindi—Religion serial — one may be mis-numbered in catalog
+7,103,Punjabi,Medicine,7,flag,serial,,,serial partially obscured — read as 7
+12,108,Punjabi,Poetry,165,flag,copyright,,,register number and day partially legible
+14,110,Punjabi,Poetry,179,flag,author,,,printed 'Marik Singh' — possibly a misprint for Malik Singh; transcribed verbatim
+15,111,Punjabi,Poetry,188,flag,pubcity,,,no place of publication printed for publisher Sadhu Hari Das
+18,114,Punjabi,Poetry,214,flag,reg,,,stray printed mark before 847 in registration column
+20,116,Punjabi,Poetry,229,flag,pp_verbatim,,,printed 'Pp. 972' — implausible for price/format; possibly 72
+22,118,Punjabi,Religion,10,flag,copies,,,"first digit faint; read as 1,000"
+22,118,Punjabi,Poetry,241,flag,date,,,"Hijri year printed 1318, likely misprint for 1328"
+25,121,Pushto,Poetry,2,flag,serial,,,left-margin serial digit faint; read as 2
+25,121,Pushto,Poetry,2,flag,reg,,,last digit unclear (921/924); read as 924 because 921 is clearly printed at Urdu—Medicine s17 (p31) and regs are unique within the year
+25,121,Persian,Poetry,5,flag,serial,,,"left-margin serial digit faint; read as 5 (followed by 6, 7)"
+26,122,Urdu,Biography,31,flag,copyright,,,register number and day partially legible in copyright column
+26,122,Urdu,Biography,31,flag,pp_verbatim,,,pagination smudged; read as 108
+28,124,Urdu,Fiction,24,flag,copyright,,,day of copyright registration partially legible (13th/18th August)
+31,127,Urdu,Language,11,flag,serial,,,"margin digit prints like '14' but sequence (…9, 10, then this) indicates 11"
+32,128,Urdu,Medicine,20,flag,copyright,,,register number partially legible
+32,128,Urdu,Medicine,21,flag,copyright,,,register number partially legible (145/146)
+32,128,Urdu,Miscellaneous,84,flag,copyright,,,register number partially legible
+32,128,Urdu,Miscellaneous,85,flag,copyright,,,register number partially legible
+33,129,Urdu,Miscellaneous,90,internal,copies,100000,,copies outside plausible range
+34,130,Urdu,Miscellaneous,99,flag,copies,,,copies column printed as dots/illegible
+34,130,Urdu,Miscellaneous,103,flag,copyright,,,register number and day partially legible
+38,134,Urdu,Miscellaneous,125,flag,copyright,,,register number and day partially legible
+41,137,Urdu,Poetry,39,flag,pp_verbatim,,,second pagination component printed in native numerals
+41,137,Urdu,Poetry,45,flag,edition,,,edition number omitted in catalog entry
+42,138,Urdu,Poetry,51,flag,copyright,,,register number partially legible
+42,138,Urdu,Poetry,52,flag,copyright,,,register number partially legible
+42,138,Urdu,Poetry,56,flag,copyright,,,register number and day partially legible
+43,139,Urdu,Religion,53,flag,serial,,,"margin serial partially cut; read as 53 (54, 55 follow; page 44 resumes at 56)"
+44,140,Urdu,Religion,58,flag,author,,,dash-continuation after joint authorship — could include Charagh Ali
+44,140,Urdu,Religion,59,flag,copies,,,"printed '1,009' — possibly misprint for 1,000; transcribed as printed"
+46,142,Urdu,Religion,73,flag,copyright,,,register number and day partially legible
+46,142,Urdu,Religion,73,flag,gloss,,,self-referential cross-reference — target entry No. 39 p41 is in this quarter's Urdu—Poetry (Durar-i-Samin?); verify at adjudication
+47,143,Bilingual (Arabic Persian),Religion,8,flag,date,,,only Hijri 1319 printed; no Christian date given
+48,144,Bilingual (Arabic Pushto),Religion,1,flag,copyright,,,register number and day partially legible
+49,145,Bilingual (Arabic Urdu),Religion,24,flag,title,,,"last word smudged — read as Sihra (chaplet), matching the gloss"
+50,146,Bilingual (English Persian),Miscellaneous,1,flag,copyright,,,register number and day partially legible
+51,147,Bilingual (Hindi Sanskrit),Religion,14,flag,pp_verbatim,,,first page digit smudged; 399 or 309
+54,150,Periodicals Hindi,Miscellaneous,5,flag,title,,,volume number IX inconsistent with April issue's VIII
+56,152,Periodicals Urdu,Miscellaneous,7,flag,title,,,issue number No. 3 duplicates part of serial 6's 'Nos. 3 and 4' — as printed
+2,98,English,Medicine,2,internal,reg,866,,registration no. appears 2x in quarter
+3,99,English,Science (Mathematical),6,internal,reg,866,,registration no. appears 2x in quarter
+2,98,English,Language,6,internal,reg,765,,registration no. appears 2x in quarter
+3,99,English,Miscellaneous,7,internal,reg,765,,registration no. appears 2x in quarter

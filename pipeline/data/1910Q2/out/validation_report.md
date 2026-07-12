@@ -1,0 +1,45 @@
+# Validation report — 1910Q2
+
+- extracted entries: 321
+- matched to Davis sheet: 304
+- Davis rows not matched by any extraction: 16
+- adjudication queue: 150 items
+
+## By category
+- davis:author: 25
+- davis:copies: 17
+- davis:match: 17
+- davis:page: 2
+- davis:pp: 8
+- davis:printer: 5
+- davis:reg: 43
+- flag:'Majmua-si-Harfiha' as printed — possibly Majmua-i-Harfiha: 1
+- flag:'Sailb.' as printed — possibly Saheb/Salih: 1
+- flag:'intique' printed (sic) — likely 'intrigue': 1
+- flag:'quality intrigue' as printed — wording verbatim: 1
+- flag:407 — verify against sequence (485-496 neighbours): 1
+- flag:459 vs 450 - final digit adjudication vs Davis: 1
+- flag:copyright register number partially legible: 1
+- flag:degraded digit: 6,000 vs 4,000 possible: 1
+- flag:digit unclear: '6 pies' (could be 8): 1
+- flag:first digit degraded — read as 500: 1
+- flag:no Pp. value visible in entry: 1
+- flag:price line not fully legible: 1
+- flag:printed '1,090' — unusual; possibly 1,000: 1
+- flag:printed '6C8' — read as 608: 1
+- flag:printed 'Mu'addidi Press' — same as Mujaddidi Press (serial 142): 1
+- flag:printed 'Stara-i-Hiud Press' — likely Sitara-i-Hind Press: 1
+- flag:printed appears as '1,005' — likely 1,000 with ink defect: 1
+- flag:printed appears as '1,006' — likely 1,000 with ink defect: 1
+- flag:printed as 'Ecconomical Press' (sic) — likely Economical Press: 1
+- flag:printer city not printed after 'Magazine Press,': 1
+- flag:reg '54' unusually low — legible but verify against sequence: 1
+- flag:register number and day partially legible: 1
+- flag:register number partially legible: 1
+- flag:serial digits smudged — printed looks like '937', read as 137 from sequence: 1
+- flag:serial obscured by pencil X — read as 3 from position, verify: 1
+- flag:serial obscured by pencil X — read as 4 from position, verify: 1
+- flag:serial partially obscured — read as 3, verify: 1
+- flag:unusual value 125 — legible but atypical: 1
+- flag:unusual value 187 — legible but atypical; verify: 1
+- internal:registration no. appears 2x in quarter: 4

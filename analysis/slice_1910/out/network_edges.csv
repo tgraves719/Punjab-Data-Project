@@ -1,0 +1,571 @@
+﻿Source,Target,Type,Weight,copies
+printer:Civil and Military Gazette Press,publisher:Civil and Military Gazette Press,Undirected,47,45925
+printer:Wazir-i-Hind Press,publisher:Khalsa Tract Society,Undirected,25,56600
+printer:Qaumi Press,"publisher:Nand Lal, B. A., & Co., Co-operative Works",Undirected,24,9600
+printer:Khadim-ut-Talim Press,publisher:Karkhana 'Paisa Akhbar',Undirected,22,25000
+printer:Mufid-i-Am Press,publisher:The Secretary of the Fund named,Undirected,20,34950
+printer:Mufid-i-Am Press,publisher:Gulab Singh and Sons,Undirected,19,26350
+printer:Newal Kishore Press,"publisher:The Vakil Trading Company, Limited",Undirected,15,26000
+printer:Rafah-i-Am Steam Press,"publisher:Bharat Literature Company, Limited",Undirected,10,10000
+printer:Arya Steam Press,publisher:Lala Pokhar Das,Undirected,9,9000
+printer:Hamidiya Steam Press,publisher:B. Daya Singh and Sons,Undirected,7,10000
+printer:Rajeshwari Press,publisher:Balak Ram Anand,Undirected,6,4200
+printer:Arya Steam Press,publisher:M. Pokhar Das,Undirected,6,6000
+printer:Yusufi Press,"publisher:Saghir Hasan, Proprietor, Yusufi Press",Undirected,6,4625
+printer:Muir Press,"publisher:The Secretary, Orphanage",Undirected,6,3000
+printer:Sri Gurmat Press,publisher:B. Hardit Singh,Undirected,6,6000
+printer:Khadim-ut-Talim Press,publisher:Karkhana Paisa Akhbar,Undirected,5,5000
+printer:Hindustan Steam Press,publisher:Mian Karm-ud-din,Undirected,5,12000
+printer:Mufid-i-Am Press,publisher:Lala Pokhar Das,Undirected,5,5000
+printer:Balmukand Press,publisher:B. Daya Singh and Sons,Undirected,5,9000
+printer:Balmukand Press,publisher:P. Roda Ram,Undirected,5,10000
+printer:Qaumi Press,"publisher:Nand Lal and Co., Co-operative Works",Undirected,4,2800
+printer:Anglo-Urdu and Gurmukhi Press,publisher:B. Atar Singh,Undirected,4,4000
+printer:Wazir-i-Hind Press,publisher:Lala Devi Das and Sons,Undirected,4,6000
+printer:Sri Gurmat Press,publisher:B. Arjan Singh,Undirected,4,8000
+printer:Hamidiya Steam Press,publisher:M. Fateh Muhammad,Undirected,4,5000
+printer:Rose Bazar Press,"publisher:The Vakil Trading Company, Limited",Undirected,4,4000
+printer:Anand Prakash Press,publisher:Ram Nath,Undirected,3,2950
+printer:Rajeshwari Press,publisher:Balak Ram,Undirected,3,2100
+printer:Arya Steam Press,publisher:Pokhar Das,Undirected,3,3000
+printer:Wazir-i-Hind Press,publisher:The Sanyasi Ashram,Undirected,3,10000
+printer:Shahi Press,"publisher:Sheikh Allah Bakhsh, Ilahi Bakhsh",Undirected,3,3000
+printer:Anglo-Urdu and Gurmukhi Press,"publisher:Lala Maghi Ram, Sant Ram",Undirected,3,3000
+printer:Anglo-Urdu and Gurmukhi Press,"publisher:B. Chatar Singh, Jiwan Singh",Undirected,3,3000
+printer:Mujaddidi Press,publisher:Pir Ghulam Muhammad,Undirected,3,1300
+printer:Newal Kishore Press,publisher:Jot Singh Sant Singh,Undirected,3,9500
+printer:Mufid-i-Am Press,publisher:The Punjab Text-Book Committee,Undirected,3,3500
+printer:Sri Gurmat Press,publisher:B. Matab Kaur,Undirected,3,3000
+printer:Sri Gurmat Press,publisher:B. Hakim Singh,Undirected,3,3000
+printer:Dipak Rajput Printing Works,publisher:Haji Charag-ud-din-Siraj-ud-din,Undirected,3,6000
+printer:Imperial Book Depot Press,publisher:The Imperial Book Depot,Undirected,3,3000
+printer:Newal Kishore Press,publisher:The Christian Knowledge Society,Undirected,3,900
+printer:Mujaddidi Press,publisher:The Anjuman-i-Rafiq-ul-Islam,Undirected,3,4800
+printer:Wazir-i-Hind Press,publisher:The Temperance Society,Undirected,3,3000
+printer:Mufid-i-Am Press,publisher:The Secretary of the fund named,Undirected,3,8000
+printer:Punjab Educational Printing Works,publisher:The Scholars' Own Repository,Undirected,2,1000
+printer:Maqbul-i-'Am Press,publisher:Hakim Sayad Maqbul Husain,Undirected,2,1000
+printer:Khalsa Press,"publisher:Bharat Literature Company, Limited",Undirected,2,2000
+printer:Wazir-i-Hind Press,publisher:B. Sundar Singh,Undirected,2,2200
+printer:Wazir-i-Hind Press,"publisher:The Manager, Gobind Aushudhalaya",Undirected,2,6000
+printer:Sri Gurmat Press,publisher:Bhai Hardit Singh,Undirected,2,2000
+printer:Sri Gurmat Press,publisher:The Iqbal-i-Hind Press,Undirected,2,2000
+printer:Sri Gurmat Press,publisher:Bhai Karam Singh,Undirected,2,2000
+printer:Hamidiya Steam Press,publisher:Umr-ud-din,Undirected,2,2000
+printer:Moti Press,publisher:Hira Lal and Sons,Undirected,2,1700
+printer:Mujaddidi Press,publisher:Atar Singh,Undirected,2,1500
+printer:Islamia Press,publisher:Malak Ghulam Muhammad,Undirected,2,3000
+printer:Wazir-i-Hind Press,publisher:Hardit Singh,Undirected,2,2000
+printer:Anand Prakash Press,publisher:Tirath Ram,Undirected,2,1100
+printer:Islamia Press,publisher:Hari Singh,Undirected,2,1000
+printer:Sadar Press,publisher:Daya Singh and Son,Undirected,2,2000
+printer:Mission Steam Press,publisher:Christian Literature Society,Undirected,2,2000
+printer:Mujaddidi Press,publisher:Abdul Ahad,Undirected,2,2050
+printer:Himmat Press,publisher:B. Takht Singh,Undirected,2,3800
+printer:Artistic Printing Works,"publisher:The Manager, Review of Religions, Qadian",Undirected,2,1600
+printer:Faruqi Press,publisher:M. Abdus Salam,Undirected,2,3300
+printer:Dipak Rajput Printing Works,publisher:Haji Chiragh-ud-din Siraj-ud-din,Undirected,2,4000
+printer:Vidya Sagar Press,publisher:Hakim Ram Kishen,Undirected,2,6000
+printer:Sri Gurmat Press,publisher:B. Chatar Singh Jiwan Singh,Undirected,2,2000
+printer:Mujaddidi Press,publisher:B. Kishen Singh,Undirected,2,1000
+printer:Dipak Rajput Printing Works,"publisher:Haji Chiragh-ud-Din, Siraj-ud-Din",Undirected,2,4000
+printer:Rafah-i-Am Steam Press,"publisher:M. Muhammad Din, Fauq",Undirected,2,1700
+printer:Dipak Rajput Printing Works,publisher:Lala Lachman Das,Undirected,2,2000
+printer:Dipak Rajput Printing Works,publisher:Lala Lachhman Das,Undirected,2,2000
+printer:Rafah-i-Am Steam Press,publisher:The Bazm-i-Urdu,Undirected,2,6000
+printer:Wazir-i-Hind Press,publisher:Messrs. Devi Das and Sons,Undirected,2,4000
+printer:Badr Press,publisher:The Badr Book Agency,Undirected,2,1400
+printer:Rafah-i-Am Steam Press,publisher:M. Shaikh Muhammad Chittu,Undirected,2,1000
+printer:Himmat Press,"publisher:Edited and published by B. Takht Singh, Sikh Kanniya Maha Vidyalya",Undirected,2,3600
+printer:Mufid-i-Am Press,publisher:Rai Sahib Munshi Gulab Singh and Sons,Undirected,2,1500
+printer:Newal Kishore Press,publisher:Mian Fazl Ahad and Abdul Rahim,Undirected,2,6000
+printer:Arya Steam Press,"publisher:Bharat Literature Company, Limited",Undirected,2,3000
+printer:Arya Steam Press,publisher:Bhai Daya Singh and Son,Undirected,2,2000
+printer:Bombay Press,publisher:The Khalsa Agency,Undirected,2,1000
+printer:Anglo-Urdu and Gurmukhi Press,publisher:Lala Diwan Chand,Undirected,2,1500
+"printer:Gurmukhi Press, Siri Guru Singh Sabha",publisher:The Panch Khalsa Agency,Undirected,2,1000
+printer:Newal Kishore Press,"publisher:Malak Fazl-ud-din, Chanan Din and Taj-ud-din",Undirected,2,6000
+printer:Moti Press,"publisher:B. Ratan Chand, Secretary of the Patshala",Undirected,2,400
+printer:Dipak Rajput Printing Works,publisher:Malak Shah Din,Undirected,2,2000
+printer:Rafah-i-Am Steam Press,publisher:Munshi Din Muhammad,Undirected,2,2000
+printer:Badr Press,publisher:Badr Book Agency,Undirected,2,2800
+printer:Arya Steam Press,"publisher:Lala Gauri Shankar Lal, Manager, Sadhu and Tatv Darshi",Undirected,2,3000
+printer:Balmukand Press,publisher:Pandit Roda Ram,Undirected,2,6000
+printer:Balmukand Press,"publisher:P. Roda Ram, Gaindar",Undirected,2,4000
+printer:Bombay Press,publisher:The Punjabi Prachar Book Agency,Undirected,2,2000
+printer:Wazir-i-Hind Press,publisher:B. Labh Singh and Sons,Undirected,2,2000
+printer:Hindustan Steam Press,publisher:M. Muhammad Muazzam,Undirected,2,4000
+printer:Bombay Press,publisher:The Sikh Hand-bill Committee,Undirected,2,40000
+printer:Vidya Sagar Press,publisher:B. Jot Singh Sant Singh,Undirected,2,2000
+printer:Balmukand Press,publisher:B. Hardit Singh,Undirected,2,2000
+printer:Silcock Press,publisher:B. Chatar Singh Jiwan Singh,Undirected,2,2600
+printer:Hindustan Steam Press,publisher:B. Daya Singh and Sons,Undirected,2,2000
+printer:Mohyal Mitr Press,publisher:Hakim Ram Kishan,Undirected,2,1000
+printer:Hamidiya Steam Press,publisher:Jot Singh Sant Singh,Undirected,2,4000
+printer:Vidiya Sagar Press,publisher:B. Jot Singh Sant Singh,Undirected,2,2000
+printer:Egerton Press,"publisher:The Manager, Egerton Press",Undirected,1,30000
+printer:Punjab Economical Press,"publisher:Jot Singh, Sant Singh",Undirected,1,3000
+printer:Punjab Educational Printing Works,publisher:B. L. Suri,Undirected,1,1000
+printer:Civil and Military Gazette Press,"publisher:Manager, 'The Civil and Military Gazette' Press",Undirected,1,300
+printer:Panjabee Steam Press,publisher:'Panjabee' Press,Undirected,1,500
+printer:Popular Press,"publisher:Lala Mukand Lal, Bhatia",Undirected,1,500
+printer:Mercantile Press,"publisher:The Institute of Occult Science Limited, Jagdeo Kalan, Amritsar",Undirected,1,1000
+printer:Bombay Press,publisher:Bharat Literature Company,Undirected,1,1000
+printer:Maqbul-i-'Am Press,"publisher:Hakim Sayad Maqbul Husain, Proprietor, Maqbul-i-'Am Press",Undirected,1,500
+printer:Punjab Printing Works,"publisher:Secretary, Pinjra Pol",Undirected,1,400
+printer:Punjab Printing Works,"publisher:Babu Bhagwan Das, Manager, Rishi Kesh",Undirected,1,500
+printer:Punjab Economical Press,publisher:Bal Chandr,Undirected,1,2000
+printer:Punjab Printing Works,publisher:Kanniya Maha Viddiyalaya,Undirected,1,1000
+printer:Bombay Press,publisher:Seth Hira Chand Sacheti,Undirected,1,2000
+printer:Bombay Press,publisher:Attar Chand Kapur and Sons,Undirected,1,3000
+printer:Punjab Educational Printing Works,publisher:Lala Ram Ditta Mal,Undirected,1,1000
+printer:Bombay Press,publisher:Pandit Sant Ram,Undirected,1,1000
+printer:Bombay Press,publisher:Mehta Anand Kishore Brothers,Undirected,1,2000
+printer:Sri Gurmat Press,publisher:Bhai Chatar Singh Jiwan Singh,Undirected,1,1000
+printer:Mujaddidi Press,publisher:B. Atar Singh,Undirected,1,350
+printer:Wazir-i-Hind Press,publisher:Bhai Bahadur Singh,Undirected,1,1000
+printer:Bombay Press,"publisher:Brij Lal, Secretary, Vedic Putri Pathshahla",Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:The Sat Bivharak Agency,Undirected,1,1000
+printer:Himmat Press,"publisher:Bhai Sham Singh, barber, Mahesri",Undirected,1,1000
+printer:Himmat Press,"publisher:B. Teja Singh, Honorary Secretary, Sikh Parivar Sahaik Deg, Gujranwala",Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:K. S. Multani & Co.,Undirected,1,1000
+printer:Himmat Press,"publisher:Bhai Teja Singh, Honorary Secretary, Sikh Parivar Sahaik Deg, Gujranwala",Undirected,1,1000
+printer:Bombay Press,"publisher:Bhai Budh Singh, Battalion No. 126",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Gurmukh Singh and Sons,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Bhai Labh Singh and Sons,Undirected,1,1000
+printer:Narendar Press,publisher:Karam Singh,Undirected,1,500
+printer:Wazir-i-Hind Press,"publisher:Subedar-Major B. Bahal Singh, Malaya",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Bhai Gajan Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Harnam Das Partap Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Bhai Arjan Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Lala Daulat Ram,Undirected,1,1000
+printer:Sri Gahir Gambhir Press,publisher:Sawami Bishan Das,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Kavi Chatrik,Undirected,1,1000
+printer:Vidya Sagar Press,publisher:Lala Munshi Ram,Undirected,1,1000
+printer:Vidya Sagar Press,publisher:Bhai Ladha Singh,Undirected,1,1000
+printer:Shahi Press,publisher:Muhammad Bakhsh Fazl Hussain,Undirected,1,5000
+printer:Dipak Rajput Printing Works,publisher:Daya Singh and Sons,Undirected,1,1000
+printer:Shahi Press,publisher:Muhammad Bakhsh Fazl-i-Hussain,Undirected,1,1000
+printer:Shahi Press,publisher:M. Muhammad Bakhsh Fazl Hussain,Undirected,1,7000
+printer:Hamidiya Steam Press,publisher:Shaikh Umr-ud-din,Undirected,1,500
+printer:Shahi Press,publisher:Allah Bakhsh Ilahi Bakhsh,Undirected,1,1000
+printer:Gulshan-i-Punjab Press,"publisher:Buta Mal, Anand",Undirected,1,700
+printer:Wazir-i-Hind Press,publisher:B. Hardit Singh,Undirected,1,1000
+printer:Mackey Press,publisher:Shambhu Nath,Undirected,1,3000
+printer:Mackey Press,publisher:Shambu Nath,Undirected,1,2100
+printer:Mackey Press,"publisher:Fakir Muhammad Sharif, Gakhar Chima, Gujranwala district",Undirected,1,500
+printer:Islamia Press,publisher:Fazal-i-Haq,Undirected,1,500
+printer:Civil and Military Organ Press,"publisher:Shah Din, Iqbalganj Street",Undirected,1,500
+printer:Rajeshwari Press,"publisher:Balak Ram, Anand",Undirected,1,700
+printer:Anand Prakash Press,publisher:Kishen Singh,Undirected,1,700
+printer:Anand Prakash Press,publisher:Sant Ram and Maghi Ram,Undirected,1,2000
+printer:Vidya Sagar Press,publisher:Bhai Jot Singh Sant Singh,Undirected,1,3000
+printer:Star Press,publisher:Bhai Kishan Singh and Hardit Singh,Undirected,1,2500
+printer:Sri Gurmat Press,publisher:Khalsa Dharam Shastr Committee,Undirected,1,200
+printer:Bombay Press,publisher:D. A.-V. College,Undirected,1,1000
+printer:Civil and Military Organ Press,"publisher:Shah Din, Iqbal Ganj Street",Undirected,1,250
+printer:Islamia Press,"publisher:Mr. Hari Singh, Sakhkhar",Undirected,1,500
+printer:Hamidiya Steam Press,"publisher:Abdul Aziz, Ghulam Muhammad, Muhi-ud-din",Undirected,1,1000
+printer:Islamia Steam Press,publisher:M. Muzaffar-ud-din,Undirected,1,1000
+printer:Mujaddidi Press,"publisher:Abu Muhammad Muhi-ud-din, Sarai Bal",Undirected,1,750
+printer:Dipak Rajput Printing Works,"publisher:Hakim Ram Kishen, Shah Alami Gate",Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Hakim Ram Kishan,Undirected,1,1000
+printer:Faiz-i-'Am Press,publisher:Lachhman Das,Undirected,1,500
+printer:Dipak Rajput Printing Works,publisher:Daya Singh and Son,Undirected,1,1000
+printer:Khadim-ut-Talim Press,publisher:Karkhana 'Paisa Akhbar' office,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Lachman Das,Undirected,1,500
+printer:Dipak Rajput Printing Works,publisher:Lachhman Das,Undirected,1,500
+printer:Shahi Press,publisher:Baini Ram and sons,Undirected,1,500
+printer:Yusufi Press,"publisher:Saghir Hassan, Proprietor, Yusufi Press",Undirected,1,500
+printer:Delhi Gazette Press,publisher:Authoress,Undirected,1,1000
+printer:Mission Press,publisher:Presbyterian Church of India,Undirected,1,500
+printer:Arya Steam Press,publisher:Pandit Dharam Dev,Undirected,1,1000
+printer:Arya Steam Press,"publisher:Manager, Chawla Iron Works",Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Muhammad Mazhar,Undirected,1,1000
+printer:Qaumi Press,"publisher:Nand Lal, B.A., and Co., Co-operative Works",Undirected,1,400
+printer:Qaumi Press,"publisher:Lala Nand Lal and Co., Co-operative Works",Undirected,1,400
+printer:Qaumi Press,"publisher:Lala Nand Lal, B.A., and Co., Co-operative Works",Undirected,1,500
+printer:Khadim-ut-Talim Press,publisher:Karkhana Khadim-ut-Talim Press,Undirected,1,2000
+printer:Mujaddidi Press,"publisher:Bhagwan Das, Sethi, Manager, of the Asylum",Undirected,1,700
+printer:Dipak Rajput Printing Works,"publisher:M. Muhammad Yahya, Muhammad Ashraf",Undirected,1,1000
+printer:Moti Press,"publisher:Lala Naubat Rai, Head Master of the School",Undirected,1,500
+printer:Faiz-i-'Am Press,"publisher:Umr-ud-din, Faiz-i-'Am Press",Undirected,1,300
+printer:Narendr Press,publisher:Sulh-i-Kul Agency,Undirected,1,5000
+printer:Shahi Press,"publisher:Muhammad Yahya, Muhammad Ashraf",Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Sheikh Abdur Rahim and Imam Bakhsh,Undirected,1,1000
+printer:Shahi Press,"publisher:M. Afzal Hussain, Municipal Commissioner",Undirected,1,1000
+printer:Anand Prakash Press,publisher:Suhrab Ji,Undirected,1,750
+printer:Shahi Press,"publisher:Muhammad Bakhsh, Fazl Hussain",Undirected,1,1000
+printer:Sadar Press,publisher:Daya Singh and Sons,Undirected,1,1000
+printer:Wazir-i-Hind Press,"publisher:The Vakil Trading Co., Limited",Undirected,1,2000
+printer:Qaumi Press,"publisher:Abdul Wahid Haji, Bible Reformer",Undirected,1,800
+printer:Yusufi Press,"publisher:Sayad Saghir Hassan, Proprietor, Yusufi Press",Undirected,1,500
+printer:Mission Steam Press,"publisher:Christian Literature Society for India, Punjab Branch",Undirected,1,1000
+printer:Ansari Press,publisher:Hafiz Abdul Gaffar,Undirected,1,2000
+printer:Mujaddidi Press,publisher:Anjuman-i-Rafiq-ul-Islam,Undirected,1,3000
+printer:Moti Press,publisher:M. Hira Lal and Sons,Undirected,1,1400
+printer:Vidiya Sagar Press,"publisher:Bhai Jot Singh, Sant Singh",Undirected,1,1000
+printer:Mission Steam Press,publisher:Authoress,Undirected,1,1000
+printer:New Lyall Press,"publisher:Maula Bakhsh, The New Lyall Press",Undirected,1,5000
+printer:Faiz-i-'Am Press,publisher:Ali Muhammad alias Ali Bakhsh,Undirected,1,500
+printer:Ansari Press,publisher:Q. Rahmatullah,Undirected,1,1000
+printer:Manba-i-Faiz Press,"publisher:Bashir-ud-din, shoe merchant",Undirected,1,1000
+printer:Yusufi Press,"publisher:Sayad Saghir Hasan, Proprietor, Yusufi Press",Undirected,1,500
+printer:Mission Press,publisher:Christian Literature Society,Undirected,1,1000
+printer:Punjab Educational Printing Works,"publisher:The Manager, Shri Krishen Book Depot",Undirected,1,1000
+printer:Arya Steam Press,publisher:Pokhar Das Tanwar Das,Undirected,1,1000
+printer:Shahi Press,publisher:Beni Ram,Undirected,1,2000
+printer:Hamidiya Steam Press,publisher:M. Faiz-ul-Hasan,Undirected,1,1000
+printer:Commercial Printing Works,publisher:Diwan Maya Das,Undirected,1,500
+printer:Artistic Printing Works,"publisher:The Manager, Review of Religions, Qadian, Gurdaspur district",Undirected,1,800
+printer:Wazir-i-Hind Press,"publisher:B. Narayan Singh, Pleader (ed. & pub.)",Undirected,1,400
+printer:Caxton Press,publisher:G. K. Roy,Undirected,1,1000
+printer:Punjab Printing Works,publisher:G. K. Roy,Undirected,1,1000
+printer:New Commercial Press,publisher:Adjutant-General in India,Undirected,1,50
+printer:Punjab Steam Press,publisher:K. R. Khosla and Brother,Undirected,1,1020
+printer:Imperial Medical Hall Press,publisher:Amir Chand,Undirected,1,1000
+printer:Faruqi Press,publisher:Sayad Abdus Salam,Undirected,1,1300
+printer:Hindustan Steam Press,publisher:Mian Karam-ud-din,Undirected,1,1000
+printer:Mujaddidi Press,publisher:Muhammad Abdul Hazi and Pir Ghulam Muhammad,Undirected,1,375
+printer:Badr Press,publisher:Sadar Anjuman Ahmadiya,Undirected,1,400
+printer:Muir Press,publisher:M. Bulaqi Das,Undirected,1,600
+printer:Bombay Press,publisher:Pandit Guru Datta,Undirected,1,2000
+printer:Punjab Printing Works,publisher:Kanniya Maha Vidiyalaya,Undirected,1,6000
+printer:Caxton Press,publisher:B. Daya Singh and Sons,Undirected,1,500
+printer:Balmukand Press,publisher:Sanatan Dharm Sabha,Undirected,1,1000
+printer:Punjab Economical Press,"publisher:Secretary, Jain Sabha",Undirected,1,1000
+printer:Bombay Press,"publisher:B. Jaswant Rai, Jaini",Undirected,1,1000
+printer:Jiwan Press,publisher:B. Amar Singh,Undirected,1,1000
+printer:Faiz-i-Am Press,publisher:Sanatan Dharm Sabha,Undirected,1,1000
+printer:Anglo-Urdu and Gurmukhi Press,"publisher:Maghi Ram, Sant Ram",Undirected,1,1500
+printer:Wazir-i-Hind Press,publisher:Barkat Agency,Undirected,1,600
+printer:Khalsa Press,publisher:Sri Guru Arjan Club,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:B. Hardit Singh and Rai Bahadur Mehr Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Khalsa Updeshak College,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Chatar Singh and Jiwan Singh,Undirected,1,1000
+printer:Star Press,publisher:Khalsa Tract Society,Undirected,1,1000
+printer:Anglo-Urdu and Gurmukhi Press,"publisher:Bhai Chatar Singh, Jiwan Singh",Undirected,1,1500
+printer:Mufid-i-Am Press,publisher:B. Jawahar Singh,Undirected,1,187
+printer:Vidva Sagar Press,publisher:The Manager of the Aushadalaya,Undirected,1,300
+printer:Wazir-i-Hind Press,publisher:Bhai Hardit Singh,Undirected,1,1000
+printer:Bombay Press,"publisher:Sardar Sant Singh and Sardar Harbans Singh, Khost Colliery",Undirected,1,2000
+printer:Sri Gurmat Press,publisher:B. Gurmukh Singh and Sons,Undirected,1,1000
+printer:Sri Gurmat Press,"publisher:B. Mehr Abnashi, Laveri, district Gujranwala",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Translated and published by B. Harnam Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Harnam Singh and Moti Singh,Undirected,1,1000
+printer:Star Press,publisher:Gurmat Granth Pracharni Sabha,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Yoga Nand,Undirected,1,2000
+printer:Ecconomical Press,publisher:Malik Fateh Chand,Undirected,1,1000
+printer:Vidya Sagar Press,publisher:Lala Shiv Das,Undirected,1,5000
+printer:Mufid-i-Am Press,publisher:B. Nirinjan Singh and Jowala Singh,Undirected,1,500
+printer:Mufid-i-Am Press,publisher:B. Niranjan Singh and Jowala Singh,Undirected,1,500
+printer:Anglo-Urdu and Gurmukhi Press,publisher:B. Attar Singh,Undirected,1,1000
+printer:Vidya Sagar Press,publisher:M. Kazim Ali and Ghulam Ali,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Mota Singh,Undirected,1,1000
+printer:Star Press,publisher:B. Atar Singh,Undirected,1,1000
+printer:Sri Gurmat Press,"publisher:B. Hardit Singh, Harnam Singh",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Jawand Singh,Undirected,1,1000
+printer:Anglo-Urdu and Gurmukhi Press,publisher:Lala Gobind Ram,Undirected,1,500
+printer:Himmat Press,publisher:Kanniya Mahan Vidyalaya,Undirected,1,3000
+printer:Sri Gurmat Press,"publisher:Bhujangi Club of the Khalsa Updeshak College, Gujranwala Orphanage",Undirected,1,1000
+printer:Bombay Press,"publisher:The Bhujhangi Club, Khalsa Updeshak College",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:The Khalsa National Agency,Undirected,1,2000
+printer:Bombay Press,"publisher:Lala Diwan Chand, Proprietor of the T. C. Gujrati Book Depot",Undirected,1,1000
+printer:Anglo-Urdu and Gurmukhi Press,publisher:The authoress,Undirected,1,1000
+printer:Caxton Press,"publisher:B. Jot Singh, Sant Singh",Undirected,1,1500
+printer:Sri Gurmat Press,publisher:B. Waryam Singh,Undirected,1,600
+printer:Dipak Rajput Printing Works,publisher:Mian Karm-ud-din,Undirected,1,3000
+printer:Arorbans Press,"publisher:B. Dhayan Singh, Jai Singh",Undirected,1,750
+printer:Rajeshwari Press,publisher:Ch. Balak Ram Anand,Undirected,1,700
+printer:Rajeshwari Press,publisher:Lala Balak Ram Anand,Undirected,1,700
+printer:Dipak Rajput Printing Works,"publisher:Haji Chirag-ud-din, Siraj-ud-din",Undirected,1,4000
+printer:Qaumi Press,publisher:Bhagwan Das,Undirected,1,400
+printer:Hindustan Steam Press,"publisher:M. Muhammad Fazal Haq, Qusuri",Undirected,1,4000
+printer:Dipak Rajput Printing Works,publisher:Karam-ud-din,Undirected,1,3000
+printer:Hindustan Steam Press,"publisher:M. Muhammad Abdullah, Haji Muhammad",Undirected,1,1000
+printer:Arya Steam Press,publisher:Lala Gyan Chand,Undirected,1,1000
+printer:Sirajul Matabi Press,"publisher:P. Narinjan Das and Hayat Muhammad, tailor",Undirected,1,400
+printer:Sirajul Matabi Press,"publisher:Ghulam Hussain, post man",Undirected,1,400
+printer:Dipak Rajput Printing Works,publisher:Haji Chiragh-ud-Din Siraj-ud-Din,Undirected,1,4000
+printer:Rafah-i-Am Steam Press,publisher:Shaih Abdur Rahman Habib-ur-Rahman,Undirected,1,1000
+printer:Arorbans Press,publisher:B. Atar Singh,Undirected,1,500
+printer:Dipak Rajput Printing Works,publisher:Mian Karm-ud-Din,Undirected,1,3000
+printer:Arya Steam Press,publisher:L. Pokhar Das,Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:Akhond Muhammad Yusaf,Undirected,1,250
+printer:Arya Steam Press,publisher:Munshi Pokhar Das,Undirected,1,1090
+printer:Mufid-i-Am Press,"publisher:Muhammad Khair-ud-din, Muhammad Fakhr ud-din, Muhammad Bashir-ud-din",Undirected,1,500
+printer:Mujaddidi Press,publisher:Muhammad Abdul Haji and Pir Ghulam Muhammad,Undirected,1,375
+printer:Mufid-i-Am Press,publisher:Diwan Chhajju Singh,Undirected,1,400
+printer:Mujaddidi Press,publisher:Pir Ghulam Muhammad and Baba Abdus Samad,Undirected,1,375
+printer:Siraj-ul-Matabi Press,publisher:M. Allah Ditta,Undirected,1,300
+printer:Bombay Press,publisher:Lala Amar Chand,Undirected,1,1000
+printer:Bombay Press,publisher:M. Hira Lal,Undirected,1,1000
+printer:Arya Steam Press,publisher:B. Jot Singh,Undirected,1,1000
+printer:Mufid-i-'Am Steam Press,publisher:M. Khair-ud-din Sabir,Undirected,1,1050
+printer:Rafah-i-Am Steam Press,"publisher:M. Hamid Ali, Chishti",Undirected,1,200
+printer:Rafah-i-Am Steam Press,publisher:Messrs. Atar Chand Kapur and Sons,Undirected,1,3000
+printer:Sadar Press,publisher:Lala Lachhman Das,Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:Mir Amir Bakhsh and Sons,Undirected,1,2000
+printer:Arya Steam Press,"publisher:The Secretary, Arya Priti Nidhi, Sabha, Punjab",Undirected,1,500
+printer:Qasimi Press,publisher:Radha Kishan and Devi Chand,Undirected,1,200
+printer:Qaumi Press,"publisher:The U. P. Synod, Punjab",Undirected,1,150
+printer:Maqbul-i-'Am Press,publisher:Sayad Maqbul Husain,Undirected,1,500
+printer:Badr Press,publisher:Anwar Hussain Ahmadi,Undirected,1,150
+printer:Dipak Rajput Printing Works,publisher:M. Ghulam Muhammad,Undirected,1,1000
+printer:MacKey Press,publisher:The Secretary of the Pathshala,Undirected,1,500
+printer:Vijaya Bharat Press,"publisher:L. R. Malak, Managing Director",Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:The Bharat Literature Company Limited,Undirected,1,1000
+printer:Arya Steam Press,publisher:Sardar Aya Singh,Undirected,1,2000
+printer:Ahl-i-Fikah Press,publisher:Muhammad Abdul Aziz,Undirected,1,550
+printer:Qaumi Press,"publisher:Nand Lal, B.A., & Co., Co-operative Works",Undirected,1,400
+printer:Zaban Press,publisher:Amir Chand,Undirected,1,500
+printer:Arya Steam Press,"publisher:Lala Kanhaya Lal, Manager, Martand",Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:Sheikh Abdur Rahman Habibur Rahman,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:M. Karam Din,Undirected,1,2000
+printer:Vijaya Bharat Press,"publisher:Muhammad Mohsin, Jamna Das",Undirected,1,500
+printer:Maqbul-i-Am Press,publisher:S. Maqbul Hussain,Undirected,1,500
+printer:Mufid-i-Am Press,"publisher:Muhammad Khair-ud-din, Muhammad Fakhr-ud-din, Muhammad Bashir-ud-din",Undirected,1,500
+printer:Rafah-i-Am Steam Press,publisher:S. M. Shahbaz,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:M. Siraj-ud-din Chiragh-ud-din,Undirected,1,2000
+printer:Arya Steam Press,"publisher:Ganga Ram, L., Sub-Overseer",Undirected,1,2000
+printer:Hamidiya Steam Press,publisher:Din Muhammad,Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:S. N. Shahbaz,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Haji Chiragh-ud-din Saraj-ud-din,Undirected,1,1000
+printer:Badar Press,publisher:M. Muhammad Sadiq,Undirected,1,1600
+printer:Arya Steam Press,publisher:Munshi Hira Lal,Undirected,1,1000
+printer:Mujadaddi Press,"publisher:Pir Ghulam Muhammad, Abdul Hayi and Ghulam Muhi-ud-din",Undirected,1,375
+printer:Zaia-ul-Islam Press,publisher:Munshi Fazl Din,Undirected,1,2100
+printer:Afzal-ul-Matabe Press,publisher:Mirza Abdul Ghafur,Undirected,1,1300
+printer:Afzal-ul-Matabe Press,publisher:M. Abdul Ghafur,Undirected,1,1300
+printer:Rafah-i-Am Steam Press,"publisher:Haji Chiragh-ud-Din, Siraj-ud-Din",Undirected,1,2000
+printer:Muir Press,"publisher:Lala Bulaqi Das, Proprietor, Muir Press",Undirected,1,500
+printer:Mufid-i-Am Press,publisher:Rai Sahib Munshi Gulab Singh & Sons,Undirected,1,500
+printer:Punjab Economical Press,publisher:Attar Chand Kapur & Sons,Undirected,1,500
+printer:Punjab Economical Press,"publisher:Attar Chand, Kapur",Undirected,1,1000
+printer:Central Press,publisher:Editorial Staff of the 'Practical Medicine',Undirected,1,1500
+printer:Imperial Medical Hall Press,"publisher:Mr. C. H. C. Sharp, M.A.",Undirected,1,250
+printer:Newal Kishore Press,"publisher:Sadhu Singh, Sewa Singh",Undirected,1,8000
+printer:Imperial Book Depot Press,"publisher:""Practical Medicine""",Undirected,1,2000
+printer:Newal Kishore Press,publisher:Maulavi Muhammad Muazzam,Undirected,1,6000
+printer:Mujaddidi Press,"publisher:Shaikh Muhammad Jamil, Honorary Magistrate",Undirected,1,500
+printer:Newal Kishore Press,publisher:M. Abdul Haunan,Undirected,1,1500
+printer:Universal Press,publisher:Amritsar Nagri Pracharani Sabha,Undirected,1,1000
+printer:Imperial Book Depot Press,publisher:Imperial Book Depot,Undirected,1,1000
+printer:Punjab Printing Works,publisher:Mair and Tank Rajput Sabha,Undirected,1,1000
+printer:Punjab Printing Works,"publisher:The Young Men Arya Samaj, D.A.-V. High School Boarding House",Undirected,1,1000
+printer:Imperial Medical Hall Press,publisher:The authoress,Undirected,1,1000
+printer:Mujaddidi Press,publisher:Pandit Kishan Lal,Undirected,1,100
+printer:Bombay Press,publisher:Attar Chand Kapur,Undirected,1,3000
+printer:Sri Gurmat Press,"publisher:B. Guru Prasann Hari, Suri",Undirected,1,1000
+printer:Bombay Press,"publisher:Lala Bishen Das, Puri, M.A.",Undirected,1,500
+printer:Punjab Printing Works,"publisher:The Nagri Pracharni Company, Limited",Undirected,1,1100
+printer:Vidya Sagar Press,"publisher:B. Sham Das, Wadhwa and Mahant Datt, Raj Vaid",Undirected,1,1000
+printer:Bombay Press,publisher:The Sikh Hand Bill Committee,Undirected,1,20000
+printer:Himmat Press,publisher:B. Shiv Sham Singh,Undirected,1,500
+printer:Vidya Sagar Press,"publisher:Lala Sham Das, Vadhwa",Undirected,1,1000
+printer:Bombay Press,publisher:The Sikh Hand bill Committee,Undirected,1,20000
+printer:Himmat Press,publisher:Lala Salag Ram,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Harnam Singh,Undirected,1,1000
+printer:Vidya Sagar Press,publisher:Malik Ghulam Muhammad,Undirected,1,3000
+printer:Rajeshwari Press,"publisher:Lala Balak Ram, Anand",Undirected,1,1000
+printer:Bombay Press,"publisher:B. Ladha Singh, Kukreja and Son",Undirected,1,1200
+printer:Sri Gurmat Press,publisher:B. Ladha Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Dalail Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Kishan Singh,Undirected,1,1000
+printer:Sri Gurmat Press,"publisher:Bhai Kishan Singh, Drummer Battalion, No. 31",Undirected,1,1000
+printer:Rajeshwari Press,publisher:B. Gulab Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Sadhu Hari Das,Undirected,1,1000
+"printer:Gurmukhi Press, Siri Guru Singh Sabha","publisher:B. Wazir Singh, Manager, Gurmukhi Press",Undirected,1,500
+printer:Vidya Sagar Press,publisher:B. Jot Singh and B. Sant Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:Lala Chajju Ram,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:The commentator and B. Chatar Singh Jiwan Singh,Undirected,1,1000
+printer:Sri Gurmat Press,publisher:The Singh Sabha,Undirected,1,5000
+printer:Sri Gurmat Press,publisher:Sayad Muhammad Yusuf and Abdul Hakim,Undirected,1,4000
+printer:Vidya Sagar Press,publisher:Bhai Sadhu Singh Sewa Singh,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Haji Charag ud-din Siraj-ud-din,Undirected,1,1000
+printer:Bombay Press,publisher:Ayurvedic Rajendra Aushadhalaya,Undirected,1,1000
+printer:Mufid-i-Am Press,publisher:Shams-ud-din-Munawar-ud-din,Undirected,1,1000
+printer:Aror Bans Press,publisher:Attar Singh,Undirected,1,550
+printer:Himmat Press,publisher:M. Imam-ud-din,Undirected,1,1000
+printer:Arya Steam Press,publisher:Lala Jagan Nath,Undirected,1,1000
+printer:Shahi Press,publisher:Allah Bakhsh-Ilahi Bakhsh,Undirected,1,1000
+printer:Aror Bans Press,publisher:Abdul Aziz Khan and Abdul Ghani Khan,Undirected,1,1100
+printer:Shahi Press,publisher:Sheikh Muhammad Bakhsh Fazl-i-Hussain,Undirected,1,1000
+printer:Islamia Press,publisher:M. Muhammad Abdul Aziz,Undirected,1,2000
+printer:Arya Steam Press,"publisher:Shams-ud-din, Munawwar-ud-din and Hamid-ud-din",Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Jalal-ud-din,Undirected,1,1000
+printer:Arya Steam Press,"publisher:M. Charagh Ali Gul, First Teacher Phalron",Undirected,1,1000
+printer:Sri Gurmat Press,publisher:B. Chatar Singh-Jiwan Singh,Undirected,1,1000
+printer:Mufid-i-Am Press,publisher:Rai Sahib M. Gulab Singh and Sons,Undirected,1,5000
+printer:Anglo-Urdu and Gurmukhi Press,"publisher:B. Sant Singh, Gyani",Undirected,1,1000
+printer:Newal Kishore Press,publisher:The Roman Catholic Bishop,Undirected,1,2000
+printer:Arya Steam Press,publisher:Harnam Singh and Kehar Singh,Undirected,1,500
+printer:Arya Steam Press,publisher:Haji Charagh Din-Siraj-ud-din,Undirected,1,3000
+printer:Moti Press,publisher:M. Moli Khan of Phaglana,Undirected,1,500
+printer:Anglo-Urdu and Gurmukhi Press,publisher:B. Chatar Singh-Jiwan Singh,Undirected,1,1000
+printer:Arya Steam Press,publisher:Shol Das and Co.,Undirected,1,2000
+printer:Newal Kishore Press,publisher:The Sanatan Dharam Sabha,Undirected,1,500
+printer:Mufid-i-Am Press,"publisher:Shamas-ud-din, Manawar-ud-din and Hamid-ud-din",Undirected,1,1000
+printer:Bombay Press,publisher:Bhai Hari Singh,Undirected,1,4000
+printer:Arya Steam Press,publisher:Shol Das & Co.,Undirected,1,1000
+printer:Mufid-i-Am Press,publisher:Diwan Wazir Singh,Undirected,1,1000
+printer:Newal Kishore Press,publisher:Jot Singh-Sant Singh,Undirected,1,1500
+printer:Dipak Rajput Printing Works,publisher:Haji Charagh-ud din-Siraj ud din,Undirected,1,3000
+printer:Dipak Rajput Printing Works,publisher:Haji Charagh-ud din-Siraj-ud-din,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:Lala Ram Kishen,Undirected,1,1000
+printer:Hamidiya Steam Press,publisher:M. Muhammad Insha Ullah,Undirected,1,500
+printer:Anand Prakash Press,publisher:Ghanaya Lal,Undirected,1,550
+printer:Maqbul-i-'Am Press,"publisher:The Manager, Maqbul-i-A'm Press",Undirected,1,500
+printer:Dipak Rajput Printing Works,publisher:Bhai Dayal Singh and Sons,Undirected,1,1000
+printer:Newal Kishore Press,publisher:The Vakil Trading Company Limited,Undirected,1,2000
+printer:Hindustan Steam Press,publisher:Bharat Literature Company,Undirected,1,1000
+printer:Faiz-i-A'm Press,publisher:Lala Lachhman Das Ahuja,Undirected,1,1000
+printer:Dipak Rajput Printing Works,publisher:B. Daya Singh and Sons,Undirected,1,1000
+printer:Makhzan Press,publisher:Shaikh Muhammad Ikram,Undirected,1,700
+printer:Faiz-i-A'm Press,publisher:L. Lachhman Das,Undirected,1,1000
+printer:Maqbul-i-'Am Press,publisher:Sayad Makbul Husain,Undirected,1,500
+printer:Hindustan Steam Press,publisher:L. Ram Kishan,Undirected,1,1000
+printer:Rajput Printing Works,publisher:Lala Mul Chand,Undirected,1,1000
+printer:Rose Bazar Press,publisher:The commentator,Undirected,1,375
+printer:Rose Bazar Press,"publisher:Shaikh Ghulam Rasul, Superintendent, Rast Guftar Press",Undirected,1,375
+printer:Rajput Printing Works,publisher:Thakar Sukhram Das,Undirected,1,1000
+printer:Anand Prakash Press,publisher:L. Ram Nath,Undirected,1,750
+printer:Public Press,"publisher:Muhammad Shujaullah, Editor, 'Millat'",Undirected,1,500
+printer:Newal Kishore Press,publisher:Nawazish Ali Khan,Undirected,1,500
+printer:Dipak Rajput Printing Works,publisher:Haji Charagh-ud-din-Siraj-ud-din,Undirected,1,2000
+printer:Ahl-i-Hadis Press,"publisher:Maulvi Sana Ullah, Secretary of the Company",Undirected,1,0
+printer:Mufid-i-Am Press,"publisher:Shamas-ud-din, Munawar-ud-din, Hamid-ud-din",Undirected,1,2000
+printer:Moti Press,publisher:Lala Ram Saran Das,Undirected,1,200
+printer:Moti Press,"publisher:B. Arur Singh, of Budhi",Undirected,1,2000
+printer:Rajput Printing Works,publisher:R. B. Lala Lal Chand,Undirected,1,1000
+printer:Moti Press,publisher:Mehta Girdhari Lal,Undirected,1,100
+printer:Himmat Press,"publisher:Shams-ud-din Khan, General Secretary of the Anjuman",Undirected,1,500
+printer:Qaumi Press,"publisher:Qazi Ali Ahmad, Secretary of the Anjuman",Undirected,1,800
+printer:Muir Press,publisher:The Secretary of the Orphanage,Undirected,1,1000
+printer:Silcock Press,"publisher:Lala Sita Ram and Sain Das, Cloth Merchants",Undirected,1,1500
+printer:Moti Press,"publisher:Ajudhiya Prashad, B. A., Secretary of the Sabha",Undirected,1,500
+printer:Moti Press,"publisher:Sri Ram, First Teacher, Kangath, Tahsil Nurpur, Kangra district, Secretary of the Association",Undirected,1,200
+printer:Newal Kishore Press,"publisher:B. Raj Bal, B. A.",Undirected,1,1000
+printer:Rafah-i-Am Steam Press,"publisher:The Vakil Trading Company, Limited",Undirected,1,1000
+printer:Hindustan Steam Press,"publisher:Bharat Literature Company, Limited",Undirected,1,1000
+printer:Imperial Book Depot Press,publisher:Rai Kidar Nath,Undirected,1,2000
+printer:Mufid-i-Am Press,publisher:Gulab Singh & Sons,Undirected,1,10000
+printer:Shahi Press,publisher:Shaikh Muhammad Bakhsh and Fazl Husain,Undirected,1,1000
+printer:Moti Press,publisher:Munshi Hira Lal and Sons,Undirected,1,200
+printer:Dipak Rajput Printing Works,publisher:Bhai Daya Singh and Son,Undirected,1,1000
+printer:Shahi Press,publisher:Shaikh Alah Bakhsh Ilahi Bakhsh,Undirected,1,1000
+printer:Yusufi Press,publisher:Muhammad Nawab Mirza,Undirected,1,500
+printer:Newal Kishore Press,"publisher:Lala Sri Ram, M. A., Munsif",Undirected,1,1300
+printer:Mujaddidi Press,"publisher:Compiled and published by Qazi Ghulam Muhi-ud-din, Akhgar, Editor ""Al-Aziz""",Undirected,1,350
+printer:Shahi Press,publisher:Shaikh Muhammad Bakhsh Fazl-i-Husain,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:M. Karm-ud-din,Undirected,1,1009
+printer:Newal Kishore Press,publisher:Malak Fazl-ud-din Chanan Din and Taj-ud-din,Undirected,1,3000
+printer:Rajput Printing Works,publisher:Labhu Ram,Undirected,1,500
+printer:Newal Kishore Press,publisher:The Punjab Religious Book Society,Undirected,1,1000
+printer:Newal Kishore Press,publisher:Muhammad Ayyub,Undirected,1,1500
+printer:Newal Kishore Press,publisher:Amir Muhammad,Undirected,1,1500
+printer:Mahbubul Matabi,publisher:Mahbub Beg,Undirected,1,1600
+printer:Mufid-i-Am Press,publisher:Hafiz Shamas-ud-din Munawar-ud-din,Undirected,1,5000
+printer:Dipak Rajput Printing Works,publisher:Haji Charagh-ud-din Siraj-ud-din,Undirected,1,1000
+printer:Hamidiya Steam Press,"publisher:The Commentator, Proprietor and Editor of the ""Watan""",Undirected,1,500
+printer:Hamidiya Steam Press,"publisher:The commentator who is editor of the ""Watan""",Undirected,1,500
+printer:Imperial Medical Hall Press,publisher:The commentator,Undirected,1,1000
+printer:Punjab Economical Press,publisher:Lala Ram Ditta Mal,Undirected,1,1000
+printer:Punjab Economical Press,"publisher:Umed Singh Musaddi Lal, Jaini",Undirected,1,1000
+printer:Maqbul-i-'Am Press,"publisher:The Manager, Maqbul-i-'Am Press",Undirected,1,500
+printer:Rafah-i-Am Steam Press,"publisher:Sayad Qutab Ali Shah, Pir",Undirected,1,250
+printer:Hindustan Steam Press,publisher:The Bharat House,Undirected,1,5000
+printer:Hamidiya Steam Press,publisher:Maulvi Fateh Muhammad,Undirected,1,1000
+printer:Mufid-i-Am Press,publisher:The Secretary of the Tund named,Undirected,1,900
+printer:Muir Press,"publisher:Edited by Lala Jagan Nath, Ferozepore, and published by the Secretary, Orphanage, Ferozepore",Undirected,1,500
+printer:Arya Steam Press,"publisher:Gauri Shankar Lal, Manager, Sadhu and Tatv Darshi",Undirected,1,1000
+printer:Punjab Printing Works,publisher:The Students' Own Agency,Undirected,1,1000
+printer:Virjanand Press,publisher:The Punjab Hindu Sabha,Undirected,1,2000
+printer:Bombay Press,publisher:B. Jot Singh and Sant Singh,Undirected,1,4000
+printer:Bombay Press,publisher:Lala Salig Ram,Undirected,1,1000
+printer:Virjanand Press,publisher:Mahashaya Bora Ram,Undirected,1,1000
+printer:Bombay Press,publisher:The Secretary of the School Committee,Undirected,1,250
+printer:Punjab Printing Works,"publisher:The Nagari Pracharni Company, Limited",Undirected,1,1100
+printer:Jiwan Press,publisher:The Dev Samaj,Undirected,1,500
+printer:Virjanand Press,"publisher:The Librarian, Arya Samaj, Wachhowali",Undirected,1,3000
+printer:Bombay Press,publisher:B. Shiv Das,Undirected,1,2000
+printer:Wazir-i-Hind Press,publisher:P. Tirath Ram,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Translated and published by B. Sundar Singh,Undirected,1,1100
+printer:Hindustan Steam Press,publisher:Lala Maghi Ram and Sant Ram,Undirected,1,1000
+printer:Mufid-i-Am Press,"publisher:B. Sadhu Singh, Sewa Singh",Undirected,1,5000
+printer:Wazir-i-Hind Press,"publisher:Sardar Bal Singh, Subedar-Major, President, Khalsa Diwan, Malaya",Undirected,1,1000
+printer:Bombay Press,publisher:The Punjabi Pracharak Book Agency,Undirected,1,1000
+printer:Bombay Press,publisher:B. Takht Singh,Undirected,1,1000
+printer:Vidya Sagar Press,"publisher:B. Jot Singh, Sant Sigh",Undirected,1,1000
+printer:Bombay Press,publisher:B. Ladha Singh,Undirected,1,10000
+printer:Balmukand Press,publisher:B. Ladha Singh and Son,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:P. Lok Ram,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Sant Mahant Jawahar Singh,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:The Khalsa Bhuyangani Diwan,Undirected,1,3000
+printer:Vidya Sagar Press,"publisher:The Khalsa Sat Sang Sabha, Chirk, District Ferozepore",Undirected,1,1000
+printer:Wazir-i-Hind Press,"publisher:B. Bal Singh, Subedar-Major, President, Khalsa Diwan, Malaya",Undirected,1,1000
+printer:Bombay Press,publisher:Lala Diwan Chand,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:The commentator,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Shaikh Abdul Rahman Habib-ur-Rahman,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Haji Chiragh-ud-din Siraj-ud-din,Undirected,1,3000
+printer:Mujaddidi Press,publisher:B. Atar Singh and Sons,Undirected,1,550
+printer:Hindustan Steam Press,publisher:Ali Bakhsh,Undirected,1,20000
+printer:Hamidiya Steam Press,publisher:B. Sita Ram,Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:Shaikh Abdur Rahman Habib-ur-Rahman,Undirected,1,1000
+printer:Anand Prakash Press,publisher:B. Girdhari Lal,Undirected,1,500
+printer:Mujaddidi Press,publisher:B. Chatar Singh Jiwan Singh,Undirected,1,750
+printer:Anand Prakash Press,"publisher:B. Ram Nath, Anand Prakash Press",Undirected,1,1100
+printer:Hamidiya Steam Press,publisher:M. Karm-ud-din,Undirected,1,4000
+printer:Rafah-i-Am Steam Press,publisher:Hafiz Muhammad Din and Sons,Undirected,1,1000
+printer:Rose Bazar Press,publisher:Shaikh Muhammad Din and Hafiz Abdur Rahman,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Karm-ud-din,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:B. Bisakha Singh,Undirected,1,2000
+printer:Wazir-i-Hind Press,"publisher:Mistri Batan Singh, Dosanjh Khurd, district Jullundur",Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:B. Kirpal Singh Matab Singh,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Mian Fazl-i-Karim and Khair-ud-din,Undirected,1,3000
+printer:Mujaddidi Press,publisher:Maulavi Nur Ahmad,Undirected,1,1500
+printer:Hamidiya Steam Press,publisher:B. Daya Singh,Undirected,1,1000
+printer:Balmukand Press,"publisher:P. Roda Ram, Balmukand Press",Undirected,1,2000
+printer:Anand Prakash and Mujaddidi Presses,publisher:Atar Singh and Sons,Undirected,1,1000
+printer:Rajput Printing Works,publisher:B. Daya Singh,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Lala Ram Das,Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Lala Ram Das and Brother,Undirected,1,1000
+printer:Rajput Printing Works,publisher:Hakim Ram Kishan,Undirected,1,1000
+printer:Mohyal Mitr Press,"publisher:Munshi Ram, Aggarwal",Undirected,1,500
+printer:Newal Kishore Press,publisher:The Azad Book Depot,Undirected,1,2000
+printer:Wazir-i-Hind Press,publisher:M. Hukam Chand (compiler),Undirected,1,1000
+printer:Anand Prakash Press,publisher:Lala Ram Nath,Undirected,1,550
+printer:Mohyal Mitr Press,publisher:Lala Kesho Ram,Undirected,1,500
+printer:Newal Kishore Press,"publisher:The Manager, Newal Kishore Press",Undirected,1,7000
+printer:Wazir-i-Hind Press,"publisher:The Sanyasi Ashram, Sargodha, Punjab",Undirected,1,10000
+printer:Rose Bazar Press,"publisher:Lala Ishar Das, Manager, Suraj Prakash Medical Hall",Undirected,1,5000
+printer:Wazir-i-Hind Press,"publisher:Sanyasi Ashram, Sargodha, Punjab",Undirected,1,10000
+printer:Wazir-i-Hind Press,"publisher:Lala Harji Mal, Banker",Undirected,1,1000
+printer:Hindustan Steam Press,publisher:Mian Karam Din,Undirected,1,1000
+printer:Wazir-i-Hind Press,"publisher:Seth Chuhar Lal, Banker",Undirected,1,1000
+printer:Rajput Printing Works,"publisher:Dr. Pars Ram, Managing Director of the Fund",Undirected,1,1000
+printer:Rajput Printing Works,publisher:Master Jagat Singh,Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:The Anjuman-i-Hami-i-Hunar-mandan,Undirected,1,1000
+printer:Hindustan Steam Press,"publisher:Lala Ram Kishan, Hakim",Undirected,1,1000
+printer:Magazine Press,"publisher:M. Muhammad Ali, Secretary of the Anjuman",Undirected,1,800
+printer:Rajput Printing Works,"publisher:L. Divan Chand, Proprietor, Kutabkhana T. C. Gujrati",Undirected,1,1000
+printer:Wazir-i-Hind Press,publisher:B. Tirath Ram,Undirected,1,1000
+printer:Rajput Printing Works,"publisher:L. Diwan Chand, Proprietor, Kutabkhana T. C. Gujrati",Undirected,1,1000
+printer:Vidiya Sagar Press,publisher:Mahant Fateh Chand,Undirected,1,1000
+printer:Vidiya Sagar Press,publisher:B. Jot Singh Sant-Singh,Undirected,1,1000
+printer:Rajput Printing Works,publisher:Lala Labhu Ram,Undirected,1,500
+printer:Arya Steam Press,"publisher:The Aryan Printing, Publishing and General Trading Company",Undirected,1,2000
+printer:Hamidiya Steam Press,publisher:M. Muhammad Azim,Undirected,1,1000
+printer:Rafah-i-Am Steam Press,publisher:Shriman Dev Ratan,Undirected,1,1000
+printer:Arya Steam Press,publisher:Bhai Gurdayal Singh,Undirected,1,1000
+printer:Hamidiya Steam Press,"publisher:Muhammad Insha-Ullah, Editor of the 'Watan'",Undirected,1,500
+printer:Mujaddidi Press,publisher:Mistri Abdullah,Undirected,1,250
+printer:Rafah-i-Am Steam Press,publisher:M. Abu Muhammad Ahmad,Undirected,1,500
+printer:Rafah-i-Am Steam Press,publisher:Hakim Muhammad Abdul Aziz,Undirected,1,1000
+printer:Mujaddidi Press,publisher:M. Ghulam Muhammad,Undirected,1,550
+printer:Punjab Economical Press,publisher:B. Gayan Chand,Undirected,1,1000
+printer:Mufid-i-Am Press,publisher:M. Hira Lal and Sons,Undirected,1,3000
+printer:Mohyal Mitr Press,publisher:Lala Ramditta Mal,Undirected,1,1000
+printer:Bombay Press,"publisher:Pandit Dev Datta, Sharma",Undirected,1,1000
+printer:Hamidiya Steam Press,publisher:Mir Amir Bakhsh and Sons,Undirected,1,1000
+printer:Arya Steam Press,publisher:Babu Shiva Brat Lal,Undirected,1,2000

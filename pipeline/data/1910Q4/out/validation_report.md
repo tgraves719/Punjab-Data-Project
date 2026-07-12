@@ -1,0 +1,42 @@
+# Validation report — 1910Q4
+
+- extracted entries: 282
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 38 items
+
+## By category
+- flag:copyright cell partially cut at page edge; No. and date digits illegible (No. 18—, dated 3?th December 1910): 1
+- flag:copyright cell partially cut at page edge; register No. reads 159 or 160: 1
+- flag:copyright cell partially cut; date line appears to print '1911' where 1910 is expected — transcribed as 1910: 1
+- flag:edition number omitted ('litho., edition'): 1
+- flag:first digit of page count unclear; read as 16: 1
+- flag:first digit smudged; read as 1,000: 2
+- flag:margin serial obscured by pencil X; read as 100 (follows 99): 1
+- flag:margin serial obscured by pencil X; read as 103 (follows 102): 1
+- flag:margin serial obscured by pencil X; read as 158 (between 157 and 159): 1
+- flag:margin serial obscured by pencil X; read as 19 (continues Urdu—Drama sequence): 1
+- flag:margin serial obscured by pencil X; read as 3: 1
+- flag:margin serial obscured by pencil X; read as 43 (follows 42 on p18): 1
+- flag:margin serial obscured by pencil X; read as 6 (follows s5 on p28, s7 follows): 1
+- flag:margin serial obscured by pencil X; read as 93 (94 follows): 1
+- flag:margin serial partially cut; read as 21 (follows 20 on p34): 1
+- flag:margin serial partially obscured; read as 5 (follows s4 on p32): 1
+- flag:no price line printed for this entry: 1
+- flag:no price line visible for this entry: 2
+- flag:price line printed without an amount: 1
+- flag:printed '4th November, 1911' — impossible for a Dec 1910 quarter; read as 1910: 1
+- flag:printed 1037 but that number was catalogued in Q3 for a different work and Q4 regs run 1165+ — possibly misprint for 1307: 1
+- flag:printed serial 4 interrupts the section sequence (17, 18, 19, [4], 20) — possibly a misprint or an omitted Jain subsection header; transcribed as printed: 1
+- flag:printed serial reads 6 after 4 — either 5 is a misprint here or serial 5 appeared out of our range; transcribed as printed: 1
+- flag:proprietor name partially cut at page edge; read as M. Kishan Singh: 1
+- flag:reg prints 1331 but duplicates Josh-i-Ghairat (p26 s181, Silcock, whose 1331 is corroborated by the same author holding adjacent reg 1330); this entry may be 1381 (Anand Prakash cluster 1376–1384) — transcribed as printed: 1
+- flag:register No. and day partially cut at page edge: 2
+- flag:register No. partially cut at page edge (17—): 1
+- flag:register No. partially cut at page edge; read as 163: 1
+- flag:second digit smudged (56/58); read as 56: 1
+- flag:serial digit obscured by pencil X; read as 1 (no earlier PERSIAN—BIOGRAPHY entry in our 1910 extractions): 1
+- flag:serial not visible at margin (cut or unprinted); recorded as 0: 1
+- internal:non-consecutive serials in Bilingual (Hindi and Sanskrit)-Religion: 1
+- internal:non-consecutive serials in Sanskrit-Religion: 1
+- internal:registration no. appears 2x in quarter: 2

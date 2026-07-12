@@ -1,0 +1,13 @@
+{
+  "quarter": "1910Q2",
+  "quarter_label": "Quarter ending 30th June, 1910",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [54, 95],
+  "printed_page_offset": -52,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1910Q2",
+  "davis_sheet": {
+    "workbook": "D:/Library/Punjab Data Project/Punjabi Books 20240401b.xlsx",
+    "sheet": "1910"
+  }
+}

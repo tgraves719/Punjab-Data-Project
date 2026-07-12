@@ -1,0 +1,39 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,156,English,Law,7,flag,price,,,no price line visible for this entry
+2,156,English,Language,10,flag,price,,,no price line printed for this entry
+5,159,Hindi,Religion,12,flag,reg,,,printed 1037 but that number was catalogued in Q3 for a different work and Q4 regs run 1165+ — possibly misprint for 1307
+9,163,Punjabi,Poetry,250,flag,price,,,price line printed without an amount
+13,167,Punjabi,Poetry,282,flag,edition,,,"edition number omitted ('litho., edition')"
+15,169,Punjabi,Poetry,298,flag,reg,,,"reg prints 1331 but duplicates Josh-i-Ghairat (p26 s181, Silcock, whose 1331 is corroborated by the same author holding adjacent reg 1330); this entry may be 1381 (Anand Prakash cluster 1376–1384) — transcribed as printed"
+16,170,Punjabi,Science (Mathematical and Mechanical),4,flag,copyright,,,"copyright cell partially cut at page edge; No. and date digits illegible (No. 18—, dated 3?th December 1910)"
+17,171,Persian,Biography,1,flag,serial,,,serial digit obscured by pencil X; read as 1 (no earlier PERSIAN—BIOGRAPHY entry in our 1910 extractions)
+18,172,Sanskrit,Religion,6,flag,serial,,,printed serial reads 6 after 4 — either 5 is a misprint here or serial 5 appeared out of our range; transcribed as printed
+18,172,Urdu,Biography,42,flag,pp_verbatim,,,first digit of page count unclear; read as 16
+19,173,Urdu,Drama,19,flag,serial,,,margin serial obscured by pencil X; read as 19 (continues Urdu—Drama sequence)
+19,173,Urdu,Fiction,30,flag,pp_verbatim,,,second digit smudged (56/58); read as 56
+19,173,Urdu,Biography,43,flag,serial,,,margin serial obscured by pencil X; read as 43 (follows 42 on p18)
+20,174,Urdu,History,7,flag,copyright,,,copyright cell partially cut at page edge; register No. reads 159 or 160
+22,176,Urdu,Medicine,23,flag,copyright,,,register No. partially cut at page edge (17—)
+22,176,Urdu,Medicine,27,flag,copies,,,"first digit smudged; read as 1,000"
+22,176,Urdu,Medicine,28,flag,copies,,,"first digit smudged; read as 1,000"
+23,177,Urdu,Miscellaneous,158,flag,serial,,,margin serial obscured by pencil X; read as 158 (between 157 and 159)
+24,178,Urdu,Miscellaneous,165,flag,copyright,,,proprietor name partially cut at page edge; read as M. Kishan Singh
+28,182,Urdu,Poetry,68,flag,copyright,,,copyright cell partially cut; date line appears to print '1911' where 1910 is expected — transcribed as 1910
+28,182,Urdu,Poetry,70,flag,date,,,"printed '4th November, 1911' — impossible for a Dec 1910 quarter; read as 1910"
+29,183,Urdu,Politics,6,flag,serial,,,"margin serial obscured by pencil X; read as 6 (follows s5 on p28, s7 follows)"
+30,184,Urdu,Religion,90,flag,copyright,,,register No. and day partially cut at page edge
+31,185,Urdu,Religion,93,flag,serial,,,margin serial obscured by pencil X; read as 93 (94 follows)
+31,185,Urdu,Religion,94,flag,price,,,no price line visible for this entry
+31,185,Urdu,Religion,100,flag,serial,,,margin serial obscured by pencil X; read as 100 (follows 99)
+32,186,Urdu,Travel,4,flag,copyright,,,register No. and day partially cut at page edge
+32,186,Urdu,Religion,103,flag,serial,,,margin serial obscured by pencil X; read as 103 (follows 102)
+33,187,Bilingual (Arabic and Persian),Religion,5,flag,serial,,,margin serial partially obscured; read as 5 (follows s4 on p32)
+34,188,Bilingual (Hindi and Sanskrit),Religion,4,flag,serial,,,"printed serial 4 interrupts the section sequence (17, 18, 19, [4], 20) — possibly a misprint or an omitted Jain subsection header; transcribed as printed"
+35,189,Bilingual (Sanskrit and Urdu),Religion,3,flag,serial,,,margin serial obscured by pencil X; read as 3
+35,189,Bilingual (Hindi and Sanskrit),Religion,21,flag,serial,,,margin serial partially cut; read as 21 (follows 20 on p34)
+36,190,English,Periodicals (Law),20,flag,copyright,,,register No. partially cut at page edge; read as 163
+37,191,Punjabi,Periodicals (Miscellaneous),0,flag,serial,,,serial not visible at margin (cut or unprinted); recorded as 0
+15,169,Punjabi,Poetry,298,internal,reg,1331,,registration no. appears 2x in quarter
+26,180,Urdu,Miscellaneous,181,internal,reg,1331,,registration no. appears 2x in quarter
+18,172,Sanskrit,Religion,4,internal,serial,4->6,,non-consecutive serials in Sanskrit-Religion
+34,188,Bilingual (Hindi and Sanskrit),Religion,4,internal,serial,4->17,,non-consecutive serials in Bilingual (Hindi and Sanskrit)-Religion

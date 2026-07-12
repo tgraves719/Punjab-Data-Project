@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------------------
+# Public repo = explorer site (docs/), pipeline code, and open per-quarter data.
+# The heavy source archives and private working material stay local only.
+# ---------------------------------------------------------------------------
+
+# Bound volume scans (25 GB of India Office PDFs) and any other PDF
+Library 1/
+Library 2/
+*.pdf
+
+# Rendered page images live ONLY in docs/pages/ (served by GitHub Pages).
+# The pipeline's working copies are excluded.
+pipeline/data/*/pages/
+
+# Binary database (regenerable: python postprocess.py manifest_*.json)
+punjab.db
+
+# Prof. Davis's hand-transcription workbook (his working file, not ours to publish)
+*.xlsx
+*.xls
+
+# Private interpretive memo — unpublished scholarship, shared directly instead
+analysis/slice_1910/davis_memo_1910.md
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local build artifact (contains machine-local PDF deep-links); the published
+# copy is docs/index.html, built with: python build_site.py --public
+analysis/slice_1910/out/explore_1910.html

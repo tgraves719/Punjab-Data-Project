@@ -1,0 +1,9 @@
+{
+  "quarter": "1910Q3",
+  "quarter_label": "Quarter ending 30th September, 1910",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [98, 154],
+  "printed_page_offset": -96,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1910Q3"
+}

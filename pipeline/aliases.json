@@ -1,0 +1,58 @@
+{
+  "lang": {
+    "Bilingual (Arabic Persian)": "Bilingual (Arabic and Persian)",
+    "Bilingual (Arabic Punjabi)": "Bilingual (Arabic and Punjabi)",
+    "Bilingual (Arabic Pushto)": "Bilingual (Arabic and Pushto)",
+    "Bilingual (Arabic Sindhi)": "Bilingual (Arabic and Sindhi)",
+    "Bilingual (Arabic Urdu)": "Bilingual (Arabic and Urdu)",
+    "Bilingual (English Persian)": "Bilingual (English and Persian)",
+    "Bilingual (English Urdu)": "Bilingual (English and Urdu)",
+    "Bilingual (Hindi Sanskrit)": "Bilingual (Hindi and Sanskrit)",
+    "Bilingual (Hindi Urdu)": "Bilingual (Hindi and Urdu)",
+    "Bilingual (Persian Punjabi)": "Bilingual (Persian and Punjabi)",
+    "Bilingual (Punjabi Urdu)": "Bilingual (Punjabi and Urdu)",
+    "Bilingual (Sanskrit Urdu)": "Bilingual (Sanskrit and Urdu)",
+    "Trilingual (Arabic Urdu Punjabi)": "Trilingual (Arabic, Urdu and Punjabi)",
+    "Periodicals Bilingual (Sanskrit Urdu)": "Bilingual (Sanskrit and Urdu)",
+    "Periodicals English": "English",
+    "Periodicals Hindi": "Hindi",
+    "Periodicals Punjabi": "Punjabi",
+    "Periodicals Urdu": "Urdu"
+  },
+  "city": {
+    "Ráwalpindi": "Rawalpindi",
+    "Riwalpindi": "Rawalpindi",
+    "Amritsa": "Amritsar",
+    "Gujránwála": "Gujranwala",
+    "Jullundur city": "Jullundur",
+    "Ferozepore city": "Ferozepore",
+    "Ferozepur": "Ferozepore",
+    "Qádián": "Qadian",
+    "Lahore city": "Lahore",
+    "Riwari": "Rewari",
+    "Hydarabad (Deccan)": "Hyderabad, Deccan"
+  },
+  "printer": {
+    "Waziri-Hind Press": "Wazir-i-Hind Press",
+    "Wazir - i - H i n d Press": "Wazir-i-Hind Press",
+    "Mufid-i-'Am Press": "Mufid-i-Am Press",
+    "Siri Gurmat Press": "Sri Gurmat Press",
+    "Sri Garmat Press": "Sri Gurmat Press",
+    "The Punjab Educational Printing Works": "Punjab Educational Printing Works",
+    "Rafah-i-'Am Steam Press": "Rafah-i-Am Steam Press",
+    "Rafah-i-'Am Press": "Rafah-i-Am Steam Press",
+    "Rafah-i-Am Press": "Rafah-i-Am Steam Press",
+    "Hindustan Press": "Hindustan Steam Press",
+    "Arya Press": "Arya Steam Press",
+    "Dipak Rajput Press": "Dipak Rajput Printing Works",
+    "Rosebazar Press": "Rose Bazar Press",
+    "Rozbasear Press": "Rose Bazar Press",
+    "Hamidiya Press": "Hamidiya Steam Press",
+    "Hamidya Press": "Hamidiya Steam Press"
+  },
+  "publisher": {
+    "The Khalsa Tract Society": "Khalsa Tract Society",
+    "Sanatan Dharam Sabha": "Sanatan Dharm Sabha",
+    "Sanatab Dharm Sabha": "Sanatan Dharm Sabha"
+  }
+}

@@ -1,0 +1,151 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,54,English,Law,2,flag,reg,,,459 vs 450 - final digit adjudication vs Davis
+5,57,Hindi,Language,5,flag,copies,,,"degraded digit: 6,000 vs 4,000 possible"
+10,62,Punjabi,Miscellaneous,16,flag,copies,,,unusual value 187 — legible but atypical; verify
+11,63,Punjabi,Poetry,75,flag,price,,,digit unclear: '6 pies' (could be 8)
+13,65,Punjabi,Poetry,88,flag,pp_verbatim,,,no Pp. value visible in entry
+13,65,Punjabi,Poetry,89,flag,printer,,,printed as 'Ecconomical Press' (sic) — likely Economical Press
+14,66,Punjabi,Poetry,94,flag,gloss,,,'intique' printed (sic) — likely 'intrigue'
+15,67,Punjabi,Poetry,103,flag,copies,,,"printed appears as '1,005' — likely 1,000 with ink defect"
+15,67,Punjabi,Poetry,105,flag,copies,,,"printed appears as '1,006' — likely 1,000 with ink defect"
+15,67,Punjabi,Poetry,105,flag,reg,,,reg '54' unusually low — legible but verify against sequence
+16,68,Punjabi,Poetry,113,flag,gloss,,,'quality intrigue' as printed — wording verbatim
+19,71,Punjabi,Poetry,134,flag,title,,,'Majmua-si-Harfiha' as printed — possibly Majmua-i-Harfiha
+19,71,Punjabi,Poetry,137,flag,serial,,,"serial digits smudged — printed looks like '937', read as 137 from sequence"
+20,72,Punjabi,Poetry,141,flag,printer,,,printed 'Stara-i-Hiud Press' — likely Sitara-i-Hind Press
+20,72,Punjabi,Poetry,145,flag,printer,,,printed 'Mu'addidi Press' — same as Mujaddidi Press (serial 142)
+21,73,Punjabi,Science (Mathematical and Mechanical),2,flag,reg,,,printed '6C8' — read as 608
+21,73,Punjabi,Religion,8,flag,copies,,,unusual value 125 — legible but atypical
+22,74,Sindhi,Fiction,5,flag,author,,,'Sailb.' as printed — possibly Saheb/Salih
+22,74,Sindhi,Poetry,6,flag,copies,,,"printed '1,090' — unusual; possibly 1,000"
+22,74,Sindhi,Poetry,6,flag,price,,,price line not fully legible
+23,75,Pushto,Poetry,3,flag,serial,,,"serial obscured by pencil X — read as 3 from position, verify"
+23,75,Kashmiri,Poetry,3,flag,serial,,,"serial partially obscured — read as 3, verify"
+23,75,Persian,Poetry,4,flag,serial,,,"serial obscured by pencil X — read as 4 from position, verify"
+26,78,Urdu,Language,2,flag,copyright,,,copyright register number partially legible
+32,84,Urdu,Poetry,25,flag,copyright,,,register number and day partially legible
+38,90,Bilingual (Arabic and Punjabi),Religion,1,flag,copies,,,first digit degraded — read as 500
+38,90,Urdu,Travels,2,flag,copyright,,,register number partially legible
+39,91,Bilingual (Arabic and Urdu),Religion,14,flag,reg,,,407 — verify against sequence (485-496 neighbours)
+40,92,Bilingual (Arabic and Urdu),Religion,16,flag,pcity,,,"printer city not printed after 'Magazine Press,'"
+9,61,Punjabi,Medicine,3,internal,reg,394,,registration no. appears 2x in quarter
+30,82,Urdu,Miscellaneous,66,internal,reg,394,,registration no. appears 2x in quarter
+25,77,Urdu,Biography,26,internal,reg,407,,registration no. appears 2x in quarter
+39,91,Bilingual (Arabic and Urdu),Religion,14,internal,reg,407,,registration no. appears 2x in quarter
+2,54,English,Law,1,davis,pp,"7, 40, 1795, 2012, 4, 4, 503-533, 1, 127-128 (sum 3896)",26,pagination differs
+2,54,English,Medicine,1,davis,reg,399,299,value differs
+2,54,English,Law,2,davis,reg,459,450,value differs
+2,54,English,Miscellaneous,4,davis,reg,408,406,value differs
+2,54,English,Miscellaneous,6,davis,reg,698,626,value differs
+3,55,Arabic,Language,2,davis,reg,678,428,value differs
+4,56,Arabic,Religion,4,davis,pp,"127, 80 and 4 (sum 211)",127,pagination differs
+5,57,Hindi,Language,5,davis,copies,6000,4000,value differs
+5,57,Hindi,Language,5,davis,author,"Devi Dayalu, Pandit","Davi Davalu, Pandit",value differs
+5,57,Hindi,Poetry,10,davis,author,,Sanatab Dharm Sabha,value differs
+6,58,Hindi,Religion,3,davis,author,Ballabh Bijaya,Bailabh Bijays,value differs
+8,60,Punjabi,Fiction,16,davis,copies,600,500,value differs
+10,62,Punjabi,Miscellaneous,11,davis,reg,604,?,value differs
+10,62,Punjabi,Miscellaneous,11,davis,copies,1500,1000,value differs
+10,62,Punjabi,Miscellaneous,12,davis,reg,565,?,value differs
+10,62,Punjabi,Miscellaneous,13,davis,reg,561,?,value differs
+10,62,Punjabi,Miscellaneous,13,davis,pp,79 (sum 79),29,pagination differs
+10,62,Punjabi,Miscellaneous,14,davis,reg,562,?,value differs
+10,62,Punjabi,Miscellaneous,15,davis,reg,601,?,value differs
+10,62,Punjabi,Miscellaneous,15,davis,copies,4000,1000,value differs
+10,62,Punjabi,Miscellaneous,15,davis,author,"Kesar Singh, Dr.",?,value differs
+10,62,Punjabi,Miscellaneous,16,davis,reg,413,412,value differs
+10,62,Punjabi,Miscellaneous,16,davis,copies,187,182,value differs
+10,62,Punjabi,Miscellaneous,17,davis,copies,300,200,value differs
+11,63,Punjabi,Miscellaneous,22,davis,match,,,entry not found in Davis sheet
+11,63,Punjabi,Miscellaneous,23,davis,author,"Sohan Singh, B.","Sundar Singh, Bhai",value differs
+12,64,Punjabi,Poetry,78,davis,reg,611,411,value differs
+13,65,Punjabi,Poetry,84,davis,pp,80 (sum 80),30,pagination differs
+13,65,Punjabi,Poetry,89,davis,pp,398 (sum 398),298,pagination differs
+13,65,Punjabi,Poetry,91,davis,page,13,11,value differs
+13,65,Punjabi,Poetry,91,davis,pp,24 (sum 24),83,pagination differs
+13,65,Punjabi,Poetry,91,davis,printer,Vidya Sagar Press,Vidva Sajar Press,value differs
+13,65,Punjabi,Poetry,91,davis,author,"Kadir Yar, M.",Parma Nand,value differs
+14,66,Punjabi,Poetry,92,davis,reg,448,,value differs
+14,66,Punjabi,Poetry,93,davis,printer,Siri Gurmat Press,Sri Garmat Press,value differs
+14,66,Punjabi,Poetry,98,davis,printer,Vidya Sagar Press,Vidva Sajar Press,value differs
+15,67,Punjabi,Poetry,105,davis,author,"Partap Singh, Bhai",,value differs
+16,68,Punjabi,Poetry,114,davis,reg,555,556,value differs
+16,68,Punjabi,Poetry,115,davis,reg,686,?,value differs
+18,70,Punjabi,Poetry,125,davis,reg,455,433,value differs
+18,70,Punjabi,Poetry,127,davis,copies,4000,3000,value differs
+18,70,Punjabi,Poetry,129,davis,reg,675,623,value differs
+18,70,Punjabi,Poetry,130,davis,reg,449,440,value differs
+19,71,Punjabi,Poetry,139,davis,reg,385,383,value differs
+20,72,Punjabi,Poetry,147,davis,match,,,entry not found in Davis sheet
+21,73,Punjabi,Religion,8,davis,copies,125,525,value differs
+22,74,Sindhi,Poetry,6,davis,match,,,entry not found in Davis sheet
+23,75,Multani,Miscellaneous,1,davis,author,"Nazar Husain, Maulavi","Nasar Husain, Maulvi",value differs
+23,75,Pushto,Poetry,3,davis,author,,Abdar Rahman and Abdul Hamid,value differs
+23,75,Kashmiri,Poetry,4,davis,reg,578,375,value differs
+24,76,Sanskrit,Poetry,1,davis,reg,462,402,value differs
+26,78,Urdu,Language,2,davis,copies,3000,2000,value differs
+26,78,Urdu,Law,3,davis,reg,435,375,value differs
+29,81,Urdu,Miscellaneous,61,davis,printer,Hindustan Steam Press,,value differs
+29,81,Urdu,Miscellaneous,63,davis,reg,703,708,value differs
+29,81,Urdu,Miscellaneous,65,davis,reg,646,648,value differs
+31,83,Urdu,Philosophy,3,davis,reg,645,648,value differs
+32,84,Urdu,Poetry,25,davis,reg,484,,value differs
+32,84,Urdu,Poetry,26,davis,reg,460,,value differs
+32,84,Urdu,Poetry,27,davis,reg,446,,value differs
+32,84,Urdu,Poetry,27,davis,copies,100,500,value differs
+32,84,Urdu,Poetry,28,davis,reg,393,,value differs
+32,84,Urdu,Poetry,29,davis,reg,466,456,value differs
+32,84,Urdu,Poetry,31,davis,reg,453,452,value differs
+33,85,Urdu,Religion,25,davis,match,,,entry not found in Davis sheet
+33,85,Urdu,Poetry,34,davis,author,,"xxx xxx, M",value differs
+33,85,Urdu,Poetry,35,davis,author,"Tilok Chand, Munshi","xxx xxx, M",value differs
+38,90,Bilingual (Arabic and Persian),Miscellaneous,1,davis,author,,"Sayad Ali Hairi, Shia theologian of Lahore",value differs
+38,90,Bilingual (Arabic and Punjabi),Religion,1,davis,copies,500,100,value differs
+38,90,Bilingual (Arabic and Punjabi),Religion,1,davis,author,,Itaji Nur Hussain,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,6,davis,reg,485,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,7,davis,reg,486,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,8,davis,page,39,20,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,8,davis,copies,1300,1000,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,8,davis,author,"Ahmad Hasan, Maulvi, Sayad","Raushan Din, Maulvi",value differs
+39,91,Bilingual (Arabic and Urdu),Religion,9,davis,reg,488,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,9,davis,copies,1300,1500,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,10,davis,reg,489,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,10,davis,copies,1300,1500,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,11,davis,reg,490,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,11,davis,copies,1300,1500,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,12,davis,reg,491,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,12,davis,pp,84 (sum 84),144,pagination differs
+39,91,Bilingual (Arabic and Urdu),Religion,13,davis,reg,496,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,13,davis,copies,1300,1500,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,14,davis,reg,407,,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,14,davis,copies,1300,1000,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,14,davis,printer,Afzal-ul-Matabe Press,Dipak Rajput Press,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,14,davis,author,"Ahmad Hasan, Maulvi, Sayad",,value differs
+39,91,Bilingual (Arabic and Urdu),Religion,15,davis,match,,,entry not found in Davis sheet
+40,92,Bilingual (Hindi and Sanskrit),Philosophy,1,davis,author,,Swami Tej Nath,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,8,davis,author,,Pandit Raja Ram,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,9,davis,author,,Pandit Raja Ram,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,10,davis,reg,425,,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,10,davis,author,,Raj Bahadur Shiw Nath,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,11,davis,reg,427,,value differs
+40,92,Bilingual (Hindi and Sanskrit),Religion,11,davis,author,,Raj Bahadur Shiw Nath,value differs
+40,92,Bilingual (Arabic and Urdu),Religion,16,davis,reg,569,,value differs
+40,92,Bilingual (Arabic and Urdu),Religion,16,davis,pp,76 (sum 76),16,pagination differs
+40,92,Bilingual (Arabic and Urdu),Religion,17,davis,reg,478,,value differs
+40,92,Bilingual (Arabic and Urdu),Religion,17,davis,author,,M. Muhammad Din,value differs
+40,92,Bilingual (Arabic and Urdu),Religion,18,davis,author,,M. Muhammad Din,value differs
+41,93,Bilingual (Hindi and Urdu),Religion,1,davis,match,,,entry not found in Davis sheet
+41,93,"Trilingual (Arabic, Urdu and Punjabi)",Religion,1,davis,match,,,entry not found in Davis sheet
+41,93,English,Periodicals (Miscellaneous),1,davis,match,,,entry not found in Davis sheet
+41,93,English,Periodicals (Law),9,davis,match,,,entry not found in Davis sheet
+41,93,English,Periodicals (Law),10,davis,match,,,entry not found in Davis sheet
+41,93,English,Periodicals (Law),11,davis,match,,,entry not found in Davis sheet
+41,93,English,Periodicals (Law),12,davis,match,,,entry not found in Davis sheet
+42,94,English,Periodicals (Miscellaneous),2,davis,match,,,entry not found in Davis sheet
+42,94,Hindi,Periodicals (Miscellaneous),2,davis,match,,,entry not found in Davis sheet
+42,94,English,Periodicals (Miscellaneous),3,davis,match,,,entry not found in Davis sheet
+42,94,Punjabi,Periodicals (Miscellaneous),4,davis,match,,,entry not found in Davis sheet
+42,94,Punjabi,Periodicals (Miscellaneous),6,davis,author,"Takht Singh, B. (editor)",Punjabi Bhain Magazine,value differs
+43,95,Urdu,Periodicals (History),1,davis,author,"Lala Bulaqi Das, Proprietor, Muir Press (editor and publisher)",,value differs
+43,95,Urdu,Periodicals (Miscellaneous),3,davis,match,,,entry not found in Davis sheet
+43,95,Urdu,Periodicals (Law),10,davis,author,"Ganpat Rai, Mr., Bar-at-Law (editor)",,value differs

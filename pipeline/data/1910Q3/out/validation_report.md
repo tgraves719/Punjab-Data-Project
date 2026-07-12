@@ -1,0 +1,47 @@
+# Validation report — 1910Q3
+
+- extracted entries: 423
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 55 items
+
+## By category
+- flag:14 annas unusual for Pp 17 — digit may be 1½/4; verify: 1
+- flag:765 also read for English—Language s6 on p2 — one of the two is 766; adjudicate: 1
+- flag:765 vs 766 — final digit slightly degraded: 1
+- flag:866 also read for English—Medicine s2 on p2 — one is 868; adjudicate: 1
+- flag:866 vs 868 — final digit degraded: 1
+- flag:Hijri year printed 1318, likely misprint for 1328: 1
+- flag:city obscured by stamp — Karnal conjectural: 1
+- flag:copies column printed as dots/illegible: 1
+- flag:dash-continuation after joint authorship — could include Charagh Ali: 1
+- flag:day of copyright registration partially legible (13th/18th August): 1
+- flag:edition number omitted in catalog entry: 1
+- flag:first digit faint; read as 1,000: 1
+- flag:first page digit smudged; 399 or 309: 1
+- flag:issue number No. 3 duplicates part of serial 6's 'Nos. 3 and 4' — as printed: 1
+- flag:last digit unclear (921/924); read as 924 because 921 is clearly printed at Urdu—Medicine s17 (p31) and regs are unique within the year: 1
+- flag:last word smudged — read as Sihra (chaplet), matching the gloss: 1
+- flag:left-margin serial digit faint; read as 2: 1
+- flag:left-margin serial digit faint; read as 5 (followed by 6, 7): 1
+- flag:margin digit prints like '14' but sequence (…9, 10, then this) indicates 11: 1
+- flag:margin serial partially cut; read as 53 (54, 55 follow; page 44 resumes at 56): 1
+- flag:no place of publication printed for publisher Sadhu Hari Das: 1
+- flag:only Hijri 1319 printed; no Christian date given: 1
+- flag:pagination smudged; read as 108: 1
+- flag:printed '1,009' — possibly misprint for 1,000; transcribed as printed: 1
+- flag:printed 'Marik Singh' — possibly a misprint for Malik Singh; transcribed verbatim: 1
+- flag:printed 'Pp. 972' — implausible for price/format; possibly 72: 1
+- flag:register number and day partially legible: 7
+- flag:register number and day partially legible in copyright column: 1
+- flag:register number partially legible: 7
+- flag:register number partially legible (145/146): 1
+- flag:second pagination component printed in native numerals: 2
+- flag:self-referential cross-reference — target entry No. 39 p41 is in this quarter's Urdu—Poetry (Durar-i-Samin?); verify at adjudication: 1
+- flag:serial 7 duplicates previous page's Hindi—Religion serial — one may be mis-numbered in catalog: 1
+- flag:serial digit could be 6 or 8 — read as 6 from column position: 1
+- flag:serial partially obscured — read as 7: 1
+- flag:stray printed mark before 847 in registration column: 1
+- flag:volume number IX inconsistent with April issue's VIII: 1
+- internal:copies outside plausible range: 1
+- internal:registration no. appears 2x in quarter: 4
