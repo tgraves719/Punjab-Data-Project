@@ -89,7 +89,8 @@ with open(OUT / "network_edges.csv", encoding="utf-8-sig") as fh:
 
 EXHIBITS = [
     {"cite": "Q4 p28 s70 & p39 s4", "title": "The observer observed",
-     "blurb": "Suraj Narayan Mehr — the Reporter on Books who signs these catalogs — registers his own Vedanta-and-Sufism poetry (Kalam-i-Mehr, 8,000 copies) and a verse Bhagavad Gita filling the Sadhu Magazine special number, copyrights both to 'Reporter on Books' as his identity, then signs the page. An earlier hand pencilled 'Spec.' beside the Gita.", "search": "Kalam-i-Mehr"},
+     "blurb": "Suraj Narayan Mehr — the Reporter on Books who signs these catalogs — registers his own Vedanta-and-Sufism poetry (Kalam-i-Mehr, 8,000 copies) and a verse Bhagavad Gita filling the Sadhu Magazine special number, copyrights both to 'Reporter on Books' as his identity, then signs the page. An earlier hand pencilled 'Spec.' beside the Gita.", "search": "Kalam-i-Mehr",
+     "img": "img/mehr_colophon_1910q1.png", "cap": "His signature closes every quarter's list. Here the foot of the March 1910 catalogue (printed p. 51): “Suraj Narayan Mehr, Reporter on Books, Education Department, Punjab” — the compiler signing the register he also appears inside."},
     {"cite": "Q2–Q4, 21 issues", "title": "One text, three scripts",
      "blurb": "The Punjab Hindu Family Mutual Relief Fund's monthly circular, printed simultaneously in Urdu (5,000–8,000/issue, series Vol. XV), Punjabi (~1,000, Vol. VIII) and Hindi (~900, Vol. VIII) — a controlled measurement of the script hierarchy, run monthly by the fund itself.", "search": "Relief Fund"},
     {"cite": "Q4 p26 s183, p18 s2, p30 s91 · Q1 p37 s45, p6 s6", "title": "The music question, all three fronts",
@@ -515,20 +516,35 @@ function makeNet(cv){
   const nb={};if(sel){es.forEach(e=>{if(e.a===sel.id)nb[e.b]=1;if(e.b===sel.id)nb[e.a]=1});nb[sel.id]=1;}
   es.forEach(e=>{const a=ns[e.ai],b=ns[e.bi];
    const on=sel&&(e.a===sel.id||e.b===sel.id);
-   ctx.strokeStyle=on?'rgba(138,90,68,.9)':(sel?'rgba(120,110,90,.05)':'rgba(120,110,90,'+Math.min(.5,.14+e.w*.05)+')');
+   ctx.strokeStyle=on?'rgba(138,90,68,.9)':(sel?'rgba(120,110,90,.05)':'rgba(120,110,90,'+Math.min(.34,.07+e.w*.045)+')');
    ctx.lineWidth=on?1+Math.min(e.w,5):Math.min(1+e.w*.25,3.5);
    ctx.beginPath();ctx.moveTo(SX(a),SY(a));ctx.lineTo(SX(b),SY(b));ctx.stroke();});
-  const cut=labelCut();
+  // nodes: fill + a thin background-coloured halo so overlapping dots stay distinct
+  // (they read as layered discs instead of merging into one blob when zoomed out).
   ns.forEach(n=>{const dimmed=sel&&!nb[n.id];
    ctx.globalAlpha=dimmed?.12:1;
-   ctx.fillStyle=COL[n.type]||'#666';
-   ctx.beginPath();ctx.arc(SX(n),SY(n),r(n),0,7);ctx.fill();
-   if(n===hover||n===sel){ctx.strokeStyle='#2b2620';ctx.lineWidth=1.6;ctx.stroke();}
-   if(!dimmed&&(n.n>=cut||n===sel||n===hover||(sel&&nb[n.id]))){
-    ctx.fillStyle='#2b2620';ctx.font='11px Georgia';
-    const t=n.label.length>26?n.label.slice(0,25)+'…':n.label;
-    ctx.fillText(t,SX(n)+r(n)+3,SY(n)+3);}
+   const x=SX(n),y=SY(n),rr=r(n),on=(n===hover||n===sel);
+   ctx.beginPath();ctx.arc(x,y,rr,0,7);
+   ctx.fillStyle=COL[n.type]||'#666';ctx.fill();
+   ctx.lineWidth=on?1.8:1.2;ctx.strokeStyle=on?'#2b2620':'#fffdf7';ctx.stroke();
    ctx.globalAlpha=1;});
+  // labels: greedy, non-overlapping. Priority = selected/hovered, then biggest nodes.
+  // Skipped collisions mean few labels show zoomed-out, more as you zoom in — no stacks.
+  const cut=labelCut();
+  const cands=ns.filter(n=>!(sel&&!nb[n.id])&&(n===sel||n===hover||n.n>=cut||(sel&&nb[n.id])));
+  cands.sort((a,b)=>((b===sel||b===hover)?1e9:b.n)-((a===sel||a===hover)?1e9:a.n));
+  ctx.font='11px Georgia';ctx.textBaseline='middle';
+  const placed=[];
+  for(const n of cands){
+   const x=SX(n),y=SY(n),rr=r(n),forced=(n===sel||n===hover);
+   const t=n.label.length>26?n.label.slice(0,25)+'…':n.label;
+   const w=ctx.measureText(t).width,lx=x+rr+3,box=[lx-1,y-7,lx+w+1,y+7];
+   let hit=false;for(const p of placed){if(box[0]<p[2]&&box[2]>p[0]&&box[1]<p[3]&&box[3]>p[1]){hit=true;break;}}
+   if(hit&&!forced)continue;
+   ctx.lineWidth=3;ctx.strokeStyle='#fffdf7';ctx.strokeText(t,lx,y);   // halo for legibility
+   ctx.fillStyle='#2b2620';ctx.fillText(t,lx,y);
+   placed.push(box);}
+  ctx.textBaseline='alphabetic';
  }
  function loop(){cancelAnimationFrame(raf);
   (function frame(){
@@ -600,7 +616,9 @@ function drawFund(){
 }
 /* ---------- exhibits ---------- */
 $('exList').innerHTML=EXH.map((x,i)=>'<div class="ex"><h3>'+esc(x.title)+'</h3><div class="cite">'+esc(x.cite)+
- '</div><p>'+esc(x.blurb)+'</p><button data-s="'+esc(x.search)+'">view the records →</button></div>').join('');
+ '</div><p>'+esc(x.blurb)+'</p>'+
+ (x.img?'<figure style="margin:2px 0 10px"><img loading="lazy" src="'+esc(x.img)+'" alt="'+esc(x.cap||x.title)+'" style="max-width:100%;display:block;border:1px solid var(--rule);border-radius:6px;background:#fffdf7"><figcaption style="font-size:12px;color:var(--dim);margin-top:5px;line-height:1.4">'+esc(x.cap||'')+'</figcaption></figure>':'')+
+ '<button data-s="'+esc(x.search)+'">view the records →</button></div>').join('');
 document.querySelectorAll('.ex button').forEach(b=>b.onclick=()=>{
  $('fS').value=b.dataset.s;['fQ','fL','fT','fC','fP'].forEach(id=>$(id).value='');
  ['fFlag','fEduc','fMark'].forEach(id=>$(id).checked=false);renderTable();
