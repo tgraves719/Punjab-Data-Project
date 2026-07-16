@@ -363,11 +363,22 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
  $('ovLang').appendChild(wrap);
  bars(b1,langN,'#4d6d9a',fmt);bars(b2,langC,'#8a5a44',fmt);
  bars($('ovTopic'),topN,'#6a8a5a',fmt,10);bars($('ovCity'),cityN,'#8a7a44',fmt,8);
- /* chronological timeline strip (ordered, not sorted) */
+ /* chronological timeline: two ALIGNED panels (titles | copies), each series on
+    its own common baseline and its own scale — never two scales on one row
+    (the dual-axis mistake, horizontal edition). A faint dashed rule marks each
+    panel's median quarter as an anchor for "normal" without distorting scale. */
  const tmax=Math.max(...TL.map(r=>r[1])),cmax=Math.max(...TL.map(r=>r[2]));
- $('ovTime').innerHTML=TL.map(([q,n,c])=>'<div class="bar"><div class="lbl">'+qlbl(q)+
-  '</div><div class="trk"><div class="fill" style="width:'+(52*n/tmax)+'%;background:#4d6d9a" title="titles"></div><span>'+fmt(n)+
-  '</span><div class="fill" style="width:'+(30*c/cmax)+'%;background:#8a5a44" title="copies"></div><span>'+fmt(c)+' copies</span></div></div>').join('');
+ const med=a=>{const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+ const tmed=med(TL.map(r=>r[1])),cmed=med(TL.map(r=>r[2]));
+ const cell=(v,max,mv,color,label)=>'<div style="position:relative;display:flex;align-items:center;gap:8px;min-height:17px">'+
+  '<div style="position:absolute;left:'+(72*mv/max)+'%;top:-3px;bottom:-3px;border-left:1px dashed #c5b892" title="median quarter"></div>'+
+  '<div class="fill" style="width:'+(72*v/max)+'%;background:'+color+';position:relative"></div><span style="font-size:12.5px">'+label+'</span></div>';
+ $('ovTime').innerHTML=
+  '<div style="display:grid;grid-template-columns:70px 1fr 1fr;gap:4px 26px;align-items:center;max-width:1050px">'+
+  '<div></div><div class="legend">titles registered</div><div class="legend">copies registered</div>'+
+  TL.map(([q,n,c])=>'<div class="lbl" style="width:auto;text-align:right;padding:0">'+qlbl(q)+'</div>'+
+   cell(n,tmax,tmed,'#4d6d9a',fmt(n))+cell(c,cmax,cmed,'#8a5a44',fmt(c))).join('')+
+  '</div><div class="legend" style="margin-top:6px">each panel has its own scale and baseline — compare bars within a column; read across a row to spot quarters where titles and copies decouple (mass ephemera). Dashed line = median quarter.</div>';
 })();
 /* ---------- entries ---------- */
 function opts(sel,vals,byName){const cnt={};vals.forEach(v=>{if(v)cnt[v]=(cnt[v]||0)+1;});
