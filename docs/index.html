@@ -200,7 +200,7 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
  const tmed=med(TL.map(r=>r[1])),cmed=med(TL.map(r=>r[2]));
  const cell=(v,max,mv,color,label)=>'<div style="position:relative;display:flex;align-items:center;gap:8px;min-height:17px">'+
   '<div style="position:absolute;left:'+(72*mv/max)+'%;top:-3px;bottom:-3px;border-left:1px dashed #c5b892" title="median quarter"></div>'+
-  '<div class="fill" style="width:'+(72*v/max)+'%;background:'+color+';position:relative"></div><span style="font-size:12.5px">'+label+'</span></div>';
+  '<div class="fill" style="width:'+(72*v/max)+'%;background:'+color+';position:relative;height:15px;border-radius:2px;min-width:2px;flex:none"></div><span style="font-size:12.5px">'+label+'</span></div>';
  $('ovTime').innerHTML=
   '<div style="display:grid;grid-template-columns:70px 1fr 1fr;gap:4px 26px;align-items:center;max-width:1050px">'+
   '<div></div><div class="legend">titles registered</div><div class="legend">copies registered</div>'+
