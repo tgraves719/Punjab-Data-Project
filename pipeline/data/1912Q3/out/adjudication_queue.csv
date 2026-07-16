@@ -1,0 +1,95 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,505,Arabic,Language,5,flag,price,,,printed 'Pr.ce'
+3,506,Arabic,Religion,4,flag,pp_verbatim,,,"leading digit degraded, reads ':08'"
+3,506,English,Language,7,flag,serial,,,"digit faint, reads as 7"
+3,506,English,Language,7,flag,copies,,,"reads '1,000' with faint comma"
+4,507,English,Miscellaneous,,flag,serial,,,no serial number printed for this entry
+4,507,English,Miscellaneous,19,flag,copies,,,"printed 5C0, read as 500"
+5,508,English,Religion,2,flag,serial,,,"printed digit faint, likely 2"
+6,509,Hindi,Miscellaneous,10,flag,copyright,,,Chhabu spelling degraded
+6,509,Hindi,Miscellaneous,13,flag,pp_verbatim,,,reads 10? possibly 100
+6,509,Hindi,Poetry,18,flag,reg,,,"reads 1,041 or 1,047"
+7,510,Kashmiri,Poetry,2,flag,serial,,,serial number obscured/illegible in scan
+7,510,Kashmiri,Poetry,4,flag,serial,,,serial number faint in scan
+7,510,Multani,Poetry,5,flag,reg,,,last digit ambiguous (807 vs 867)
+11,514,Punjabi,Law,3,flag,copies,,,marked (a) footnote reference
+11,514,Punjabi,Language,7,flag,title,,,mixed Gurmukhi and roman transliteration
+11,514,Punjabi,Language,9,flag,copies,,,"printed 2,00) ambiguous, likely 2,000"
+12,515,Punjabi,Miscellaneous,47,flag,copies,,,"reads 1,000 or 1,060; ambiguous digit"
+12,515,Punjabi,Miscellaneous,50,flag,copies,,,"reads 1,0C0; obscured digit"
+12,515,Punjabi,Miscellaneous,51,flag,reg,,,"reads 1C92; obscured digit, likely 1092"
+13,516,Punjabi,Miscellaneous,52,flag,author,,,Darpan title word partly obscured (Darp..)
+13,516,Punjabi,Miscellaneous,53,flag,reg,,,reads 1090 but first digits faint
+13,516,Punjabi,Miscellaneous,57,flag,method,,,R. abbreviation ambiguous
+15,518,Punjabi,Poetry,160,flag,date,,,year of prior catalogue reads 1910 partly obscured
+15,518,Punjabi,Poetry,165,flag,copies,,,"reads 1,000 or 1,000 with faint first digit"
+16,519,Punjabi,Poetry,168,flag,reg,,,"possible smudge, reads 1067"
+16,519,Punjabi,Poetry,169,flag,reg,,,"faint, reads 888"
+16,519,Punjabi,Poetry,172,flag,copies,,,"reads 1,C00 (comma/zero unclear)"
+16,519,Punjabi,Poetry,173,flag,serial,,,reads 173 (partly obscured)
+17,520,Punjabi,Poetry,176,flag,pp_verbatim,,,"page number partly obscured, read as 16"
+18,521,Punjabi,Foetry,185,flag,reg,,,"printed 1085, digit uncertain"
+18,521,Punjabi,Foetry,187,flag,reg,,,"printed 1086, last digit uncertain"
+20,523,Punjabi,Poetry,198,flag,reg,,,"printed as £76, likely 876"
+23,526,Urdu,Art,4,flag,serial,,,serial number obscured
+23,526,Urdu,Biography,20,flag,serial,,,serial number obscured
+23,526,Urdu,Biography,22,flag,serial,,,serial number obscured
+23,526,Punjabi,Religion,32,flag,serial,,,serial number partly obscured
+24,527,Urdu,Biography,24,flag,method,,,"printed 'litho., R.' — R meaning unclear"
+24,527,Urdu,Biography,25,flag,pp_verbatim,,,printed ' p. 85' — leading char garbled
+25,528,Urdu,Fiction,36,flag,method,,,"printed 'R.' after litho., unclear"
+26,529,Urdu,Fiction,40,flag,title,,,"Virgina spelling as printed, uncertain"
+26,529,Urdu,Fiction,40,flag,edition,,,'R.' meaning unclear
+27,530,Urdu,History,9,flag,printer,,,reads 'Bilali'/'Bilali' uncertain first letter
+27,530,Urdu,History,12,flag,publisher,,,'Gopal'/'Gojal' uncertain
+28,531,Urdu,Language,22,flag,copies,,,"printed 1,5C0 — ambiguous digit"
+28,531,Urdu,Language,24,internal,copies,40000,,copies outside plausible range
+29,532,Urdu,Law,9,flag,copies,,,"printed with leading mark, reads 750"
+29,532,Urdu,Law,11,flag,date,,,year printed '191?.' unclear
+29,532,Urdu,Language,26,flag,title,,,printed 'Kibab' likely 'Kitab'
+30,533,Urdu,Medicines,22,flag,serial,,,"printed digit unclear, read as 22"
+31,534,Urdu,Miscellaneous,79,flag,pp_verbatim,,,printed '64.' partly obscured
+32,535,Urdu,Miscellaneous,86,flag,copies,,,"printed 1,0C0 ambiguous"
+33,536,Urdu,Miscellaneous,93,flag,serial,,,"serial digit partly obscured, read as 93"
+33,536,Urdu,Miscellaneous,94,flag,copies,,,"reads 1,0C0, likely 1,000"
+33,536,Urdu,Miscellaneous,98,flag,serial,,,"serial obscured, read as 98"
+33,536,Urdu,Miscellaneous,98,internal,copies,50000,,copies outside plausible range
+33,536,Urdu,Miscellaneous,99,flag,serial,,,"serial obscured, read as 99"
+33,536,Urdu,Miscellaneous,100,flag,serial,,,"serial obscured, read as 100"
+34,537,Urdu,Miscellaneous,104,flag,copies,,,"printed '2 0', reading as 200"
+34,537,Urdu,Miscellaneous,105,flag,copies,,,"column value faint, reading as 200"
+34,537,Urdu,Miscellaneous,106,flag,copyright,,,"column 6 partly cut off: 'Maulavi Muhammad Alam Shah, Faridi, Delhi; No. 155, dated 26th July, 1912.'"
+35,538,Urdu,Miscellaneous,110,flag,publisher,,,"printed 'Published by the author, Medical and Military Press, Jhelum'"
+36,539,Urdu,Poetry,31,flag,serial,,,reads 31; poetry section restarts numbering
+36,539,Urdu,Miscellaneous,117,flag,price,,,printed 'Prire' (typo for Price)
+37,540,Urdu,Poetry,36,flag,reg,,,"printed 1,0?0 partly degraded, read 1,020"
+37,540,Urdu,Poetry,37,flag,copies,,,"printed 500 or 600, ambiguous first digit"
+39,542,Urdu,Religion,52,flag,reg,,,"final digit unclear, reads 804"
+40,543,Urdu,Religion,55,flag,copies,,,"printed '1,C00', reading as 1000"
+40,543,Urdu,Religion,60,flag,serial,,,"digit degraded, reading as 60"
+41,544,Urdu,Religion,62,flag,copies,,,"printed as 1,060 or 1,000, ambiguous"
+41,544,Urdu,Religion,63,flag,reg,,,trailing mark after 999 unclear
+41,544,Urdu,Religion,64,flag,copies,,,"printed 1,C00 (OCR artifact), read as 1,000"
+42,545,Urdu,Science (Natural and Other),5,flag,serial,,,"printed serial digit faint, likely 5"
+43,546,Bilingual (Arabic—Urdu),Language,2,flag,copyright,,,author name 'Nasar' uncertain reading
+44,547,Arabic and Punjabi,Religion,1,flag,printer,,,printer name reading uncertain ('Almunir')
+45,548,Bilingual (Hindi and Sanskrit),Language,1,flag,date,,,day reading 25th uncertain
+45,548,Bilingual (Hindi and Sanskrit),Language,1,flag,gloss,,,Sambat 1969 Vikrami printed
+45,548,Bilingual (Arabic and Punjabi in the Persian character),Religion,2,flag,pp_verbatim,,,leading mark before 168 unclear
+45,548,Bilingual (Hindi and Sanskrit),Religion,10,flag,copies,,,"reads 1,000 or 1,000 unclear digit"
+46,549,Bilingual (Persian and Urdu),History,1,flag,author,,,'alias' printed as 'a ias' unclear
+48,551,Punjabi and Sanskrit,Miscellaneous,1,flag,format,,,"size reading '16°' uncertain, printed '1C°'"
+48,551,Punjabi and Urdu,Poetry,5,flag,printer_verbatim,,,Press name reading 'Roz Bazar' uncertain
+49,552,Urdu,Periodicals (Law),12,flag,serial,,,"degraded, reads as 12 (repeats)"
+49,552,English,Periodicals (Law),14,flag,serial,,,"degraded, reads as 14"
+50,553,Urdu,Periodicals (Miscellaneous),5,flag,gloss,,,year printed as '19 2' (1912 with gap)
+50,553,Urdu,Periodicals (Miscellaneous),5,flag,copies,,,printed '1 000' with gap
+50,553,Urdu,Periodicals (Miscellaneous),7,flag,copies,,,"printed '1,C00' — C likely 0"
+4,507,English,Miscellaneous,16,internal,reg,847,,registration no. appears 2x in quarter
+28,531,Urdu,Language,25,internal,reg,847,,registration no. appears 2x in quarter
+31,534,Urdu,Miscellaneous,82,internal,reg,937,,registration no. appears 2x in quarter
+40,543,Urdu,Religion,60,internal,reg,937,,registration no. appears 2x in quarter
+4,507,English,Miscellaneous,16,internal,serial,21->23,,non-consecutive serials in English-Miscellaneous
+13,516,Punjabi,Poetry,147,internal,serial,181->190,,non-consecutive serials in Punjabi-Poetry
+38,541,Urdu,Philosophy,1,internal,serial,1->3,,non-consecutive serials in Urdu-Philosophy
+42,545,Urdu,Science (Natural and Other),3,internal,serial,3->5,,non-consecutive serials in Urdu-Science (Natural and Other)

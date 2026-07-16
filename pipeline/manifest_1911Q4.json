@@ -1,0 +1,9 @@
+{
+  "quarter": "1911Q4",
+  "quarter_label": "Quarter ending 31st December, 1911",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [356, 402],
+  "printed_page_offset": -354,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1911Q4"
+}

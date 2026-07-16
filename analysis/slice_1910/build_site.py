@@ -1,10 +1,13 @@
-"""S5 — Interactive explorer for the 1910 slice (DECISIONS.md D-012, D-013).
+"""S5 — Interactive explorer, generalized to every year in punjab.db (D-012, D-013).
 
-Generates out/explore_1910.html: a single self-contained file (all data and
+Generates out/explore_1910_1912.html: a single self-contained file (all data and
 code embedded, no network access, no server) that lets Thomas and Davis browse
-the year — overview dashboard, filterable entry table with full verbatim
-records, printer-publisher network (canvas force layout), the script-market
-comparison, and curated exhibits.
+the corpus — overview dashboard with a register-over-time strip, filterable
+entry table with full verbatim records, printer-publisher network (canvas force
+layout, built client-side from the embedded entries), the script-market
+comparison, and curated exhibits. Originally the 1910 slice explorer; now reads
+ALL quarters in the DB (the old single-year build survives as explore_1910.html,
+which this script no longer overwrites).
 
 Source linking (D-013): every record's detail panel links to its scan. The
 built-in viewer tries `pages/<quarter>/pXXX_pdfYYY.png` (packaged layout) then
@@ -40,14 +43,13 @@ cols = ("quarter printed_page pdf_page serial section norm_lang topic reg copies
         "norm_pcity author title gloss publisher pubcity date price edition educ "
         "periodical copyright notes marks flags_json").split()
 entries = []
-# order by quarter (chronological: '1910Q1' < … < '1910Q4'), then rowid so each
+# order by quarter (chronological: '1910Q1' < … < '1912Q4'), then rowid so each
 # quarter keeps its extraction/reading order (page → printed section → serial).
-# Q1 was added to the DB last, so without this the table/filters came out Q2→Q4→Q1.
-for r in con.execute(f"select {', '.join(cols)} from entries where quarter like '1910%' order by quarter, rowid"):
+for r in con.execute(f"select {', '.join(cols)} from entries order by quarter, rowid"):
     e = dict(zip(cols, r))
     flags = json.loads(e["flags_json"] or "[]")
     entries.append({
-        "q": e["quarter"][-2:], "pg": int(e["printed_page"]), "pdf": int(e["pdf_page"]),
+        "q": e["quarter"], "pg": int(e["printed_page"]), "pdf": int(e["pdf_page"]),
         "s": e["serial"],
         "sec": e["section"], "lang": e["norm_lang"], "top": e["topic"],
         "reg": e["reg"], "cop": copies_int(e["copies"]), "pr": e["norm_printer"],
@@ -69,7 +71,7 @@ for e in entries:
     d["min"] = min(d["min"], e["pg"])
     d["max"] = max(d["max"], e["pg"])
 for q, d in QINFO.items():
-    mf = HERE.parent.parent / "pipeline" / f"manifest_1910{q}.json"
+    mf = HERE.parent.parent / "pipeline" / f"manifest_{q}.json"
     vol = json.load(open(mf))["volume_pdf"]
     # --public: omit the file:// deep-link into the bound volume (a machine-local
     # path that is useless — and leaks the local directory layout — on the web).
@@ -77,15 +79,23 @@ for q, d in QINFO.items():
     d["pdfurl"] = "" if "--public" in sys.argv else \
         "file:///" + urllib.parse.quote(vol.replace("\\", "/"), safe="/:")
 
+# The network tab builds its graphs client-side from the embedded entries
+# (D-012 update), so the 1910-slice Gephi CSVs are no longer read here; the
+# overview tiles count entities directly from the corpus instead.
 nodes, edges = [], []
-with open(OUT / "network_nodes.csv", encoding="utf-8-sig") as fh:
-    for r in csv.DictReader(fh):
-        nodes.append({"id": r["Id"], "label": r["Label"], "type": r["Type"],
-                      "n": int(r["entries"]), "cop": int(r["copies"]),
-                      "deg": int(r["degree"])})
-with open(OUT / "network_edges.csv", encoding="utf-8-sig") as fh:
-    for r in csv.DictReader(fh):
-        edges.append({"a": r["Source"], "b": r["Target"], "w": int(r["Weight"])})
+n_printers = len({e["pr"] for e in entries if e["pr"]})
+n_publishers = len({e["pube"] for e in entries if e["pube"]})
+
+EXHIBITS_NEW = [
+    {"cite": "1910–1912, every quarter's end-leaf", "title": "A reader tracks the scriptures across three years",
+     "blurb": "The unidentified earlier hand's pencil finding-aid runs the length of the bound volume: serialized Arya-Samaj scripture installments are logged quarter by quarter — Arsh Granthawali from volume II (1910) to VIII.6–7 on the volume's literal last leaf (December 1912), the Rig Veda Samhita from installment 37 to 74. One reader, three years, one continuous act of second-order observation over the register.", "search": "Granthawali"},
+    {"cite": "1912 Q2 p47 s2", "title": "The new Reporter also registers himself",
+     "blurb": "Khalifa Imad-ud-din — who signs the 1911–1912 catalogues as Reporter on Books after Suraj Narayan Mehr — appears inside his own register: a New First Persian Reader, 5,000 copies, compiled by 'Khalifa Imad-ud-din, Reporter on Books, Education Department, Punjab.' The observation operator keeps writing itself into the record, across a change of personnel.", "search": "Persian Reader"},
+    {"cite": "1911 Q1 p13 s13", "title": "Thirty thousand handbills",
+     "blurb": "Hand Bill No. 33, Sachi Yadgar — verses commemorating Guru Gobind Singh, distributed free by the Khalsa Dewan and the Sikh Hand Bill Committee at 30,000 copies, the largest run of early 1911. Like 1910's almanacs and army forms, the true mass media are free ephemera, not priced books.", "search": "Sachi Yadgar"},
+    {"cite": "1912 Q4 p31 s55", "title": "New Fashion ka Beta aur Old Fashion ka Bap",
+     "blurb": "A social comedy of generational style-war, its title half in English — and in the register it carries a broken piece of type that the extraction preserved with a flagged lookalike character rather than silently correcting. The verbatim layer keeping faith with the print shop's own accidents.", "search": "New Fashion"},
+]
 
 EXHIBITS = [
     {"cite": "Q4 p28 s70 & p39 s4", "title": "The observer observed",
@@ -122,6 +132,11 @@ EXHIBITS = [
     {"cite": "Q1 p44, p46 s1, p47 s1", "title": "One tongue, many scripts",
      "blurb": "Q1's bilingual sections catch the script system in motion: Urdu love-verse set in Gurmukhi (Nagma Sukhan Kamal); a midwifery handbook in Roman Urdu by an American woman doctor (Dai Gari ke Asul); a glossary of English words transliterated into Urdu script (Zaruri Angrezi Alfaz); and bookkeeping in the merchants' Mahajani shorthand (Mahajani Darpan). The language holds still; the script is the battlefield — the disaggregation that hardens by Partition.", "search": "Nagma Sukhan Kamal"},
 ]
+# the original exhibits were written when the explorer covered 1910 only;
+# prefix the year so their cites stay unambiguous in the multi-year build
+for _x in EXHIBITS:
+    _x["cite"] = "1910 " + _x["cite"]
+EXHIBITS = EXHIBITS_NEW + EXHIBITS
 
 # self-publication share and adjudication-queue total, computed live so the
 # overview tiles and the method notes never drift from the data (see this file's
@@ -130,7 +145,7 @@ n_self = sum(1 for e in entries if SELF_RE.match((e["pub"] or "").strip()))
 n_queue = 0  # flag + internal items; excludes Davis-sheet reconciliation rows (a
              # separate transcription cross-check, not a flagged catalog reading)
 for q in QINFO:
-    qf = HERE.parent.parent / "pipeline" / "data" / f"1910{q}" / "out" / "adjudication_queue.csv"
+    qf = HERE.parent.parent / "pipeline" / "data" / q / "out" / "adjudication_queue.csv"
     if qf.exists():
         with open(qf, encoding="utf-8-sig") as fh:
             n_queue += sum(1 for row in csv.DictReader(fh)
@@ -138,18 +153,27 @@ for q in QINFO:
 
 META = {
     "entries": len(entries), "copies": sum(e["cop"] for e in entries),
-    "printers": sum(1 for n in nodes if n["type"] == "printer"),
-    "publishers": sum(1 for n in nodes if n["type"] == "publisher"),
-    "edges": len(edges),
+    "printers": n_printers,
+    "publishers": n_publishers,
+    "years": len({e["q"][:4] for e in entries}),
     "selfpub": f"{round(100 * n_self / len(entries))}%",
     "selfpub_n": n_self,
     "flagged": n_queue,
 }
 
+# chronological register-over-time strip: [quarter, titles, copies]
+from collections import OrderedDict
+_tl = OrderedDict()
+for e in entries:
+    d = _tl.setdefault(e["q"], [0, 0])
+    d[0] += 1
+    d[1] += e["cop"]
+TIMELINE = [[q, n, c] for q, (n, c) in _tl.items()]
+
 HTML = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Punjab 1910 — one year of the imperial print register</title>
+<title>Punjab 1910–1912 — the imperial print register</title>
 <style>
 :root{--ink:#2b2620;--paper:#f7f3ea;--card:#fffdf7;--rule:#d8cfbc;--acc:#8a5a44;--acc2:#4d6d9a;--dim:#7a7060}
 *{box-sizing:border-box}
@@ -212,8 +236,8 @@ canvas{background:var(--card);border:1px solid var(--rule);border-radius:8px;max
 footer{padding:18px 30px;color:var(--dim);font-size:12px;border-top:1px solid var(--rule);margin-top:30px}
 </style></head><body>
 <header>
- <h1>Punjab, 1910 — one year of the imperial print register</h1>
- <p>Catalogue of Books registered in the Punjab under Act XXV of 1867 and Act X of 1890 · all four quarters, ending March, June, September &amp; December 1910 · extracted from SV 412/44 · Graves &amp; Davis</p>
+ <h1>Punjab, 1910–1912 — three years of the imperial print register</h1>
+ <p>Catalogue of Books registered in the Punjab under Act XXV of 1867 and Act X of 1890 · twelve quarters, March 1910 – December 1912 · extracted from SV 412/44 · Graves &amp; Davis</p>
 </header>
 <nav>
  <button data-t="ov" class="on">Overview</button>
@@ -226,6 +250,8 @@ footer{padding:18px 30px;color:var(--dim);font-size:12px;border-top:1px solid va
 <main>
 <section id="ov" class="on">
  <div class="cards" id="ovCards"></div>
+ <h2>The register over time — titles and copies by quarter</h2>
+ <div id="ovTime"></div>
  <h2>Registered titles and copies by language (books; periodicals excluded)</h2>
  <div id="ovLang"></div>
  <h2>Topics</h2><div id="ovTopic"></div>
@@ -265,7 +291,7 @@ footer{padding:18px 30px;color:var(--dim);font-size:12px;border-top:1px solid va
  <div class="note" id="nwCap"></div>
 </section>
 <section id="mk">
- <h2>One text, three scripts: the Relief Fund circular</h2>
+ <h2>One text, three scripts: the Relief Fund circular (1910)</h2>
  <p style="max-width:760px">The Punjab Hindu Family Mutual Relief Fund issued its monthly circular in Urdu, Punjabi (Gurmukhi) and Hindi (Nagari) — same text, same publisher, same registration day, consecutive registration numbers. Average copies per issue, by quarter:</p>
  <canvas id="mkC" width="700" height="330"></canvas>
  <div class="note">The Urdu edition is at series <b>Volume XV</b>; Hindi and Punjabi at <b>Volume VIII</b> — a Hindu mutual-aid society spoke to its members in Urdu only for its first seven years. Print runs measure publisher supply decisions, not readership.</div>
@@ -278,12 +304,12 @@ footer{padding:18px 30px;color:var(--dim);font-size:12px;border-top:1px solid va
 <section id="me">
  <h2>Method</h2>
  <div class="note" style="color:var(--ink)">
- <p><b>Source.</b> Scanned quarterly <i>Catalogues of Books registered in the Punjab</i> (India Office SV 412/44), all four quarters ending 31 March, 30 June, 30 September and 31 December 1910 — a complete year (annual registration sequence 1–1410). The January–March quarter sits at the front of the same 1910-1912 bound volume.</p>
+ <p><b>Source.</b> Scanned quarterly <i>Catalogues of Books registered in the Punjab</i> (India Office SV 412/44), all twelve quarters of 1910, 1911 and 1912 — the complete 1910–1912 bound volume. Registration numbers run as one annual sequence per year (1910: 1–1410; 1911: 1–1565; 1912: 1–1532). 1910 was transcribed in-session and cross-checked against Prof. Davis's independent hand-transcription; 1911–1912 were extracted via the Batch API with the model chosen by a scored bake-off against the 1910 golden quarter (decision log D-015).</p>
  <p><b>Three-layer model.</b> Page image → verbatim record (the catalog's own words, misprints and editorializing preserved) → normalized layer (our act: spelling folds, script variants, press-name aliases — every fold documented in the project decision log). This explorer displays normalized language/printer/city and verbatim everything else.</p>
  <p><b>Provenance.</b> Every entry carries printed page + serial ("p.s" column) and PDF page. Each record's detail panel links straight to its source: "view scanned page" opens the page image in this window (arrow keys page through the quarter; click to zoom). Local builds additionally deep-link the bound-volume PDF at the exact page. If the scan viewer reports missing images, open this file from inside the project folder or rebuild with <code>python build_site.py --package</code>.</p>
- <p><b>Uncertainty.</b> %%FLAGGED%% items sit in the four quarters' adjudication queues (degraded digits, margin-cut copyright numbers, pencil-obscured serials, plus cross-entry checks such as registration collisions) — per-entry flags are visible in the detail panel and filterable ("flagged only").</p>
+ <p><b>Uncertainty.</b> %%FLAGGED%% items sit in the twelve quarters' adjudication queues (degraded digits, margin-cut copyright numbers, pencil-obscured serials, plus cross-entry checks such as registration collisions) — per-entry flags are visible in the detail panel and filterable ("flagged only").</p>
  <p><b>Scope.</b> Registered print runs measure publisher supply decisions under a legal-deposit regime.</p>
- <p><b>Prior-hand marginalia.</b> The bound volumes carry pencil annotations — X-marks, a running margin count, "Specimen" notes, and handwritten multi-part verso indexes (Q1, Q3, Q4) — in an earlier, unidentified hand that <i>predates</i> Prof. Davis's acquisition of the volumes (confirmed with him). We capture them per-entry (the "annotated" filter) as a second-order layer over the register; their provenance and meaning remain an open question.</p>
+ <p><b>Prior-hand marginalia.</b> The bound volume carries pencil annotations — X-marks, a running margin count, "Specimen" notes, and handwritten multi-part indexes at nearly every quarter's end (once bound <i>inside</i> a quarter, 1911 Q1; once on the volume's very last leaf, after December 1912) — in an earlier, unidentified hand that <i>predates</i> Prof. Davis's acquisition of the volumes (confirmed with him). We capture them per-entry (the "annotated" filter) and per-leaf (marginalia_*.md in the quarter data folders) as a second-order layer over the register; their provenance and meaning remain an open question.</p>
  </div>
 </section>
 </main>
@@ -301,9 +327,10 @@ footer{padding:18px 30px;color:var(--dim);font-size:12px;border-top:1px solid va
 </div>
 <footer>Generated from punjab.db by analysis/slice_1910/build_site.py · verbatim layer preserves the catalog as printed · normalization per DECISIONS.md D-008/D-010/D-011 · July 2026</footer>
 <script>
-const E=%%ENTRIES%%,NODES=%%NODES%%,EDGES=%%EDGES%%,EXH=%%EXHIBITS%%,META=%%META%%,QINFO=%%QINFO%%;
+const E=%%ENTRIES%%,NODES=%%NODES%%,EDGES=%%EDGES%%,EXH=%%EXHIBITS%%,META=%%META%%,QINFO=%%QINFO%%,TL=%%TIMELINE%%;
 const $=id=>document.getElementById(id);
 const fmt=n=>n.toLocaleString('en-US');
+const qlbl=q=>q.slice(0,4)+' Q'+q[5];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 /* tabs */
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
@@ -336,24 +363,29 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
  $('ovLang').appendChild(wrap);
  bars(b1,langN,'#4d6d9a',fmt);bars(b2,langC,'#8a5a44',fmt);
  bars($('ovTopic'),topN,'#6a8a5a',fmt,10);bars($('ovCity'),cityN,'#8a7a44',fmt,8);
+ /* chronological timeline strip (ordered, not sorted) */
+ const tmax=Math.max(...TL.map(r=>r[1])),cmax=Math.max(...TL.map(r=>r[2]));
+ $('ovTime').innerHTML=TL.map(([q,n,c])=>'<div class="bar"><div class="lbl">'+qlbl(q)+
+  '</div><div class="trk"><div class="fill" style="width:'+(52*n/tmax)+'%;background:#4d6d9a" title="titles"></div><span>'+fmt(n)+
+  '</span><div class="fill" style="width:'+(30*c/cmax)+'%;background:#8a5a44" title="copies"></div><span>'+fmt(c)+' copies</span></div></div>').join('');
 })();
 /* ---------- entries ---------- */
 function opts(sel,vals,byName){const cnt={};vals.forEach(v=>{if(v)cnt[v]=(cnt[v]||0)+1;});
  Object.entries(cnt).sort(byName?(a,b)=>a[0]<b[0]?-1:a[0]>b[0]?1:0:(a,b)=>b[1]-a[1]).forEach(([v,n])=>{
   const o=document.createElement('option');o.value=v;o.textContent=v+' ('+n+')';sel.appendChild(o);});}
-opts($('fQ'),E.map(e=>'Q'+e.q[1]),true);opts($('fL'),E.map(e=>e.lang));opts($('fT'),E.map(e=>e.top));
+opts($('fQ'),E.map(e=>e.q),true);opts($('fL'),E.map(e=>e.lang));opts($('fT'),E.map(e=>e.top));
 opts($('fC'),E.map(e=>e.city));opts($('fP'),E.map(e=>e.pr));
 ['fQ','fL','fT','fC','fP','fS','fFlag','fEduc','fMark'].forEach(id=>$(id).addEventListener('input',renderTable));
 let shown=[];
 function renderTable(){
  const q=$('fQ').value,L=$('fL').value,T=$('fT').value,C=$('fC').value,P=$('fP').value,
   s=$('fS').value.toLowerCase(),fo=$('fFlag').checked,eo=$('fEduc').checked,mo=$('fMark').checked;
- shown=E.filter(e=>(!q||('Q'+e.q[1])===q)&&(!L||e.lang===L)&&(!T||e.top===T)&&(!C||e.city===C)&&(!P||e.pr===P)
+ shown=E.filter(e=>(!q||e.q===q)&&(!L||e.lang===L)&&(!T||e.top===T)&&(!C||e.city===C)&&(!P||e.pr===P)
   &&(!fo||e.fl)&&(!eo||e.educ==='Y')&&(!mo||e.mk)
   &&(!s||(e.ti+' '+e.gl+' '+e.au+' '+e.no+' '+e.pub).toLowerCase().includes(s)));
  $('enCount').textContent='Showing '+(shown.length>400?'first 400 of ':'')+fmt(shown.length)+' of '+fmt(E.length)+' entries'+
   (shown.length?' · '+fmt(shown.reduce((a,e)=>a+e.cop,0))+' copies':'');
- $('enBody').innerHTML=shown.slice(0,400).map((e,i)=>'<tr class="rw" data-i="'+i+'"><td>Q'+e.q[1]+'</td><td>'+e.pg+'.'+e.s+
+ $('enBody').innerHTML=shown.slice(0,400).map((e,i)=>'<tr class="rw" data-i="'+i+'"><td>'+esc(e.q)+'</td><td>'+e.pg+'.'+e.s+
   '</td><td>'+esc(e.lang)+'</td><td>'+esc(e.top)+'</td><td>'+esc(e.ti)+(e.fl?' <span title="flagged" style="color:#8a5a44">⚑</span>':'')+
   (e.mk?' <span title="marginalia (earlier hand)" style="color:#4d6d9a">✎</span>':'')+'</td><td>'+esc(e.au)+'</td><td>'+esc(e.pr)+
   '</td><td>'+(e.cop?fmt(e.cop):'')+'</td><td>'+esc(e.price)+'</td></tr>').join('');
@@ -366,7 +398,7 @@ function showDetail(e){
   ['Publisher',e.pub+(e.pubc?' — '+e.pubc:'')],['Printer',e.pr+(e.city?', '+e.city:'')],['Date',e.dt],
   ['Copies',e.cop?fmt(e.cop):''],['Price',e.price],['Edition',e.ed],['Educational',e.educ],['Periodical',e.per],
   ['Copyright',e.cr],['Extractor notes',e.no],['Marginalia (earlier hand)',e.mk]];
- $('detailBody').innerHTML='<h3>'+esc(e.ti)+'</h3><div class="cite" style="color:#8a5a44;font-size:12.5px">1910 Q'+e.q[1]+
+ $('detailBody').innerHTML='<h3>'+esc(e.ti)+'</h3><div class="cite" style="color:#8a5a44;font-size:12.5px">'+qlbl(e.q)+
   ' · printed page '+e.pg+', serial '+e.s+' · PDF page '+e.pdf+'</div>'+
   '<div class="fld" style="margin-top:10px"><button class="srcBtn" onclick="openScan(curE.q,curE.pg)">view scanned page</button>'+
   (QINFO[e.q].pdfurl?'<a class="srcBtn" style="text-decoration:none;display:inline-block" target="_blank" href="'+pdfHref(e.q,e.pdf)+'">open PDF at p.'+e.pdf+'</a>':'')+'</div>'+
@@ -380,14 +412,16 @@ let scanQ=null,scanPg=0;
 function scanFile(q,pg){const i=QINFO[q];return 'p'+String(pg).padStart(3,'0')+'_pdf'+(pg+i.off)+'.png'}
 function openScan(q,pg){
  scanQ=q;scanPg=pg;const i=QINFO[q],fn=scanFile(q,pg);
- const cands=['pages/1910'+q+'/'+fn,'../../../pipeline/data/1910'+q+'/pages/'+fn];
+ /* packaged PNG, then packaged web-compressed JPEG (how post-1910 quarters are
+    deployed to the docs/ site to stay inside the Pages size budget), then repo path */
+ const cands=['pages/'+q+'/'+fn,'pages/'+q+'/'+fn.replace('.png','.jpg'),'../../../pipeline/data/'+q+'/pages/'+fn];
  const img=$('scanImg'),msg=$('scanMsg');
  img.style.display='block';msg.style.display='none';img.classList.remove('zoom');
  let k=0;img.onerror=()=>{if(++k<cands.length)img.src=cands[k];
   else{img.style.display='none';msg.style.display='block';
    msg.textContent='Scan image not found. Open this file from the project folder, or rebuild with "python build_site.py --package" to bundle the page images.';}};
  img.src=cands[0];
- $('scanCap').textContent='1910 Q'+q[1]+' · printed page '+pg+' · PDF page '+(pg+i.off);
+ $('scanCap').textContent=qlbl(q)+' · printed page '+pg+' · PDF page '+(pg+i.off);
  const pu=QINFO[q].pdfurl,pa=$('scanPdf');
  if(pu){pa.style.display='';pa.href=pu+'#page='+(pg+i.off);}else{pa.style.display='none';}
  $('scan').classList.add('on');
@@ -626,12 +660,28 @@ document.querySelectorAll('.ex button').forEach(b=>b.onclick=()=>{
 </script></body></html>
 """
 
-# market table + fund averages for embedding
-market = []
-with open(OUT / "market_by_language.csv", encoding="utf-8-sig") as fh:
-    for r in csv.DictReader(fh):
-        r = {k: (int(v) if v.lstrip("-").isdigit() else v) for k, v in r.items()}
-        market.append(r)
+# market table computed live across all years (books only, per D-008 norm_lang);
+# replaces the 1910-slice market_by_language.csv so the table covers the corpus
+from statistics import median
+_mk = {}
+for e in entries:
+    if e["per"] == "Y":
+        continue
+    d = _mk.setdefault(e["lang"], {"n": 0, "cop": 0, "runs": [], "free": 0, "educ": 0})
+    d["n"] += 1
+    d["cop"] += e["cop"]
+    if e["cop"]:
+        d["runs"].append(e["cop"])
+    if (e["price"] or "").strip().lower().startswith("free"):
+        d["free"] += 1
+    if e["educ"] == "Y":
+        d["educ"] += 1
+market = [{"language": k, "entries": d["n"], "copies": d["cop"],
+           "median_run": int(median(d["runs"])) if d["runs"] else 0,
+           "pct_free": f"{round(100 * d['free'] / d['n'])}%",
+           "pct_educ": f"{round(100 * d['educ'] / d['n'])}%"}
+          for k, d in sorted(_mk.items(), key=lambda kv: -kv[1]["n"])
+          if d["n"] >= 2]
 
 fund_avg = []
 with open(OUT / "relief_fund_series.csv", encoding="utf-8-sig") as fh:
@@ -651,11 +701,12 @@ html = (HTML.replace("%%ENTRIES%%", jdump(entries))
             .replace("%%MARKET%%", jdump(market))
             .replace("%%FUND%%", jdump(fund_avg))
             .replace("%%QINFO%%", jdump(QINFO))
+            .replace("%%TIMELINE%%", jdump(TIMELINE))
             .replace("%%FLAGGED%%", str(META["flagged"]))
             .replace("%%SELFPUB%%", META["selfpub"])
             .replace("%%NENT%%", f"{len(entries):,}"))
 
-out_file = OUT / "explore_1910.html"
+out_file = OUT / "explore_1910_1912.html"
 out_file.write_text(html, encoding="utf-8")
 print(f"{out_file} written: {len(html)/1024:.0f} KB, {len(entries)} entries, "
       f"{len(nodes)} nodes, {len(edges)} edges")
@@ -663,8 +714,8 @@ print(f"{out_file} written: {len(html)/1024:.0f} KB, {len(entries)} entries, "
 if "--package" in sys.argv:
     total = 0
     for q in QINFO:
-        src = HERE.parent.parent / "pipeline" / "data" / f"1910{q}" / "pages"
-        dst = OUT / "pages" / f"1910{q}"
+        src = HERE.parent.parent / "pipeline" / "data" / q / "pages"
+        dst = OUT / "pages" / q
         dst.mkdir(parents=True, exist_ok=True)
         for png in src.glob("*.png"):
             shutil.copy2(png, dst / png.name)

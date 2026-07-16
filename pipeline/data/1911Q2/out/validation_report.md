@@ -1,0 +1,91 @@
+# Validation report — 1911Q2
+
+- extracted entries: 456
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 105 items
+
+## By category
+- flag:'1,5C0' possibly 1,500: 1
+- flag:'16?' printed, likely 16°: 1
+- flag:'Frice' printed for 'Price': 1
+- flag:'Ialamia' likely 'Islamia', degraded print: 1
+- flag:'Iamail' printed for Ismail: 1
+- flag:'Lovel etters' likely 'Love letters', degraded print: 1
+- flag:'Roze Bazar' spelling uncertain, possibly 'Roze Bazar': 1
+- flag:'Wzair' likely misprint for 'Wazir': 1
+- flag:'ud-dih' possibly 'ud-din': 1
+- flag:ambiguous, printed as '4.120.': 1
+- flag:ambiguous, printed as '4.608.': 1
+- flag:day partly obscured by stamp, reads [1st May, 1911]?: 1
+- flag:day printed as '16th' with ambiguous first digit: 1
+- flag:day/year partly obscured '191..': 1
+- flag:degraded text, reading uncertain: 1
+- flag:faint pencil marking '30' in copyright column, uncertain: 1
+- flag:faint text, city and details uncertain: 1
+- flag:final digit ambiguous, reads 665 or 668: 1
+- flag:final digit smudged: 1
+- flag:handwritten number in margin, uncertain reading: 1
+- flag:last figure 132 or 138 unclear: 1
+- flag:native-script word transliteration uncertain: 1
+- flag:obscured by stamp: 1
+- flag:obscured by stamp, reads 18: 1
+- flag:place 'Lhatinda' uncertain reading (Bhatinda?): 1
+- flag:printed '1, 00', ambiguous: 1
+- flag:printed '1,C00' ambiguous: 1
+- flag:printed '29th March, 19.1.' year digits unclear: 1
+- flag:printed '5,000' with space '5 000': 1
+- flag:printed '7C0', likely 700: 1
+- flag:printed '8,° R.' unclear: 1
+- flag:printed '8°, R.': 1
+- flag:printed 'Baharat', possibly Bharat: 1
+- flag:printed 'Diitto', likely 'Ditto': 1
+- flag:printed 'Dittoi' possibly Ditto: 1
+- flag:printed 'Price, 3 annas': 1
+- flag:printed 'Price, 4 annas': 1
+- flag:printed 'adition': 1
+- flag:printed 'lithe.' likely litho.: 1
+- flag:printed 1,0C0 degraded, read as 1000: 1
+- flag:printed 172 with unclear final digit: 1
+- flag:printed 2 but sequence suggests different; ambiguous: 1
+- flag:printed 564 or 564?: 1
+- flag:printed 800/8OO, reading 800: 1
+- flag:printed as '14' overwritten, uncertain: 1
+- flag:printed as 107 but partly obscured: 1
+- flag:printed as 12? faint, read 123: 1
+- flag:printed as 31 but partly illegible: 1
+- flag:printed digit '1)' degraded, read as 10: 1
+- flag:printed digit unclear, read as 27: 1
+- flag:printed serial digit ambiguous, read as 8: 1
+- flag:printed serial digit unclear, inferred 94: 1
+- flag:printed serial digit unclear, likely 48: 1
+- flag:printed serial digits degraded, read as 13: 1
+- flag:printed serial illegible, assumed 1: 2
+- flag:printed serial reads 6, possibly obscured: 1
+- flag:publication date 1910 in title-line, registration date 1st March 1911: 1
+- flag:publisher line partly reads 'ublished by the author': 1
+- flag:reads 1,000 or 1,0?0: 1
+- flag:reads 267, possibly should be in 7xx series: 1
+- flag:reads 268, possibly 768: 1
+- flag:regiment number '72nd' uncertain: 1
+- flag:right column numbers/date degraded: 1
+- flag:right margin degraded: 3
+- flag:right margin degraded, register no. uncertain: 1
+- flag:romanization from Arabic script uncertain: 1
+- flag:serial digit uncertain, read as 38: 1
+- flag:serial digit uncertain, read as 42: 1
+- flag:serial not legible: 2
+- flag:serial number not clearly printed, inferred: 2
+- flag:serial number partly obscured by margin mark, read as 1: 1
+- flag:serial number partly obscured, read as 5: 1
+- flag:serial number partly obscured, read as 8: 1
+- flag:serial reads 29, likely 39: 1
+- flag:transliteration of native title uncertain: 1
+- flag:year printed as 191? partly illegible: 1
+- internal:copies outside plausible range: 4
+- internal:non-consecutive serials in Punjabi-Fiction: 2
+- internal:non-consecutive serials in Urdu-History: 1
+- internal:non-consecutive serials in Urdu-Law: 1
+- internal:non-consecutive serials in Urdu-Miscellaneous: 8
+- internal:non-consecutive serials in Urdu-Religion: 2
+- internal:registration no. appears 2x in quarter: 6

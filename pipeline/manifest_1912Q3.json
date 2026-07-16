@@ -1,0 +1,10 @@
+{
+  "quarter": "1912Q3",
+  "quarter_label": "Quarter ending 30th September, 1912",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [505, 553],
+  "printed_page_offset": -503,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1912Q3",
+  "note": "Prior-hand index written on the blank lower half of the final printed p50 (pdf 553); capture via marks/marginalia notes, no separate leaf"
+}

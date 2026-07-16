@@ -1,0 +1,10 @@
+{
+  "quarter": "1912Q4",
+  "quarter_label": "Quarter ending 31st December, 1912",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [555, 606],
+  "printed_page_offset": -553,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1912Q4",
+  "note": "Prior-hand index verso at pdf 607 (last leaf before back cover at 608); documented in data/1912Q4/marginalia_pdf607.md"
+}

@@ -1,0 +1,10 @@
+{
+  "quarter": "1912Q2",
+  "quarter_label": "Quarter ending 30th June, 1912",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [454, 503],
+  "printed_page_offset": -453,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1912Q2",
+  "note": "Unusually, content starts on an UNNUMBERED first page (pdf 454, counted as printed 1); printed numbers appear from p2 (pdf 455). Offset verified against printed 7 = pdf 460 and printed 47 = pdf 500."
+}

@@ -1,0 +1,104 @@
+# Validation report — 1911Q4
+
+- extracted entries: 372
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 123 items
+
+## By category
+- flag:'16' with superscript, possibly '16½': 1
+- flag:'Ke I' unclear reading: 1
+- flag:'R.' printed after litho., meaning unclear: 1
+- flag:'obl.' printed after 8°: 1
+- flag:1,000 reading uncertain but standard: 1
+- flag:also printed Kartik Krishna 2, Sambat 1968 Vikrami: 1
+- flag:ambiguous reading '1do': 1
+- flag:day reads '20th'?: 1
+- flag:digit degraded, reads '269'?: 1
+- flag:digit partially obscured: 1
+- flag:digit unclear: 3
+- flag:digits faint, read as 1314: 1
+- flag:digits obscured, read as 205: 1
+- flag:digits obscured, read as 206: 1
+- flag:digits overwritten, reads 1496 uncertain: 1
+- flag:digits partly obscured, read as 207: 1
+- flag:first digit ambiguous, possibly 1334: 1
+- flag:illegible: 6
+- flag:last digit faint, could be 1402 or 1403: 1
+- flag:last digit faint, read as 1510: 1
+- flag:last digit unclear (606 or 60?): 1
+- flag:last digit unclear, read as 1320: 1
+- flag:leading digit degraded, possibly 60: 1
+- flag:leading digit degraded, reads '265'?: 1
+- flag:leading digit faint: 1
+- flag:leading digit partly obscured, read as 3: 1
+- flag:leading digit unclear: 2
+- flag:left margin digit faint, read as 249: 1
+- flag:left margin serial faint, read as 252: 1
+- flag:month illegible in brackets: 1
+- flag:native script reading uncertain: 1
+- flag:partially legible: 1
+- flag:partly obscured, read as 68: 1
+- flag:partly obscured, read as 69: 1
+- flag:printed '1,0C0' partly degraded: 1
+- flag:printed '19:1.' ambiguous, read as 1911: 1
+- flag:printed '4C0', reading as 400: 1
+- flag:printed '5C0', likely 500: 1
+- flag:printed 'Do.' resolved to 1000: 1
+- flag:printed 'F. C. --/2' ambiguous: 1
+- flag:printed 'Price, 12 annas': 2
+- flag:printed 'R.' meaning uncertain: 1
+- flag:printed 'Sescretary' - possibly Secretary: 1
+- flag:printed 1912 in a 1911 quarter catalogue: 1
+- flag:printed 5C0, likely 500: 1
+- flag:printed as '11' but faint, could be 31: 1
+- flag:printed as '13 35', read 1335: 1
+- flag:printed as '2 annas', ink faint on numeral: 1
+- flag:printed as 144 with unclear final digit: 1
+- flag:printed as 25?: 1
+- flag:printed as 300, first digit unclear: 1
+- flag:printed digit unclear: 2
+- flag:printed digit unclear (appears 4): 1
+- flag:printed digit unclear, read as 92: 1
+- flag:printed digit unclear, read as 93: 1
+- flag:printed digits faint, read as 105: 1
+- flag:printed number faint, read as 42: 1
+- flag:printed serial partly obscured, read as 211: 1
+- flag:read as 1222, slightly faint: 1
+- flag:read as 209: 1
+- flag:read as 212: 1
+- flag:reads 1,0)0: 1
+- flag:reads 1,0C0, likely 1,000: 1
+- flag:reads 1,C00: 1
+- flag:reads 80° / 800 uncertain: 1
+- flag:reads 88, could be 83: 1
+- flag:registration number partly illegible/superscript: 1
+- flag:romanization Qisra uncertain: 1
+- flag:serial digit partly obscured: 2
+- flag:serial digits obscured, read as 222: 1
+- flag:serial digits obscured, read as 223: 1
+- flag:serial faint, read as 255: 1
+- flag:serial faint, read as 256: 1
+- flag:serial number illegible, inferred: 1
+- flag:serial number not clearly printed: 3
+- flag:serial number obscured by margin marks: 1
+- flag:serial number obscured by pencil mark: 1
+- flag:serial number obscured by pencil mark, read as 24: 1
+- flag:serial number obscured, inferred as 14: 1
+- flag:serial number obscured, inferred as 15: 1
+- flag:serial number partly obscured, read as 174: 1
+- flag:serial obscured by pencil mark, read as 25: 1
+- flag:serial obscured, read as 225: 1
+- flag:serial obscured, read as 226: 1
+- flag:serial obscured, read as 227: 1
+- flag:spacing of 'Khadim-ut-Talim' uncertain: 1
+- flag:text partially cut off at right margin: 1
+- flag:year printed as 1911 but reads '1911' unclear: 1
+- internal:non-consecutive serials in Panjabi-Miscellaneous: 2
+- internal:non-consecutive serials in Punjabi-Miscellaneous: 1
+- internal:non-consecutive serials in Punjabi-Poetry: 1
+- internal:non-consecutive serials in Sindhi-Religion: 1
+- internal:non-consecutive serials in Urdu-Biography: 3
+- internal:non-consecutive serials in Urdu-Law: 1
+- internal:non-consecutive serials in Urdu-Miscellaneous: 3
+- internal:registration no. appears 2x in quarter: 10

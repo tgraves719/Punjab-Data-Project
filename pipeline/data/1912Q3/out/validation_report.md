@@ -1,0 +1,96 @@
+# Validation report — 1912Q3
+
+- extracted entries: 372
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 94 items
+
+## By category
+- flag:'Gopal'/'Gojal' uncertain: 1
+- flag:'R.' meaning unclear: 1
+- flag:'alias' printed as 'a ias' unclear: 1
+- flag:Chhabu spelling degraded: 1
+- flag:Darpan title word partly obscured (Darp..): 1
+- flag:Press name reading 'Roz Bazar' uncertain: 1
+- flag:R. abbreviation ambiguous: 1
+- flag:Sambat 1969 Vikrami printed: 1
+- flag:Virgina spelling as printed, uncertain: 1
+- flag:author name 'Nasar' uncertain reading: 1
+- flag:column 6 partly cut off: 'Maulavi Muhammad Alam Shah, Faridi, Delhi; No. 155, dated 26th July, 1912.': 1
+- flag:column value faint, reading as 200: 1
+- flag:day reading 25th uncertain: 1
+- flag:degraded, reads as 12 (repeats): 1
+- flag:degraded, reads as 14: 1
+- flag:digit degraded, reading as 60: 1
+- flag:digit faint, reads as 7: 1
+- flag:faint, reads 888: 1
+- flag:final digit unclear, reads 804: 1
+- flag:last digit ambiguous (807 vs 867): 1
+- flag:leading digit degraded, reads ':08': 1
+- flag:leading mark before 168 unclear: 1
+- flag:marked (a) footnote reference: 1
+- flag:mixed Gurmukhi and roman transliteration: 1
+- flag:no serial number printed for this entry: 1
+- flag:page number partly obscured, read as 16: 1
+- flag:possible smudge, reads 1067: 1
+- flag:printed ' p. 85' — leading char garbled: 1
+- flag:printed '1 000' with gap: 1
+- flag:printed '1,C00' — C likely 0: 1
+- flag:printed '1,C00', reading as 1000: 1
+- flag:printed '2 0', reading as 200: 1
+- flag:printed '64.' partly obscured: 1
+- flag:printed 'Kibab' likely 'Kitab': 1
+- flag:printed 'Pr.ce': 1
+- flag:printed 'Prire' (typo for Price): 1
+- flag:printed 'Published by the author, Medical and Military Press, Jhelum': 1
+- flag:printed 'R.' after litho., unclear: 1
+- flag:printed 'litho., R.' — R meaning unclear: 1
+- flag:printed 1,0?0 partly degraded, read 1,020: 1
+- flag:printed 1,0C0 ambiguous: 1
+- flag:printed 1,5C0 — ambiguous digit: 1
+- flag:printed 1,C00 (OCR artifact), read as 1,000: 1
+- flag:printed 1085, digit uncertain: 1
+- flag:printed 1086, last digit uncertain: 1
+- flag:printed 2,00) ambiguous, likely 2,000: 1
+- flag:printed 500 or 600, ambiguous first digit: 1
+- flag:printed 5C0, read as 500: 1
+- flag:printed as 1,060 or 1,000, ambiguous: 1
+- flag:printed as £76, likely 876: 1
+- flag:printed digit faint, likely 2: 1
+- flag:printed digit unclear, read as 22: 1
+- flag:printed serial digit faint, likely 5: 1
+- flag:printed with leading mark, reads 750: 1
+- flag:printer name reading uncertain ('Almunir'): 1
+- flag:reads '1,000' with faint comma: 1
+- flag:reads 'Bilali'/'Bilali' uncertain first letter: 1
+- flag:reads 1,000 or 1,000 unclear digit: 1
+- flag:reads 1,000 or 1,000 with faint first digit: 1
+- flag:reads 1,000 or 1,060; ambiguous digit: 1
+- flag:reads 1,041 or 1,047: 1
+- flag:reads 1,0C0, likely 1,000: 1
+- flag:reads 1,0C0; obscured digit: 1
+- flag:reads 1,C00 (comma/zero unclear): 1
+- flag:reads 1090 but first digits faint: 1
+- flag:reads 10? possibly 100: 1
+- flag:reads 173 (partly obscured): 1
+- flag:reads 1C92; obscured digit, likely 1092: 1
+- flag:reads 31; poetry section restarts numbering: 1
+- flag:serial digit partly obscured, read as 93: 1
+- flag:serial number faint in scan: 1
+- flag:serial number obscured: 3
+- flag:serial number obscured/illegible in scan: 1
+- flag:serial number partly obscured: 1
+- flag:serial obscured, read as 100: 1
+- flag:serial obscured, read as 98: 1
+- flag:serial obscured, read as 99: 1
+- flag:size reading '16°' uncertain, printed '1C°': 1
+- flag:trailing mark after 999 unclear: 1
+- flag:year of prior catalogue reads 1910 partly obscured: 1
+- flag:year printed '191?.' unclear: 1
+- flag:year printed as '19 2' (1912 with gap): 1
+- internal:copies outside plausible range: 2
+- internal:non-consecutive serials in English-Miscellaneous: 1
+- internal:non-consecutive serials in Punjabi-Poetry: 1
+- internal:non-consecutive serials in Urdu-Philosophy: 1
+- internal:non-consecutive serials in Urdu-Science (Natural and Other): 1
+- internal:registration no. appears 2x in quarter: 4

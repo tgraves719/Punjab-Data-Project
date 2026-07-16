@@ -1,0 +1,97 @@
+# Validation report — 1911Q3
+
+- extracted entries: 395
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 98 items
+
+## By category
+- flag:'32nd Har, Sambat 1968' native date: 1
+- flag:'Dl arm' printed for Dharm, degraded: 1
+- flag:'Gas' likely 'Gazette' - degraded: 1
+- flag:'Khajaj' ambiguous, possibly 'Khaja': 1
+- flag:'Mufid-i, Am' spelling/comma uncertain: 1
+- flag:'Naqig' uncertain reading, may be 'Naqiq': 1
+- flag:'No. 123i' garbled; likely No. 123: 1
+- flag:'Pess' likely misprint for Press: 1
+- flag:'R.' printed after format, meaning uncertain: 1
+- flag:'heldiin' printed thus, likely 'held in': 1
+- flag:'litho., R.' — R unclear: 1
+- flag:Gurmulhi likely Gurmukhi, degraded text: 1
+- flag:Har, 1968 [3rd July, 1911.]: 1
+- flag:Pombay likely Bombay, degraded text: 1
+- flag:Pustkala vs Fustkala uncertain: 1
+- flag:Sambat year printed as 1968; reading uncertain: 1
+- flag:copyright column entry spans two entries; assigned to this entry: 1
+- flag:date [September, 1911.] but volume for September 1910; ambiguous: 1
+- flag:date day digit degraded '6th' uncertain: 1
+- flag:date digit partly illegible: 1
+- flag:degraded text in right column: 1
+- flag:degraded text, 'teasher' as printed, place name uncertain: 1
+- flag:digit faint, read as 56: 1
+- flag:digit faint, read as 58: 1
+- flag:digit faint, read as 59: 1
+- flag:digit obscured by margin mark, read as 89: 1
+- flag:entry No. reads 208 uncertain: 1
+- flag:faint marking near reg cell: 1
+- flag:faint pencil mark in copyright column, illegible: 1
+- flag:faint reading: 2
+- flag:final digit ambiguous, could be 1124 or 1129: 1
+- flag:handwritten annotation in margin near serial: 1
+- flag:labeled 'Gurmukhi Text.' with native-script title: 1
+- flag:leading digit degraded, reads ?56: 1
+- flag:leading digit obscured: 1
+- flag:leading digit unclear (printed as '1,000'): 1
+- flag:leading mark before 1145 unclear: 1
+- flag:native-script reading uncertain: 1
+- flag:no serial number printed: 3
+- flag:poetry serial numbering restarts at 9: 1
+- flag:price given as 'R.' unclear, but 'Price, 5 annas' printed below: 1
+- flag:printed '11 47' with gap, uncertain: 1
+- flag:printed '2.116' ambiguous: 1
+- flag:printed '2°' possibly '8°': 1
+- flag:printed '3nd May' — day digit ambiguous: 1
+- flag:printed 'Frice' for 'Price': 1
+- flag:printed 'Peshawar': 1
+- flag:printed 'editien': 1
+- flag:printed 'iitho.' apparent typo for litho.: 1
+- flag:printed 16' unclear: 1
+- flag:printed 1:000: 1
+- flag:printed as 11,000; possibly 1,000: 1
+- flag:printed as 12, faint: 1
+- flag:printed as 2,000 with unclear middle digit: 1
+- flag:printed as 200 but ambiguous, could be 300: 1
+- flag:printed as 22 but overwritten/unclear: 1
+- flag:printed digit ambiguous, reads 6: 1
+- flag:printed digit faint, read as 9: 1
+- flag:printed digit unclear, appears 2: 1
+- flag:printed value ambiguous, read as 64: 1
+- flag:reading '1,000' as printed '1,0C0': 1
+- flag:reading 'Re. 1-4 0.' ambiguous: 1
+- flag:reads 1146, digits partly unclear: 1
+- flag:reads 2C0, likely 200: 1
+- flag:reads 50O / 500 ambiguous: 1
+- flag:reg no. 125 partly obscured: 1
+- flag:registration number and date partly illegible: 1
+- flag:registration number digits degraded: 2
+- flag:serial illegible in left margin: 2
+- flag:serial number degraded, read as 48: 1
+- flag:serial number degraded, read as 49: 1
+- flag:serial number degraded/partly illegible: 1
+- flag:serial number faint, read as 198: 1
+- flag:serial number faint, read as 26: 1
+- flag:serial number faint, read as 28: 1
+- flag:serial number illegible in left margin: 1
+- flag:serial number not clearly printed: 1
+- flag:serial number partially obscured, read as 46: 1
+- flag:serial number partly cut off at left margin: 1
+- flag:serial partly obscured, read 182: 1
+- internal:copies outside plausible range: 1
+- internal:non-consecutive serials in English-Law: 1
+- internal:non-consecutive serials in English-Miscellaneous: 1
+- internal:non-consecutive serials in Kashmiri-Poetry: 1
+- internal:non-consecutive serials in Urdu-Language: 1
+- internal:non-consecutive serials in Urdu-Law: 1
+- internal:non-consecutive serials in Urdu-Miscellaneous: 1
+- internal:non-consecutive serials in Urdu-Religion: 4
+- internal:registration no. appears 2x in quarter: 2

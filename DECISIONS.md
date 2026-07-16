@@ -139,6 +139,19 @@ the embedded entries (build_network.py refactored to expose publisher_entity for
 reuse): Printer↔Publisher, Printer↔Language (press multilingualism), Printer↔Printer
 via shared publishers (cooperation backbone), Author↔Printer. Verified: 0% of drawn
 content in border strip; all four types build; slider re-thresholds live.
+**2026-07-15 update:** build_site.py generalized to every year in punjab.db (now
+1910–1912, 4,502 entries) and writes **out/explore_1910_1912.html** (2.5 MB) — the
+published single-year explore_1910.html is no longer overwritten. Changes: quarters
+keyed by full ID (1910Q1…1912Q4) everywhere incl. scan-viewer paths and --package;
+overview gains a chronological register-over-time strip; printer/publisher tiles and
+the script-market table are computed live from the corpus instead of the 1910-slice
+CSVs; the relief-fund chart stays as a labelled 1910 panel; four new exhibits
+(volume-spanning prior-hand scripture index; Imad-ud-din self-registration 1912Q2;
+30,000-copy Sachi Yadgar handbill 1911Q1; the flagged broken-type "New Fashion"
+title 1912Q4); method text covers all three annual reg sequences and the API
+extraction (D-015). Verified in browser: all tabs, 12-quarter filter, detail panel,
+network canvas, market table (41 langs), scan viewer loading 1911 pages. At ~5 more
+years the 2.5 MB single file will need the D-012-anticipated pagination/split.
 
 ## D-013 (2026-07-08) — Source-page linking: rendered PNGs first, PDF deep-link second
 **Context:** Thomas asked whether the explorer can link records directly to the
@@ -187,3 +200,22 @@ collisions/gaps). Q1 is the 2nd-largest quarter by entries (382, after Q3's 423)
 The vertical slice (D-007) now runs on a real full year; the slice scripts
 (build_network / script_market / build_site / davis_memo) must be re-run to fold Q1 in.
 Next extraction target is 1911 (same volume, 1911Q1 at PDF 195).
+
+## D-015 (2026-07-15) — API extraction model: Opus 4.8, chosen by bake-off
+**Context:** Scaling beyond 1910 requires the Batch API backend (extract_api.py). Three
+models were run over the full 1910Q2 golden quarter (42 pages, 321 entries) and diffed
+against the validated in-session extractions (analysis/bakeoff_1910Q2.py; scratch
+outputs in pipeline/data/1910Q2/_baked/, gitignored).
+**Decision:** claude-opus-4-8, Batch API, prompt-cached schema, thinking disabled.
+Evidence: Opus reg recall 1.000 / serial 0.987 / weighted 0.916 at $1.95 per quarter
+(batch); Haiku 4.5 was 5.6x cheaper but missed or misread 1 in 4 registration numbers
+(reg recall 0.755) and dropped 69 of 321 entries — reg/serial/copies are the validation
+instruments, so the cheap model is a false economy. Sonnet 5's batch was still queued
+at decision time; Opus left little headroom regardless. Output-token compression
+(shortened JSON keys) was considered and rejected: ~1/3 cost saving (~$27/decade) does
+not justify a remapping layer inside the fidelity-critical path.
+**Consequences:** Decade-scale cost ~$2/quarter (~$80 for the 1910s). Cost is ~83%
+output tokens; the golden 1910Q2 extractions remain the regression oracle for any
+future model/prompt change. Exact-match caveat: even Opus scores low on title/price
+against gold due to diacritic/punctuation variance — bake-off numbers are strict
+exact-match, relative comparison is what was decided on.

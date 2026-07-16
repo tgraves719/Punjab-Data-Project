@@ -1,0 +1,9 @@
+{
+ "model": "claude-opus-4-8",
+ "pages": 60,
+ "batch": true,
+ "input_tokens": 175802,
+ "output_tokens": 195036,
+ "cache_creation_input_tokens": 1340,
+ "cache_read_input_tokens": 79060
+}

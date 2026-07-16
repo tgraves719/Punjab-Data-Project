@@ -1,0 +1,90 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,404,English,History,1,flag,format,,,"size digit degraded, reads 'b°'"
+2,404,Arabic,Language,2,flag,edition,,,"'R.' printed, ambiguous"
+3,405,English,Miscellaneous,4,flag,serial,,,"serial number not clearly printed, inferred as 4"
+3,405,English,Miscellaneous,5,flag,serial,,,"serial number faint, read as 5"
+4,406,English,Philosophy,1,flag,copyright,,,right margin cropped/faint
+4,406,English,Philosophy,1,flag,marks,,,handwritten note in left margin
+4,406,English,Science (Mathematical),2,flag,copyright,,,right margin cropped/faint
+4,406,English,Miscellaneous,7,flag,copyright,,,right margin cropped/faint
+6,408,Hindi,Poetry,2,flag,copies,,,"'2,000' partly obscured, reads 2,00?"
+8,410,Punjabi,Biography,1,flag,publisher,,,'Gurnninda Nasak Agency' spelling uncertain
+8,410,Persian,Poetry,2,flag,pp_verbatim,,,"reads 273 or 276, unclear"
+8,410,Multani,Poetry,3,flag,copies,,,"printed '5 0' with gap, read as 50"
+8,410,Multani,Poetry,3,flag,date,,,year reads [1911] but partly unclear
+10,412,Punjabi,Language,2,flag,copies,,,"row uses Ditto for printer; copies read as 1,000"
+10,412,Punjabi,History,3,flag,date,,,"printed 19th November, 1011 — likely 1911"
+10,412,Punjabi,Miscellaneous,3,flag,title,,,continuation entry 'Part II.' of preceding title
+11,413,Punjabi,Miscellaneous,6,flag,pp_verbatim,,,"leading digit unclear, reads '?31'"
+12,414,Punjabi,Poetry,2,internal,copies,25000,,copies outside plausible range
+14,416,Punjabi,Poetry,11,flag,reg,,,"reads 396 but degraded, could be 336"
+14,416,Punjabi,Poetry,13,flag,date,,,"printed 7912, likely 1912"
+15,417,Punjabi,Poetry,23,flag,reg,,,"faint digits, reads 210"
+16,418,Punjabi,Potery,29,flag,section,,,"printed 'POTERY', likely 'POETRY'"
+16,418,Punjabi,Potery,32,flag,copies,,,"printed '2,C00', reading as 2000"
+17,419,Punjabi,Poetry,38,flag,serial,,,printed 39? reads 38/39 unclear
+17,419,Punjabi,Poetry,45,flag,edition,,,"'R.' printed, unclear meaning"
+17,419,Punjabi,Poetry,46,flag,edition,,,"'R.' printed, unclear meaning"
+19,421,Punjabi,Poetry,88,flag,printer,,,'Arorbans' uncertain reading
+21,423,Punjabi,Science (Mathematical),1,flag,notes,,,"'R.' printed after format, meaning unclear"
+21,423,Punjabi,Science (Natural and Other),1,flag,pp_verbatim,,,"leading digit of pagination degraded, read as 70"
+21,423,Punjabi,Religion,11,flag,serial,,,handwritten/unclear serial number
+23,425,Urdu,Art,1,flag,reg,,,"reads 165 or 105, degraded"
+23,425,Sanskrit,Religion,2,flag,serial,,,"printed 2, no serial 1 visible in section"
+24,426,Urdu,Biography,2,flag,gloss,,,'Biographies' partly degraded
+24,426,Urdu,Drama,2,flag,edition,,,reads 'R.' unclear
+24,426,Urdu,Biography,4,flag,copyright,,,right margin partly cut/degraded
+25,427,Urdu,Fiction,4,flag,edition,,,"'R.' printed after format, meaning unclear"
+26,428,Urdu,Fiction,12,flag,edition,,,edition shown as 'R.' unclear
+27,429,Urdu,Fiction,,flag,serial,,,serial number illegible/degraded in margin
+28,430,Urdu,Law,1,flag,author,,,spelling of Bahargava uncertain
+29,431,Urdu,Medicine,2,flag,author,,,"compiled by Lala Kirpa Ram, Bhalla, F.T.S."
+29,431,Urdu,Law,5,flag,reg,,,printer name Quanin uncertain reading
+31,433,Urdu,Miscellaneous,1,flag,printer_verbatim,,,Ra:put reading uncertain
+31,433,Urdu,Miscellaneous,6,flag,pp_verbatim,,,leading digit illegible
+32,434,Urdu,Miscellaneous,8,internal,copies,100000,,copies outside plausible range
+32,434,Urdu,Miscellaneous,10,flag,author,,,surname 'M.' with native name unclear
+34,436,Urdu,Miscellaneous,24,flag,price,,,"printed 'Price, 14 annas'"
+34,436,Urdu,Miscellaneous,30,flag,copies,,,"reads '1,090' or '1,000'"
+36,438,Urdu,Religion,2,flag,author,,,name partly obscured 'Abdur Rahm ...'
+37,439,Urdu,Religion,5,flag,author,,,translator name 'Parshad' partly degraded
+37,439,Urdu,Religion,10,flag,author,,,name 'Jamanji Mahta' partly obscured at binding edge
+39,441,Urdu,Religion,17,flag,serial,,,leading digit unclear in margin
+39,441,Urdu,Religion,18,flag,serial,,,"printed digit faint, read as 18"
+39,441,Urdu,Religion,19,flag,serial,,,"faint digit, read as 19"
+39,441,Urdu,Religion,21,flag,serial,,,"faint digit, read as 21"
+39,441,Urdu,Religion,22,flag,serial,,,"faint, read as 22"
+39,441,Urdu,Religion,23,flag,serial,,,"faint, read as 23"
+39,441,Urdu,Religion,24,flag,serial,,,"faint, read as 24"
+40,442,Urdu,Science (Mathematical),1,flag,price,,,"'R.' printed at end of size/method line, ambiguous"
+41,443,Urdu,Science (Mathematical),8,flag,pp_verbatim,,,leading digit of second number reads 152 but printed as J52
+42,444,Urdu,Science (Mechanical),1,flag,printer,,,Mohival uncertain reading
+43,445,Arabic-Urdu,Religion,,flag,gloss,,,"degraded text, uncertain reading"
+43,445,English-Punjabi,Religion,,flag,title,,,"leading letter degraded, read as 'A Peep'"
+44,446,Hindi and Sanskrit,Miscellaneous,2,flag,copyright,,,"right margin cropped, partially legible"
+44,446,English and Urdu,Language,3,flag,format,,,printed as 16' with unclear symbol
+45,447,Bilingual (Hindi and Sanskrit),Poetry,,flag,date,,,"reads '80th January, 1912' likely 30th"
+45,447,Bilingual (Hindi and Sanskrit),Poetry,,flag,copies,,,"printed '1,C60' unclear"
+47,449,Bilingual (Persian and Urdu),Poetry,1,flag,copies,,,"printed 1,0C0 ambiguous, read as 1000"
+47,449,Bilingual (Punjabi in the Persian character and Urdu),Poetry,2,flag,copies,,,"printed 2,0C0 read as 2000"
+48,450,"Punjabi, Persian and Urdu",Poetry,1,flag,title,,,"'Panjum' partly obscured, reading uncertain"
+48,450,Punjabi and Urdu,Religion,2,flag,author,,,serial number '2' partly obscured by pencil cross
+49,451,English,Law,2,flag,pp_verbatim,,,degraded digits
+49,451,English,Law,5,flag,reg,,,could be 300 or 800
+49,451,English,Law,6,flag,pp_verbatim,,,degraded digits
+50,452,Urdu,Religion,1,flag,printer,,,Alhaqq reading uncertain
+50,452,Urdu,Law,2,flag,date,,,"year printed as ,911 uncertain"
+50,452,Urdu,Religion,2,flag,serial,,,"serial number faint, read as 2"
+50,452,Urdu,Law,3,flag,copies,,,"reads 8?0, possibly 800"
+36,438,Urdu,Poetry,10,internal,reg,180,,registration no. appears 2x in quarter
+50,452,Urdu,Law,4,internal,reg,180,,registration no. appears 2x in quarter
+38,440,Urdu,Religion,16,internal,reg,236,,registration no. appears 2x in quarter
+39,441,Urdu,Religion,21,internal,reg,236,,registration no. appears 2x in quarter
+9,411,Punjabi,History,6,internal,serial,6->2,,non-consecutive serials in Punjabi-History
+16,418,Punjabi,Poetry,33,internal,serial,55->86,,non-consecutive serials in Punjabi-Poetry
+19,421,Punjabi,Religion,1,internal,serial,6->9,,non-consecutive serials in Punjabi-Religion
+27,429,Urdu,Language,1,internal,serial,8->1,,non-consecutive serials in Urdu-Language
+28,430,Urdu,Law,1,internal,serial,2->5,,non-consecutive serials in Urdu-Law
+28,430,Urdu,Law,1,internal,serial,8->1,,non-consecutive serials in Urdu-Law
+31,433,Urdu,Miscellaneous,1,internal,serial,33->1,,non-consecutive serials in Urdu-Miscellaneous
+36,438,Urdu,Religion,1,internal,serial,30->1,,non-consecutive serials in Urdu-Religion

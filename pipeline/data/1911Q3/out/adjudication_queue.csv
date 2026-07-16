@@ -1,0 +1,99 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,302,English,Law,5,flag,gloss,,,"'heldiin' printed thus, likely 'held in'"
+3,303,English,Medicine,2,flag,serial,,,"printed digit unclear, appears 2"
+3,303,English,Philosophy,2,flag,reg,,,"leading digit degraded, reads ?56"
+4,304,Hindi,Medicine,3,flag,copies,,,"leading digit unclear (printed as '1,000')"
+5,305,Hindi,Poetry,9,flag,serial,,,poetry serial numbering restarts at 9
+5,305,Hindi,Poetry,10,flag,copies,,,"reads 2C0, likely 200"
+6,306,Kashmiri,Poetry,1,flag,copyright,,,"faint pencil mark in copyright column, illegible"
+6,306,Hindi,Poetry,11,flag,copies,,,"printed as 200 but ambiguous, could be 300"
+7,307,Kashmiri,Poetry,,flag,publisher,,,"'Khajaj' ambiguous, possibly 'Khaja'"
+7,307,Kashmiri,Poetry,,flag,copyright,,,copyright column entry spans two entries; assigned to this entry
+8,308,Persian,Medicine,1,flag,copyright,,,registration number digits degraded
+8,308,Persian,Poetry,1,flag,serial,,,serial number not clearly printed
+8,308,Persian,Medicine,2,flag,copyright,,,registration number digits degraded
+9,309,Persian,Religion,,flag,serial,,,serial number illegible in left margin
+9,309,Punjabi,Medicine,,flag,serial,,,serial illegible in left margin
+9,309,Punjabi,Medicine,,flag,serial,,,serial illegible in left margin
+9,309,Punjabi,Fiction,17,flag,serial,,,faint reading
+9,309,Punjabi,Miscellaneous,35,flag,serial,,,faint reading
+11,311,Punjabi,Miscellaneous,46,flag,serial,,,serial number degraded/partly illegible
+11,311,Punjabi,Miscellaneous,48,flag,serial,,,"serial number degraded, read as 48"
+11,311,Punjabi,Miscellaneous,49,flag,serial,,,"serial number degraded, read as 49"
+12,312,Punjabi,Poetry,173,flag,date,,,printed '3nd May' — day digit ambiguous
+12,312,Punjabi,Poetry,177,flag,pubcity,,,printed 'Peshawar'
+13,313,Punjabi,Poetry,180,flag,reg,,,leading mark before 1145 unclear
+13,313,Punjabi,Poetry,182,flag,serial,,,"serial partly obscured, read 182"
+14,314,Punjabi,Poetry,188,flag,printer_verbatim,,,"Gurmulhi likely Gurmukhi, degraded text"
+14,314,Punjabi,Poetry,190,flag,printer_verbatim,,,"Pombay likely Bombay, degraded text"
+14,314,Punjabi,Poetry,191,flag,reg,,,"reads 1146, digits partly unclear"
+15,315,Punjabi,Poetry,197,flag,serial,,,serial number partly cut off at left margin
+15,315,Punjabi,Poetry,198,flag,serial,,,"serial number faint, read as 198"
+16,316,Punjabi,Poetry,200,flag,reg,,,"printed '11 47' with gap, uncertain"
+16,316,Punjabi,Poetry,202,flag,pubcity,,,"'32nd Har, Sambat 1968' native date"
+17,317,Punjabi,Poetry,212,flag,copyright,,,date day digit degraded '6th' uncertain
+17,317,Punjabi,Poetry,214,flag,serial,,,handwritten annotation in margin near serial
+18,318,Punjabi,Poetry,222,flag,method,,,printed 'iitho.' apparent typo for litho.
+19,319,Punjabi,Poetry,223,flag,serial,,,leading digit obscured
+21,321,Punjabi,Religion,46,flag,serial,,,"serial number partially obscured, read as 46"
+21,321,Punjabi,Religion,48,flag,date,,,"Har, 1968 [3rd July, 1911.]"
+21,321,Punjabi,Poetry,241,flag,price,,,"price given as 'R.' unclear, but 'Price, 5 annas' printed below"
+22,322,Sindhi,Biography,1,flag,copies,,,reads 50O / 500 ambiguous
+22,322,Punjabi,Religion,50,flag,printer_verbatim,,,'Pess' likely misprint for Press
+22,322,Punjabi,Religion,50,flag,copyright,,,degraded text in right column
+23,323,Sanskrit,Language,2,flag,copies,,,"printed as 11,000; possibly 1,000"
+25,325,Urdu,Drama,12,flag,serial,,,"printed as 12, faint"
+25,325,Urdu,Fiction,26,flag,serial,,,"serial number faint, read as 26"
+25,325,Urdu,Fiction,28,flag,serial,,,"serial number faint, read as 28"
+26,326,Urdu,History,12,flag,copyright,,,"degraded text, 'teasher' as printed, place name uncertain"
+27,327,Urdu,History,14,flag,title,,,native-script reading uncertain
+27,327,Urdu,History,16,flag,price,,,printed 'Frice' for 'Price'
+28,328,Urdu,Law,9,flag,copies,,,printed 1:000
+28,328,Urdu,Language,21,flag,format,,,printed 16' unclear
+29,329,Urdu,Medicine,22,flag,serial,,,printed as 22 but overwritten/unclear
+30,330,Urdu,Miscellaneous,118,flag,format,,,printed '2°' possibly '8°'
+32,332,Urdu,Miscellaneous,134,flag,reg,,,"final digit ambiguous, could be 1124 or 1129"
+32,332,Urdu,Miscellaneous,134,internal,copies,"100,000",,copies outside plausible range
+35,335,Urdu,Miscellaneous,154,flag,pp_verbatim,,,printed '2.116' ambiguous
+36,336,Urdu,Miscellaneous,159,flag,publisher,,,Pustkala vs Fustkala uncertain
+37,337,Urdu,Poetry,39,flag,method,,,"'litho., R.' — R unclear"
+37,337,Urdu,Miscellaneous,168,flag,notes,,,entry No. reads 208 uncertain
+38,338,Urdu,Poetry,52,flag,author,,,"'Naqig' uncertain reading, may be 'Naqiq'"
+39,339,Urdu,Poetry,56,flag,serial,,,"digit faint, read as 56"
+39,339,Urdu,Poetry,58,flag,serial,,,"digit faint, read as 58"
+39,339,Urdu,Poetry,59,flag,serial,,,"digit faint, read as 59"
+39,339,Urdu,Religion,64,flag,serial,,,"printed value ambiguous, read as 64"
+40,340,Urdu,Religion,68,flag,gloss,,,"'Dl arm' printed for Dharm, degraded"
+42,342,Urdu,Religion,88,flag,copies,,,"printed as 2,000 with unclear middle digit"
+43,343,Urdu,Science (Mathematical),15,flag,edition,,,"'R.' printed after format, meaning uncertain"
+43,343,Urdu,Religion,89,flag,serial,,,"digit obscured by margin mark, read as 89"
+44,344,Arabic-Urdu,Language,6,flag,copies,,,"reading '1,000' as printed '1,0C0'"
+44,344,Urdu,Science (Mathematical),19,flag,price,,,reading 'Re. 1-4 0.' ambiguous
+45,345,Arabic-Persian,Religion,,flag,serial,,,no serial number printed
+45,345,Arabic-Kashmiri,Religion,,flag,serial,,,no serial number printed
+45,345,English-Persian,Language,,flag,serial,,,no serial number printed
+45,345,Arabic-Urdu,Religion,9,flag,serial,,,"printed digit faint, read as 9"
+46,346,Hindi—Sanskrit,Miscellaneous,1,flag,printer_verbatim,,,'Gas' likely 'Gazette' - degraded
+46,346,English—Punjabi,Miscellaneous,2,flag,title,,,labeled 'Gurmukhi Text.' with native-script title
+47,347,Bilingual (Hindi-Sanskrit),Religion,11,flag,date,,,Sambat year printed as 1968; reading uncertain
+48,348,Bilingual (Persian—Urdu),Poetry,6,flag,serial,,,"printed digit ambiguous, reads 6"
+50,350,"Persian, Punjabi and Urdu",Poetry,3,flag,edition,,,printed 'editien'
+51,351,English,Miscellaneous,1,flag,printer_verbatim,,,"'Mufid-i, Am' spelling/comma uncertain"
+52,352,Urdu,Law,9,flag,copyright,,,registration number and date partly illegible
+52,352,Urdu,Law,9,flag,reg,,,faint marking near reg cell
+52,352,Urdu,Law,10,flag,copyright,,,date digit partly illegible
+53,353,Urdu,Religion,5,flag,gloss,,,"date [September, 1911.] but volume for September 1910; ambiguous"
+53,353,Urdu,Religion,6,flag,copyright,,,'No. 123i' garbled; likely No. 123
+54,354,Urdu,Religion,8,flag,copyright,,,reg no. 125 partly obscured
+3,303,English,Philosophy,2,internal,reg,956,,registration no. appears 2x in quarter
+19,319,Punjabi,Poetry,223,internal,reg,956,,registration no. appears 2x in quarter
+2,302,English,Law,5,internal,serial,6->8,,non-consecutive serials in English-Law
+3,303,English,Miscellaneous,16,internal,serial,21->1,,non-consecutive serials in English-Miscellaneous
+6,306,Kashmiri,Poetry,1,internal,serial,4->12,,non-consecutive serials in Kashmiri-Poetry
+27,327,Urdu,Language,17,internal,serial,18->20,,non-consecutive serials in Urdu-Language
+28,328,Urdu,Law,9,internal,serial,10->6,,non-consecutive serials in Urdu-Law
+30,330,Urdu,Miscellaneous,115,internal,serial,168->4,,non-consecutive serials in Urdu-Miscellaneous
+39,339,Urdu,Religion,64,internal,serial,65->67,,non-consecutive serials in Urdu-Religion
+39,339,Urdu,Religion,64,internal,serial,77->79,,non-consecutive serials in Urdu-Religion
+39,339,Urdu,Religion,64,internal,serial,91->3,,non-consecutive serials in Urdu-Religion
+40,340,Urdu,Religion,66,internal,serial,66->78,,non-consecutive serials in Urdu-Religion

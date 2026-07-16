@@ -15,6 +15,10 @@ pipeline/data/*/pages/
 # Binary database (regenerable: python postprocess.py manifest_*.json)
 punjab.db
 
+# Model bake-off scratch: candidate extractions + _usage.json written by
+# extract_api.py --out data/<quarter>/_baked/<model>. Never the canonical record.
+pipeline/data/*/_baked/
+
 # Prof. Davis's hand-transcription workbook (his working file, not ours to publish)
 *.xlsx
 *.xls

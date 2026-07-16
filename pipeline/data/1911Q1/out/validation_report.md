@@ -1,0 +1,82 @@
+# Validation report — 1911Q1
+
+- extracted entries: 339
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 86 items
+
+## By category
+- flag:'2350' printed at left of line, split pagination reading: 1
+- flag:'250' printed as '25o': 1
+- flag:'Amritar' likely misprint for Amritsar; transcribed as printed: 1
+- flag:'Amsitsar' as printed: 1
+- flag:'Babn' likely Babu misprint: 1
+- flag:'Decemher' printed for December: 1
+- flag:'Lndhiana' printed thus (Ludhiana): 1
+- flag:'Prce' as printed: 1
+- flag:'Rajeshwai' spelling uncertain: 1
+- flag:'Sihgh' likely 'Singh' as printed: 1
+- flag:'Stsam' likely 'Steam' misprint: 1
+- flag:'Translad' printed unclearly, likely 'Translated': 1
+- flag:'anuas' as printed: 1
+- flag:'collectad' as printed: 1
+- flag:'direcied' as printed: 1
+- flag:December, 1910 partly degraded: 1
+- flag:Hiiri printed for Hijri: 1
+- flag:Peshawar reading uncertain: 1
+- flag:date partly degraded: 1
+- flag:day obscured by stamp: 1
+- flag:day partly illegible '3.th': 1
+- flag:degraded text, dates partly illegible: 1
+- flag:degraded, reads like 16°: 1
+- flag:digit partly obscured by pencil mark: 1
+- flag:edition ordinal obscured by stamp: 1
+- flag:faint print 'Rcze Bazar': 1
+- flag:faint print, name partly illegible: 1
+- flag:faint, reads 44: 1
+- flag:first name possibly 'Ishar' or 'Ishan': 1
+- flag:header printed 'MISCELLANEDUS' (typo in original): 1
+- flag:native script partly illegible: 1
+- flag:native script reading uncertain: 2
+- flag:obscured by stamp: 3
+- flag:partly obscured, reads 13: 1
+- flag:printed '1.000' ambiguous: 1
+- flag:printed '1.000', interpreted as 1000: 1
+- flag:printed '191o' with letter o: 1
+- flag:printed '1s edition': 1
+- flag:printed '2,0C0', read as 2000: 1
+- flag:printed '4o', likely 40: 1
+- flag:printed '4°' partly illegible: 1
+- flag:printed '6|annas', likely 6 annas: 1
+- flag:printed '8,° litho.': 1
+- flag:printed 'Amrisar' possibly 'Amritsar': 1
+- flag:printed 'Janary': 1
+- flag:printed 'iitho.' (typo for litho.): 1
+- flag:printed 6 but sequence expects 5; ambiguous digit: 1
+- flag:printed as native-script character, read as 8°: 1
+- flag:printed serial digit unclear (12): 1
+- flag:printed serial digit unclear (13): 1
+- flag:printed with asterisk *315: 1
+- flag:reads '4C0', likely 400: 1
+- flag:reads '500' possibly '50)': 1
+- flag:right margin degraded: 1
+- flag:right margin partly cropped: 1
+- flag:romanization of Arabic script uncertain: 1
+- flag:romanization spelling uncertain (afim/arthat/afimi): 1
+- flag:romanized name partly obscured; 'Girdbar Raiji' vs 'Girdhar Raiji': 1
+- flag:serial digit partly obscured, appears '1': 1
+- flag:serial number faint in margin: 1
+- flag:serial number faint/illegible, inferred 3: 1
+- flag:serial number faint/inferred: 1
+- flag:serial number illegible in margin: 3
+- flag:serial number obscured by pencil cross, inferred as 3: 1
+- flag:serial number obscured in margin; inferred as 11: 1
+- flag:serial number obscured; inferred as 12: 1
+- flag:serial number obscured; inferred as 13: 1
+- flag:serial number obscured; inferred as 14: 1
+- flag:serial number partly obscured, appears to be 1: 1
+- flag:typo 'towaads' as printed: 1
+- internal:copies outside plausible range: 1
+- internal:non-consecutive serials in English-Miscellaneous: 1
+- internal:non-consecutive serials in Hindi-Miscellaneous: 1
+- internal:registration no. appears 2x in quarter: 8

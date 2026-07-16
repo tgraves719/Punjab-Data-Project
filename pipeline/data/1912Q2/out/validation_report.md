@@ -1,0 +1,134 @@
+# Validation report — 1912Q2
+
+- extracted entries: 382
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 144 items
+
+## By category
+- flag:'6 p'es' partly unclear: 1
+- flag:'Aliar' reading uncertain: 1
+- flag:'Bombay' reading uncertain: 1
+- flag:'Boveedods' name uncertain reading: 1
+- flag:'Dalh i' likely Delhi, spaced print: 1
+- flag:'Fazar' uncertain reading: 1
+- flag:'Lakhsmi' spelling as printed: 1
+- flag:'Mit.' with stray 'h' printed below, uncertain: 1
+- flag:'R.' printed after format, meaning unclear: 1
+- flag:'R.' printed at end of line, price given below: 1
+- flag:'R.' printed instead of edition: 1
+- flag:'Rajout' likely 'Rajput': 1
+- flag:'Roz Eazar' possibly 'Roz Bazar': 1
+- flag:'Roz' first word partly degraded: 1
+- flag:'Shibdit' spelling uncertain: 1
+- flag:'Sihgh' likely misprint for Singh: 1
+- flag:'Stam' likely misprint for Steam: 1
+- flag:'Tarn Taran' reading uncertain: 1
+- flag:'Usufi' likely Yusufi: 1
+- flag:'deition' printed for 'edition': 1
+- flag:'s ow' likely 'show', printed with gap: 1
+- flag:Edited by Mr. Ganpat Rai, Barrister-at-Law, Lahore: 1
+- flag:Edited by R. W. Grey: 1
+- flag:Reported by C. H. Oertel, Barrister-at-Law: 1
+- flag:author line partly obscured, reading uncertain: 1
+- flag:could read 458 or 453: 1
+- flag:day reads '.2th March' — first digit unclear: 1
+- flag:day reads '20th' but leading digit unclear: 1
+- flag:day reads '2?th February' unclear: 1
+- flag:digit degraded, read as 17: 1
+- flag:digit degraded, read as 34: 1
+- flag:digit obscured: 2
+- flag:digit obscured in margin: 1
+- flag:digit obscured, inferred 35: 1
+- flag:digit obscured, inferred 36: 1
+- flag:digit partly obscured, read 56: 1
+- flag:digits faint (578?): 1
+- flag:digits faint, reads 84: 1
+- flag:editor C. H. Oertel, Barrister-at-Law noted in text: 1
+- flag:entry begins with dashes; title continued from previous entry: 1
+- flag:entry title-only with em-dash, author carried from previous (Budha Singh): 1
+- flag:faint/degraded text in margin: 1
+- flag:final digit ambiguous, reads 500 or 502: 1
+- flag:first digit unclear, reads '3,000': 1
+- flag:first page count digits uncertain (34?): 1
+- flag:last digit faint: 1
+- flag:last digit faint, reads 414: 1
+- flag:last digit unclear, read 610: 1
+- flag:leading digit degraded, reads C59/659: 1
+- flag:leading digit faint: 1
+- flag:leading digit uncertain (1061): 1
+- flag:leading number obscured, printed as '? annas 6 pies': 1
+- flag:native script uncertain: 2
+- flag:native-script portion not transcribable with certainty: 1
+- flag:native-script romanization uncertain: 1
+- flag:native-script title uncertain reading: 1
+- flag:obscured in margin: 2
+- flag:obscured/illegible in margin: 1
+- flag:partly obscured text in margin: 1
+- flag:printed '1 6°' ambiguous: 1
+- flag:printed '1,0C0', reading as 1000: 1
+- flag:printed '1,C00' ambiguous, read 1000: 1
+- flag:printed '113' with superscript mark: 1
+- flag:printed '22' but out of sequence; may be misprint: 1
+- flag:printed '286', last digit faint: 1
+- flag:printed 'Kakim' likely 'Hakim': 1
+- flag:printed 'PEOTRY' (typo for Poetry): 1
+- flag:printed 'R' unclear: 1
+- flag:printed 'edtion': 1
+- flag:printed 1.000, reading as 1000: 1
+- flag:printed 3? possibly 32: 1
+- flag:printed as ',000' partly illegible: 1
+- flag:printed as '1, 00' ambiguous: 1
+- flag:printed as '1,0 0' spacing unclear: 1
+- flag:printed as 1,0C0 — reading 1000: 1
+- flag:printed as 1,C00 — reading 1000: 1
+- flag:printed as 16 but could be misread: 1
+- flag:printed as 85, likely 15: 1
+- flag:printed as [November, 11911.]: 1
+- flag:printed as arrow/mark, reading 7 uncertain: 1
+- flag:printed serial digits faint, read as 105: 1
+- flag:printed serial faint, read as 106: 1
+- flag:printed serial number faint, read as 1: 2
+- flag:printed serial partly obscured: 1
+- flag:read as 3,000 (3,C00 printed): 1
+- flag:reading of registration number uncertain: 1
+- flag:reads '1,0C0', third digit unclear: 1
+- flag:reads '5C0', likely 500: 1
+- flag:reads '712' but digits faint/uncertain: 1
+- flag:reads 'Pp. ?6.' first digit unclear: 1
+- flag:reads 1,000 but faint: 1
+- flag:reads 1,030 or 1,000 uncertain: 1
+- flag:reads 455 or 485, degraded: 1
+- flag:reads 4£3, likely 483: 1
+- flag:reads as 12 but partly obscured: 1
+- flag:right margin degraded: 1
+- flag:serial 9 repeated in this section: 1
+- flag:serial digit faint: 1
+- flag:serial not clearly printed: 2
+- flag:serial number ambiguous/marked: 1
+- flag:serial number faint, inferred 25: 1
+- flag:serial number faint, inferred 93: 1
+- flag:serial number faint, read as 139: 1
+- flag:serial number faint/cut, inferred 22: 1
+- flag:serial number faint/cut, inferred 23: 1
+- flag:serial number faint/uncertain, read as 1: 1
+- flag:serial number illegible: 2
+- flag:serial number not clearly printed: 2
+- flag:serial number obscured by pencil mark: 1
+- flag:serial number obscured in margin: 2
+- flag:serial number obscured, appears blank/illegible: 1
+- flag:serial number obscured, inferred as 23: 1
+- flag:serial number obscured, inferred as 24: 1
+- flag:serial number partly obscured by pencil mark: 1
+- flag:serial number partly obscured, read as 122: 1
+- flag:serial number partly obscured, read as 16: 1
+- flag:small degraded print, name/number readings uncertain: 1
+- flag:text in narrow column partly degraded: 1
+- flag:year printed '19 1' unclear, read 1911: 1
+- flag:year printed as 1913 or 1912, ambiguous: 1
+- internal:copies outside plausible range: 1
+- internal:non-consecutive serials in English-Law: 1
+- internal:non-consecutive serials in Urdu-Fiction: 3
+- internal:non-consecutive serials in Urdu-Miscellaneous: 1
+- internal:non-consecutive serials in Urdu-Religion: 2
+- internal:registration no. appears 2x in quarter: 8

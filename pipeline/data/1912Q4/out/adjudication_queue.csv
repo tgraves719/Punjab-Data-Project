@@ -1,0 +1,106 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,555,Arabic,Religion,9,flag,gloss,,,'to at one' likely 'to be at one' as printed
+3,556,English,Language,16,flag,reg,,,printed as '1332 with leading mark
+3,556,English,Language,18,flag,copies,,,"reads 1,000 but last digit faint"
+3,556,English,Language,22,flag,copies,,,"reads 20,0C0, third digit unclear"
+4,557,English,Language,27,flag,copies,,,"printed 5,000 with unclear leading digit"
+5,558,English,Miscellaneous,26,flag,pp_verbatim,,,"'9!' printed, likely 91"
+5,558,English,Miscellaneous,29,flag,edition,,,'enition' printed for edition
+6,559,English,Science (Natural and Other),2,flag,date,,,"printed '19.2', reading as 1912"
+6,559,Hindi,Biography,3,flag,title_native,,,Devanagari title uncertain reading
+6,559,Hindi,Language,13,flag,date,,,Sambat 1969 Vikrami printed alongside October 1912
+7,560,Hindi,Miscellaneous,14,flag,notes,,,Sambat year digits partly illegible (1869?)
+8,561,Hindi,Poetry,24,flag,copies,,,"printed '1,000' with degraded digit"
+8,561,Hindi,Poetry,25,flag,format,,,"size digit degraded, read as 16°"
+9,562,Pashtu,Medicine,1,flag,copies,,,"printed '1,)00', reading as 1000"
+9,562,Punjabi,Art,3,flag,author,,,name 'Nanak' printed 'Nan.k' partly obscured
+9,562,Kashmiri,Poetry,5,flag,edition,,,"leading digit illegible, printed '_st edition'"
+9,562,Kashmiri,Poetry,6,flag,author,,,publisher name 'Amad Ullah' possibly 'Ahmad Ullah'
+10,563,Punjabi,Biography,7,flag,gloss,,,'Faba Attal' possibly misprint for 'Baba Attal'
+12,565,Punjabi,Medicine,8,flag,date,,,day reads '16th' but partly unclear
+13,566,Punjabi,Medicine,9,flag,copies,,,could be 500 or 560
+13,566,Punjabi,Miscellaneous,61,flag,pp_verbatim,,,could be 105 or 103
+13,566,Punjabi,Miscellaneous,64,flag,copies,,,"printed 1,0?0 — likely 1,000"
+13,566,Punjabi,Miscellaneous,67,flag,edition,,,"'R.' printed, meaning unclear"
+14,567,Punjabi,Miscellaneous,73,flag,format,,,size reads '32°' but partly unclear ('3±°')
+15,568,Punjabi,Miscellaneous,75,flag,copies,,,"printed 1,00? — last digit degraded"
+15,568,Punjabi,Poetry,217,flag,copies,,,"printed 1,C00 — reading as 1000"
+17,570,Punjabi,Poetry,237,flag,title,,,"printer word 'Parchar' printed as '?archar', partly illegible"
+19,572,Punjabi,Poetry,248,flag,pp_verbatim,,,"'R.' printed after size, meaning unclear"
+22,575,Punjabi,Poetry,274,flag,date,,,"'Augus' partly cut, reading August"
+22,575,Punjabi,Poetry,277,flag,copies,,,"reads 3C0, likely 300"
+22,575,Punjabi,Poetry,279,flag,pp_verbatim,,,"reads ]82, likely 182"
+22,575,Punjabi,Poetry,280,flag,reg,,,"reads 1;04, likely 1304"
+25,578,Punjabi,Poetry,299,flag,publisher,,,place spelling 'Kotli Khara' uncertain
+25,578,Punjabi,Poetry,301,flag,pcity,,,"printed 'Amrisar', possibly 'Amritsar'"
+25,578,Punjabi,Poetry,302,flag,date,,,printed '19.2.' date digits unclear
+26,579,Punjabi,Poetry,309,flag,format,,,"'R.' printed after litho., meaning unclear"
+27,580,Punjabi,Religion,33,flag,gloss,,,tract number reading '428).' uncertain
+27,580,Punjabi,Religion,40,flag,reg,,,"last digit smudged, possibly 1460"
+28,581,Sanskrit,Poetry,2,flag,copies,,,"printed 1,00C ambiguous"
+28,581,Punjabi,Religion,44,flag,copies,,,"printed 1,C00 ambiguous, read 1000"
+29,582,Urdu,Drama,9,flag,price,,,"'R.' printed after litho., possible price note"
+31,584,Urdu,Fiction,52,flag,title,,,native script uncertain
+31,584,Urdu,Fiction,53,flag,price,,,'R.' abbreviation before price line
+31,584,Urdu,Fiction,55,flag,title,,,transliteration 'Bэta' uncertain
+33,586,Urdu,Language,32,flag,copyright,,,register number 223/228 uncertain
+35,588,Urdu,Miscellaneous,128,flag,edition,,,printed 'R.' ambiguous
+37,590,Urdu,Miscellaneous,138,flag,pp_verbatim,,,printed as 16° may be pagination or size ambiguous
+38,591,Urdu,Miscellaneous,143,flag,copies,,,"printed '5C0', likely 500"
+38,591,Urdu,Miscellaneous,145,flag,copies,,,"printed '1C00', likely 1000"
+39,592,Urdu,Poetry,52,flag,reg,,,could be 1434 or 1431
+40,593,Urdu,Poetry,55,flag,copies,,,"printed 1,C00, ambiguous digit"
+40,593,Urdu,Poetry,62,flag,reg,,,"reads 1435, possibly duplicate of entry 60"
+41,594,Urdu,Poetry,64,flag,serial,,,"printed as 6a, likely 64"
+41,594,Urdu,Poetry,67,flag,serial,,,"printed as 87, likely 67"
+42,595,Urdu,Religion,77,flag,copies,,,"printed '5C0' ambiguous, read as 500"
+43,596,Urdu,Religion,80,flag,copyright,,,"reads 'M. Muhammad Abdullah, Editor ""Vakil"", Amritsar; No. 207, dated the 7th November, 1912'"
+44,597,Urdu,Science (Mathematical),17,flag,copies,,,"'2,0C0' ambiguous digits"
+44,597,Urdu,Religion,87,flag,pubcity,,,'Nislat' uncertain reading
+44,597,Urdu,Religion,89,flag,copies,,,"'1,C00' ambiguous digits"
+45,598,Urdu,Voyages and Travels,5,flag,author,,,Translated by M. Muhammad Insha Ullah
+45,598,Urdu,Science (Mathematical),18,flag,flag_note,,,section header printed as URUD (sic)
+46,599,Arabic-Urdu,Religion,27,flag,copies,,,"printed 1,000 or 1,030 ambiguous"
+46,599,Arabic-Urdu,Religion,28,flag,pcity,,,printer 'Rex Bazar' uncertain reading
+47,600,English-Urdu,Language,7,flag,title,,,native script reading uncertain
+47,600,Hindi-Sanskrit,Poetry,9,flag,date,,,printed as '19.2.' partly illegible
+48,601,Hindi—Sanskrit,Religion,16,flag,copies,,,"printed as '1,C00', ambiguous digit read as 1000"
+49,602,Persian and Urdu,Language,1,flag,copies,,,"printed 1,00) degraded"
+49,602,Persian and Urdu,Religion,2,flag,copies,,,"printed 1,?00 degraded"
+49,602,Punjabi and Sanskrit,Miscellaneous,3,flag,serial,,,"printed digit unclear, appears 3"
+50,603,"Trilingual (Arabic, Persian and Urdu)",Religion,1,flag,publisher,,,"'Assm, B. O. L.' abbreviations unclear"
+50,603,"Trilingual (English, Hindi and Sanskrit)",Language,2,flag,serial,,,"serial digit faint, read as 2"
+50,603,"Trilingual (Arabic, Persian and Urdu)",Language,6,flag,publisher,,,M. Hab bullah spacing uncertain
+51,604,"English, Hindi and Urdu",Miscellaneous,1,flag,title,,,"native-script title, romanization uncertain"
+51,604,"English, Hindi and Urdu",Miscellaneous,2,internal,copies,100000,,copies outside plausible range
+52,605,English,Miscellaneous,1,flag,author,,,Edited by Professor Malik Raghu Nath Rai - no distinct author field
+52,605,Urdu,Law,14,flag,reg,,,col 5 reading '1282' uncertain
+52,605,Urdu,Law,15,flag,reg,,,"reg reading '1282' uncertain, duplicate of serial 14"
+52,605,Urdu,Law,16,flag,copies,,,printed '8 0' with gap - reading uncertain
+52,605,English,Law,17,flag,date,,,'34th August 1912' - day reading uncertain
+52,605,Urdu,Law,17,flag,pp_verbatim,,,'241 - 234' page range reading uncertain
+52,605,Urdu,Law,18,flag,serial,,,printed as ':8' - reading 18 assumed
+52,605,Urdu,Law,18,flag,reg,,,col 5 printed '1 93' with gap - uncertain
+9,562,Kashmiri,Poetry,5,internal,reg,1353,,registration no. appears 2x in quarter
+32,585,Urdu,History,14,internal,reg,1353,,registration no. appears 2x in quarter
+15,568,Punjabi,Poetry,218,internal,reg,1457,,registration no. appears 2x in quarter
+26,579,Punjabi,Poetry,310,internal,reg,1457,,registration no. appears 2x in quarter
+18,571,Punjabi,Poetry,241,internal,reg,1460,,registration no. appears 2x in quarter
+27,580,Punjabi,Religion,40,internal,reg,1460,,registration no. appears 2x in quarter
+24,577,Punjabi,Poetry,297,internal,reg,1431,,registration no. appears 2x in quarter
+39,592,Urdu,Poetry,52,internal,reg,1431,,registration no. appears 2x in quarter
+34,587,Urdu,Medicine,26,internal,reg,1281,,registration no. appears 2x in quarter
+51,604,English,Periodicals (Law),15,internal,reg,1281,,registration no. appears 2x in quarter
+40,593,Urdu,Poetry,60,internal,reg,1435,,registration no. appears 2x in quarter
+40,593,Urdu,Poetry,62,internal,reg,1435,,registration no. appears 2x in quarter
+52,605,Urdu,Law,14,internal,reg,1282,,registration no. appears 2x in quarter
+52,605,Urdu,Law,15,internal,reg,1282,,registration no. appears 2x in quarter
+4,557,English,Law,10,internal,serial,12->17,,non-consecutive serials in English-Law
+5,558,English,Miscellaneous,25,internal,serial,29->1,,non-consecutive serials in English-Miscellaneous
+8,561,Hindi,Poetry,25,internal,serial,25->6,,non-consecutive serials in Hindi-Poetry
+9,562,Hindi,Religion,8,internal,serial,8->18,,non-consecutive serials in Hindi-Religion
+13,566,Punjabi,Miscellaneous,59,internal,serial,74->76,,non-consecutive serials in Punjabi-Miscellaneous
+15,568,Punjabi,Poetry,216,internal,serial,263->364,,non-consecutive serials in Punjabi-Poetry
+15,568,Punjabi,Poetry,216,internal,serial,372->273,,non-consecutive serials in Punjabi-Poetry
+34,587,Urdu,Law,16,internal,serial,16->14,,non-consecutive serials in Urdu-Law
+50,603,"Trilingual (Arabic, Persian and Urdu)",Language,6,internal,serial,6->8,,"non-consecutive serials in Trilingual (Arabic, Persian and Urdu)-Language"

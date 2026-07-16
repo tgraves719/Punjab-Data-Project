@@ -1,0 +1,10 @@
+{
+  "quarter": "1911Q2",
+  "quarter_label": "Quarter ending 30th June, 1911",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [240, 299],
+  "printed_page_offset": -238,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1911Q2",
+  "note": "Prior-hand index leaf bound in at pdf 300, after the quarter's last page; documented in data/1911Q2/marginalia_pdf300.md"
+}

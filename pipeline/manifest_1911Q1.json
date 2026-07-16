@@ -1,0 +1,10 @@
+{
+  "quarter": "1911Q1",
+  "quarter_label": "Quarter ending 31st March, 1911",
+  "volume_pdf": "D:/Library/Punjab Data Project/Library 1/Batch 6/SV_412_44_1910-1912.pdf",
+  "pdf_pages": [195, 236],
+  "printed_page_offset": -193,
+  "dpi": 140,
+  "data_dir": "D:/Library/Punjab Data Project/pipeline/data/1911Q1",
+  "note": "Final printed page 44 sits at pdf 238 (offset -194) because a prior-hand index leaf is bound in at pdf 237; p044_pdf238.png is rendered separately and the leaf is documented in data/1911Q1/marginalia_pdf237.md"
+}

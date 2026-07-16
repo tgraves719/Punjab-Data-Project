@@ -1,0 +1,87 @@
+# Validation report — 1912Q1
+
+- extracted entries: 378
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 89 items
+
+## By category
+- flag:'2,000' partly obscured, reads 2,00?: 1
+- flag:'Arorbans' uncertain reading: 1
+- flag:'Biographies' partly degraded: 1
+- flag:'Gurnninda Nasak Agency' spelling uncertain: 1
+- flag:'Panjum' partly obscured, reading uncertain: 1
+- flag:'R.' printed after format, meaning unclear: 2
+- flag:'R.' printed at end of size/method line, ambiguous: 1
+- flag:'R.' printed, ambiguous: 1
+- flag:'R.' printed, unclear meaning: 2
+- flag:Alhaqq reading uncertain: 1
+- flag:Mohival uncertain reading: 1
+- flag:Ra:put reading uncertain: 1
+- flag:compiled by Lala Kirpa Ram, Bhalla, F.T.S.: 1
+- flag:continuation entry 'Part II.' of preceding title: 1
+- flag:could be 300 or 800: 1
+- flag:degraded digits: 2
+- flag:degraded text, uncertain reading: 1
+- flag:edition shown as 'R.' unclear: 1
+- flag:faint digit, read as 19: 1
+- flag:faint digit, read as 21: 1
+- flag:faint digits, reads 210: 1
+- flag:faint, read as 22: 1
+- flag:faint, read as 23: 1
+- flag:faint, read as 24: 1
+- flag:handwritten note in left margin: 1
+- flag:handwritten/unclear serial number: 1
+- flag:leading digit illegible: 1
+- flag:leading digit of pagination degraded, read as 70: 1
+- flag:leading digit of second number reads 152 but printed as J52: 1
+- flag:leading digit unclear in margin: 1
+- flag:leading digit unclear, reads '?31': 1
+- flag:leading letter degraded, read as 'A Peep': 1
+- flag:name 'Jamanji Mahta' partly obscured at binding edge: 1
+- flag:name partly obscured 'Abdur Rahm ...': 1
+- flag:printed '1,C60' unclear: 1
+- flag:printed '2,C00', reading as 2000: 1
+- flag:printed '5 0' with gap, read as 50: 1
+- flag:printed 'POTERY', likely 'POETRY': 1
+- flag:printed 'Price, 14 annas': 1
+- flag:printed 1,0C0 ambiguous, read as 1000: 1
+- flag:printed 19th November, 1011 — likely 1911: 1
+- flag:printed 2, no serial 1 visible in section: 1
+- flag:printed 2,0C0 read as 2000: 1
+- flag:printed 39? reads 38/39 unclear: 1
+- flag:printed 7912, likely 1912: 1
+- flag:printed as 16' with unclear symbol: 1
+- flag:printed digit faint, read as 18: 1
+- flag:printer name Quanin uncertain reading: 1
+- flag:reads '1,090' or '1,000': 1
+- flag:reads '80th January, 1912' likely 30th: 1
+- flag:reads 'R.' unclear: 1
+- flag:reads 165 or 105, degraded: 1
+- flag:reads 273 or 276, unclear: 1
+- flag:reads 396 but degraded, could be 336: 1
+- flag:reads 8?0, possibly 800: 1
+- flag:right margin cropped, partially legible: 1
+- flag:right margin cropped/faint: 3
+- flag:right margin partly cut/degraded: 1
+- flag:row uses Ditto for printer; copies read as 1,000: 1
+- flag:serial number '2' partly obscured by pencil cross: 1
+- flag:serial number faint, read as 2: 1
+- flag:serial number faint, read as 5: 1
+- flag:serial number illegible/degraded in margin: 1
+- flag:serial number not clearly printed, inferred as 4: 1
+- flag:size digit degraded, reads 'b°': 1
+- flag:spelling of Bahargava uncertain: 1
+- flag:surname 'M.' with native name unclear: 1
+- flag:translator name 'Parshad' partly degraded: 1
+- flag:year printed as ,911 uncertain: 1
+- flag:year reads [1911] but partly unclear: 1
+- internal:copies outside plausible range: 2
+- internal:non-consecutive serials in Punjabi-History: 1
+- internal:non-consecutive serials in Punjabi-Poetry: 1
+- internal:non-consecutive serials in Punjabi-Religion: 1
+- internal:non-consecutive serials in Urdu-Language: 1
+- internal:non-consecutive serials in Urdu-Law: 2
+- internal:non-consecutive serials in Urdu-Miscellaneous: 1
+- internal:non-consecutive serials in Urdu-Religion: 1
+- internal:registration no. appears 2x in quarter: 4

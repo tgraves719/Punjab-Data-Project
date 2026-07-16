@@ -1,0 +1,106 @@
+﻿printed_page,pdf_page,lang,topic,serial,source,field,extraction,other,issue
+2,240,Arabic,Language,4,internal,copies,"24,000",,copies outside plausible range
+2,240,Arabic,Religion,4,flag,copies,,,"printed '5,000' with space '5 000'"
+3,241,Arabic,Religion,10,flag,serial,,,"printed digit '1)' degraded, read as 10"
+3,241,Arabic,Religion,10,internal,copies,50000,,copies outside plausible range
+4,242,English,Miscellaneous,9,flag,copyright,,,"right margin degraded, register no. uncertain"
+4,242,English,Miscellaneous,11,flag,copyright,,,right margin degraded
+4,242,English,Miscellaneous,12,flag,copyright,,,right margin degraded
+4,242,English,Miscellaneous,14,flag,copyright,,,right margin degraded
+5,243,Hindi,Drama,1,flag,date,,,"day partly obscured by stamp, reads [1st May, 1911]?"
+6,244,Hindi,Politics,1,flag,serial,,,"serial number partly obscured by margin mark, read as 1"
+7,245,Kashmiri,Religion,1,flag,title,,,romanization from Arabic script uncertain
+7,245,Hindi,Religion,8,flag,pp_verbatim,,,obscured by stamp
+7,245,Hindi,Religion,8,flag,edition,,,"obscured by stamp, reads 18"
+7,245,Hindi,Religion,10,flag,pp_verbatim,,,last figure 132 or 138 unclear
+8,246,Persian,Religion,1,flag,method,,,printed 'lithe.' likely litho.
+8,246,Persian,Poetry,2,flag,serial,,,printed 2 but sequence suggests different; ambiguous
+8,246,Persian,Religion,2,flag,title,,,transliteration of native title uncertain
+9,247,Punjabi,Fiction,8,flag,serial,,,"printed serial digit ambiguous, read as 8"
+10,248,Punjabi,Fiction,14,flag,serial,,,"printed as '14' overwritten, uncertain"
+10,248,Punjabi,Fiction,14,flag,copyright,,,"degraded text, reading uncertain"
+11,249,Punjabi,Miscellaneous,22,flag,date,,,year printed as 191? partly illegible
+12,250,Punjabi,Miscellaneous,31,flag,copyright,,,"faint pencil marking '30' in copyright column, uncertain"
+13,251,Punjabi,Miscellaneous,34,flag,copies,,,"'1,5C0' possibly 1,500"
+14,252,Punjabi,Poetry,107,flag,serial,,,printed as 107 but partly obscured
+14,252,Punjabi,Poetry,107,flag,copyright,,,"faint text, city and details uncertain"
+16,254,Punjabi,Poetry,123,flag,serial,,,"printed as 12? faint, read 123"
+16,254,Punjabi,Poetry,127,flag,format,,,"printed '8,° R.' unclear"
+16,254,Punjabi,Poetry,129,flag,printer_verbatim,,,printed 'Dittoi' possibly Ditto
+16,254,Punjabi,Poetry,129,flag,format,,,"printed '8°, R.'"
+19,257,Punjabi,Poetry,146,flag,price,,,"printed 'Price, 4 annas'"
+19,257,Punjabi,Poetry,148,flag,copies,,,"printed '1,C00' ambiguous"
+22,260,Punjabi,Poetry,172,flag,serial,,,printed 172 with unclear final digit
+23,261,Punjabi,Religion,34,flag,date,,,day printed as '16th' with ambiguous first digit
+24,262,Punjabi,Religion,43,flag,reg,,,"final digit ambiguous, reads 665 or 668"
+26,264,Sindhi,Religion,1,flag,serial,,,"printed serial illegible, assumed 1"
+26,264,Urdu,Art,1,flag,serial,,,"printed serial illegible, assumed 1"
+26,264,Urdu,Biography,6,flag,serial,,,"printed serial reads 6, possibly obscured"
+27,265,Urdu,Drama,5,flag,serial,,,"serial number partly obscured, read as 5"
+28,266,Urdu,Fiction,13,flag,serial,,,"printed serial digits degraded, read as 13"
+30,268,Urdu,History,8,flag,copies,,,"printed '1, 00', ambiguous"
+31,269,Urdu,Language,7,internal,copies,45000,,copies outside plausible range
+31,269,Urdu,Language,8,internal,copies,38000,,copies outside plausible range
+32,270,Urdu,Medicine,5,flag,copyright,,,right column numbers/date degraded
+32,270,Urdu,Language,15,flag,title,,,native-script word transliteration uncertain
+32,270,Urdu,Language,16,flag,copies,,,"printed 1,0C0 degraded, read as 1000"
+33,271,Urdu,Medicine,7,flag,printer,,,"'Ialamia' likely 'Islamia', degraded print"
+33,271,Urdu,Medicine,8,flag,serial,,,"serial number partly obscured, read as 8"
+33,271,Urdu,Miscellaneous,40,flag,gloss,,,"'Lovel etters' likely 'Love letters', degraded print"
+34,272,Urdu,Miscellaneous,4,flag,serial,,,"printed serial digit unclear, likely 48"
+34,272,Urdu,Miscellaneous,42,flag,date,,,day/year partly obscured '191..'
+35,273,Urdu,Miscellaneous,49,flag,printer,,,'Iamail' printed for Ismail
+36,274,Urdu,Miscellaneous,60,flag,date,,,"publication date 1910 in title-line, registration date 1st March 1911"
+36,274,Urdu,Miscellaneous,85,flag,publisher,,,place 'Lhatinda' uncertain reading (Bhatinda?)
+37,275,Urdu,Miscellaneous,63,flag,price,,,"printed 'Price, 3 annas'"
+37,275,Urdu,Miscellaneous,65,flag,publisher,,,regiment number '72nd' uncertain
+38,276,Urdu,Miscellaneous,71,flag,printer_verbatim,,,"'Roze Bazar' spelling uncertain, possibly 'Roze Bazar'"
+38,276,Urdu,Miscellaneous,74,flag,printer_verbatim,,,"printed 'Diitto', likely 'Ditto'"
+39,277,Urdu,Miscellaneous,82,flag,reg,,,printed 564 or 564?
+40,278,Urdu,Miscellaneous,91,flag,publisher,,,"printed 'Baharat', possibly Bharat"
+41,279,Urdu,Miscellaneous,94,flag,serial,,,"printed serial digit unclear, inferred 94"
+42,280,Urdu,Miscellaneous,107,flag,reg,,,final digit smudged
+44,282,Urdu,Poetry,23,flag,copies,,,"printed '7C0', likely 700"
+44,282,Urdu,Poetry,27,flag,serial,,,"printed digit unclear, read as 27"
+45,283,Urdu,Poetry,30,flag,author,,,'ud-dih' possibly 'ud-din'
+45,283,Urdu,Poetry,36,flag,price,,,'Frice' printed for 'Price'
+45,283,Urdu,Poetry,37,flag,format,,,"'16?' printed, likely 16°"
+47,285,Urdu,Religion,23,flag,date,,,"printed '29th March, 19.1.' year digits unclear"
+48,286,Urdu,Religion,31,flag,serial,,,printed as 31 but partly illegible
+49,287,Urdu,Religion,,flag,serial,,,serial not legible
+49,287,Urdu,Religion,,flag,serial,,,serial not legible
+49,287,Urdu,Religion,38,flag,serial,,,"serial digit uncertain, read as 38"
+49,287,Urdu,Religion,39,flag,serial,,,"serial reads 29, likely 39"
+49,287,Urdu,Religion,42,flag,serial,,,"serial digit uncertain, read as 42"
+50,288,Urdu,Religion,47,flag,pp_verbatim,,,publisher line partly reads 'ublished by the author'
+51,289,Urdu,Religion,54,flag,edition,,,printed 'adition'
+52,290,Urdu,Religion,61,flag,copies,,,"reads 1,000 or 1,0?0"
+53,291,Urdu,Science (Mathematical),9,flag,reg,,,"reads 267, possibly should be in 7xx series"
+53,291,Urdu,Science (Mathematical),10,flag,reg,,,"reads 268, possibly 768"
+55,293,Bilingual (Arabic and Urdu),Religion,5,flag,pp_verbatim,,,"ambiguous, printed as '4.608.'"
+55,293,Bilingual (Arabic and Urdu),Religion,6,flag,pp_verbatim,,,"ambiguous, printed as '4.120.'"
+56,294,Bilingual (English and Punjabi),Miscellaneous,1,flag,printer_verbatim,,,'Wzair' likely misprint for 'Wazir'
+57,295,Hindi-Sanskrit,Religion,5,flag,serial,,,"serial number not clearly printed, inferred"
+57,295,Hindi-Sanskrit,Religion,6,flag,serial,,,"serial number not clearly printed, inferred"
+60,298,"Trilingual (Persian, Punjabi and Urdu)",Poetry,1,flag,copyright,,,"handwritten number in margin, uncertain reading"
+61,299,Urdu,Law,4,flag,copies,,,"printed 800/8OO, reading 800"
+15,253,Punjabi,Poetry,113,internal,reg,665,,registration no. appears 2x in quarter
+24,262,Punjabi,Religion,43,internal,reg,665,,registration no. appears 2x in quarter
+19,257,Punjabi,Poetry,147,internal,reg,583,,registration no. appears 2x in quarter
+32,270,Urdu,Medicine,6,internal,reg,583,,registration no. appears 2x in quarter
+42,280,Urdu,Miscellaneous,106,internal,reg,545,,registration no. appears 2x in quarter
+58,296,Bilingual (Punjabi in the Persian character and Urdu),Poetry,3,internal,reg,545,,registration no. appears 2x in quarter
+9,247,Punjabi,Fiction,8,internal,serial,12->1,,non-consecutive serials in Punjabi-Fiction
+9,247,Punjabi,Fiction,8,internal,serial,1->14,,non-consecutive serials in Punjabi-Fiction
+29,267,Urdu,History,4,internal,serial,10->1,,non-consecutive serials in Urdu-History
+32,270,Urdu,Law,7,internal,serial,8->1,,non-consecutive serials in Urdu-Law
+33,271,Urdu,Miscellaneous,40,internal,serial,40->4,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,4->41,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,47->49,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,57->59,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,61->85,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,85->62,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,99->101,,non-consecutive serials in Urdu-Miscellaneous
+33,271,Urdu,Miscellaneous,40,internal,serial,114->1,,non-consecutive serials in Urdu-Miscellaneous
+46,284,Urdu,Religion,16,internal,serial,39->42,,non-consecutive serials in Urdu-Religion
+46,284,Urdu,Religion,16,internal,serial,63->1,,non-consecutive serials in Urdu-Religion

@@ -1,7 +1,7 @@
 # Punjab Data Project — Plan of Record
 
 *Maintained by: Thomas Graves + Claude (pipeline sessions), for the joint project with
-Prof. Emmett Davis. Last updated: 2026-07-09.*
+Prof. Emmett Davis. Last updated: 2026-07-16.*
 
 This is the governing document for direction and scope. Decisions with rationale live
 in [DECISIONS.md](DECISIONS.md); pipeline mechanics in [pipeline/README.md](pipeline/README.md);
@@ -21,7 +21,19 @@ extraction schema in [pipeline/schema.md](pipeline/schema.md).
    (classifications, glosses, editorializing, the Reporter on Books as actor).
    Lifeworld-colonization / FEP framing held loosely; data leads.
 
-## 2. Current state (as of 2026-07-09)
+## 2. Current state (as of 2026-07-16)
+
+| Asset | Status |
+|---|---|
+| **Corpus in punjab.db** | **4,502 entries, 6,944,051 copies — three complete years (1910: 1,408 / 1911: 1,562 / 1912: 1,532), the full SV_412_44_1910-1912 volume.** Twelve quarters, each with manifest → render → extract → postprocess → validate complete. |
+| Extraction backends | 1910 in-session (golden set); **1911–1912 via Batch API with claude-opus-4-8**, chosen by a scored bake-off against the 1910Q2 golden quarter (D-015: reg recall 1.000, ~$2/quarter batched; Haiku rejected as false economy). Cost so far ≈ $22 incl. bake-off. |
+| Validation | Annual reg sequences: 1910 1–1410, 1911 1–1565 (111 gaps, 17 collisions), 1912 1–1532 (42 gaps, 19 collisions). Adjudication queues total ~986 items across the twelve quarters — mostly print-defect flags, all faithful-to-print on spot-checks. |
+| Normalization | aliases.json lang table extended +59 entries across 1911–1912 ingestion (dash-compounds, Panjabi/Pashtu spellings, 'Hindi & Sanskrit' etc.); 4+-language polyglots left verbatim pending a D-008 rule extension — ask Davis. |
+| Prior-hand marginalia | Now documented across the whole volume: index leaves at nearly every quarter's end, once bound *inside* a quarter (1911Q1, pdf 237 — shifts the page offset mid-quarter), once on the volume's last leaf (pdf 607). Scripture-serial tracking runs continuously 1910→1912 (Arsh Granthawali II→VIII, Rig Veda 37→74). |
+| Explorer | `build_site.py` generalized to every year in the DB (D-012 update, 2026-07-15) → `explore_1910_1912.html` (2.5 MB); deployed as the docs/ site with 1911–1912 scans as web JPEGs. Single-year explore_1910.html preserved. |
+| Later volumes | The full 1867–1942 run is on disk under Library 1/Batch 6 (incl. 1913-1915, 1916-1917, 1918-19 for finishing the decade). |
+
+### 2b. Superseded snapshot (2026-07-09, end of the 1910 slice)
 
 | Asset | Status |
 |---|---|
@@ -93,19 +105,48 @@ slice, optionally via the API-batch path once the schema is validated.
   two clicks. ✅ Verified 2026-07-08 (scan viewer fallback + paging + PDF href
   checked in live browser).
 
-## 5. After the slice (sequenced, not yet started)
+## 5. After the slice — updated sequence (2026-07-16)
 
-1. Adjudication session: work the four queues (Q1 16, Q2, Q3 55, Q4 38) against page
-   images. Q1's are all catalog artifacts already triaged; Q3's 55 remain the priority.
-2. Decide API-batch scaling (est. $100–200/decade) vs. continued in-session
-   extraction; 1911Q1 starts at PDF 195 of SV_412_44_1910-1912.pdf.
-3. Priority order for next extractions: 1910 is now a complete year (all four quarters,
-   regs ~1–1410) — the vertical slice's closed unit is in hand. Next is 1911 (same
-   SV_412_44_1910-1912.pdf volume, 1911Q1 at PDF 195).
-4. Davis meeting: marginalia **provenance** — the pencil apparatus (X-marks, running
-   numerals, verso indexes incl. Q1 doc[52]) predates his acquisition, so the question
-   shifts from "what did you record" to whether he knows the source hand; memo feedback;
-   xlsx reconciliation for 1920/1930/1940.
+Items 2–3 of the original list are DONE (API-batch decided by bake-off, D-015;
+1911 and 1912 ingested). Current queue:
+
+1. **Finish the 1910s decade:** 1913–1915 volume next (SV_412_44_1913-1915.pdf on
+   disk); map quarter boundaries by probe-render (watch for inserted prior-hand
+   leaves and unnumbered first pages — both occurred in this volume), then the
+   standard per-quarter pipeline. Keep extending aliases.json per year at ingestion.
+2. **Adjudication session(s):** ~986 queued items across twelve quarters. Priorities:
+   the reg collisions and serial jumps (validation instruments), then the flagged
+   digits. 1910's queues are triaged; 1911–1912's are not.
+3. **Davis meeting:** marginalia provenance (the hand now demonstrably spans the whole
+   1910-1912 volume, tracking scripture serials to the last leaf); the three 4+-language
+   polyglot lang values needing a canonical rule; xlsx reconciliation for 1920/1930/1940.
+4. **Aggregates layer** (see §8): emit per-quarter aggregate counts from postprocess —
+   the data contract for time-dynamics views; cheap now, costly to retrofit.
+
+## 8. Scaling & observatory roadmap (added 2026-07-16)
+
+The system has exactly one scaling cliff: the explorer embeds all entries as JSON in
+one HTML file (2.5 MB at 3 years; dead by ~15–20k entries ≈ end of the 1910s).
+Everything else (SQLite, per-quarter pipeline, manifests) scales to the full
+1867–1942 corpus (~60–80k entries) unchanged.
+
+- **Now, per-year habits (compound with data):** extend entity aliases at each
+  ingestion (drift is real: +59 lang aliases in two years; printers/publishers will
+  be worse — D-010's year-scoping warning stands); emit per-quarter aggregates
+  (norm_lang × topic × city × printer counts/copies — a few hundred KB for the whole
+  corpus) so time-dynamics views never need full records up front.
+- **At decade completion (~1919):** split the explorer into a static shell + per-year
+  gzipped JSON shards, lazy-loaded; first real time-dynamics tab built on the
+  aggregates; single-file builds remain as year-slice exports for emailing.
+  Still no server — static files on Pages preserve the archive-stability guarantee
+  (D-009/D-012) and never strain at this corpus size.
+- **Scans on the web:** full-corpus PNGs ≈ 7 GB, over the Pages budget. Convention
+  from 2026-07-16: post-1910 quarters deploy as **web-compressed JPEGs (~150 KB/page,
+  quality 55)** in docs/pages/ — the scan viewer tries .png, then .jpg, then the
+  repo-relative path. 1910's PNGs stay as deployed. Revisit object storage if/when
+  the site nears the 1 GB Pages ceiling.
+- **Probably never:** a server-side backend. Reconsider only for corpus-wide
+  full-text search over glosses.
 
 ## 6. Non-goals (explicitly out of scope for the slice)
 

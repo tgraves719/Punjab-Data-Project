@@ -1,0 +1,99 @@
+# Validation report — 1912Q4
+
+- extracted entries: 400
+- matched to Davis sheet: 0
+- Davis rows not matched by any extraction: 0
+- adjudication queue: 105 items
+
+## By category
+- flag:'1,C00' ambiguous digits: 1
+- flag:'2,0C0' ambiguous digits: 1
+- flag:'241 - 234' page range reading uncertain: 1
+- flag:'34th August 1912' - day reading uncertain: 1
+- flag:'9!' printed, likely 91: 1
+- flag:'Assm, B. O. L.' abbreviations unclear: 1
+- flag:'Augus' partly cut, reading August: 1
+- flag:'Faba Attal' possibly misprint for 'Baba Attal': 1
+- flag:'Nislat' uncertain reading: 1
+- flag:'R.' abbreviation before price line: 1
+- flag:'R.' printed after litho., meaning unclear: 1
+- flag:'R.' printed after litho., possible price note: 1
+- flag:'R.' printed after size, meaning unclear: 1
+- flag:'R.' printed, meaning unclear: 1
+- flag:'enition' printed for edition: 1
+- flag:'to at one' likely 'to be at one' as printed: 1
+- flag:Devanagari title uncertain reading: 1
+- flag:Edited by Professor Malik Raghu Nath Rai - no distinct author field: 1
+- flag:M. Hab bullah spacing uncertain: 1
+- flag:Sambat 1969 Vikrami printed alongside October 1912: 1
+- flag:Sambat year digits partly illegible (1869?): 1
+- flag:Translated by M. Muhammad Insha Ullah: 1
+- flag:col 5 printed '1 93' with gap - uncertain: 1
+- flag:col 5 reading '1282' uncertain: 1
+- flag:could be 105 or 103: 1
+- flag:could be 1434 or 1431: 1
+- flag:could be 500 or 560: 1
+- flag:day reads '16th' but partly unclear: 1
+- flag:last digit smudged, possibly 1460: 1
+- flag:leading digit illegible, printed '_st edition': 1
+- flag:name 'Nanak' printed 'Nan.k' partly obscured: 1
+- flag:native script reading uncertain: 1
+- flag:native script uncertain: 1
+- flag:native-script title, romanization uncertain: 1
+- flag:place spelling 'Kotli Khara' uncertain: 1
+- flag:printed '1,)00', reading as 1000: 1
+- flag:printed '1,000' with degraded digit: 1
+- flag:printed '19.2', reading as 1912: 1
+- flag:printed '19.2.' date digits unclear: 1
+- flag:printed '1C00', likely 1000: 1
+- flag:printed '5C0' ambiguous, read as 500: 1
+- flag:printed '5C0', likely 500: 1
+- flag:printed '8 0' with gap - reading uncertain: 1
+- flag:printed 'Amrisar', possibly 'Amritsar': 1
+- flag:printed 'R.' ambiguous: 1
+- flag:printed 1,00) degraded: 1
+- flag:printed 1,000 or 1,030 ambiguous: 1
+- flag:printed 1,00? — last digit degraded: 1
+- flag:printed 1,00C ambiguous: 1
+- flag:printed 1,0?0 — likely 1,000: 1
+- flag:printed 1,?00 degraded: 1
+- flag:printed 1,C00 ambiguous, read 1000: 1
+- flag:printed 1,C00 — reading as 1000: 1
+- flag:printed 1,C00, ambiguous digit: 1
+- flag:printed 5,000 with unclear leading digit: 1
+- flag:printed as '1,C00', ambiguous digit read as 1000: 1
+- flag:printed as '1332 with leading mark: 1
+- flag:printed as '19.2.' partly illegible: 1
+- flag:printed as ':8' - reading 18 assumed: 1
+- flag:printed as 16° may be pagination or size ambiguous: 1
+- flag:printed as 6a, likely 64: 1
+- flag:printed as 87, likely 67: 1
+- flag:printed digit unclear, appears 3: 1
+- flag:printer 'Rex Bazar' uncertain reading: 1
+- flag:printer word 'Parchar' printed as '?archar', partly illegible: 1
+- flag:publisher name 'Amad Ullah' possibly 'Ahmad Ullah': 1
+- flag:reads 'M. Muhammad Abdullah, Editor "Vakil", Amritsar; No. 207, dated the 7th November, 1912': 1
+- flag:reads 1,000 but last digit faint: 1
+- flag:reads 1435, possibly duplicate of entry 60: 1
+- flag:reads 1;04, likely 1304: 1
+- flag:reads 20,0C0, third digit unclear: 1
+- flag:reads 3C0, likely 300: 1
+- flag:reads ]82, likely 182: 1
+- flag:reg reading '1282' uncertain, duplicate of serial 14: 1
+- flag:register number 223/228 uncertain: 1
+- flag:section header printed as URUD (sic): 1
+- flag:serial digit faint, read as 2: 1
+- flag:size digit degraded, read as 16°: 1
+- flag:size reads '32°' but partly unclear ('3±°'): 1
+- flag:tract number reading '428).' uncertain: 1
+- flag:transliteration 'Bэta' uncertain: 1
+- internal:copies outside plausible range: 1
+- internal:non-consecutive serials in English-Law: 1
+- internal:non-consecutive serials in English-Miscellaneous: 1
+- internal:non-consecutive serials in Hindi-Poetry: 1
+- internal:non-consecutive serials in Hindi-Religion: 1
+- internal:non-consecutive serials in Punjabi-Miscellaneous: 1
+- internal:non-consecutive serials in Punjabi-Poetry: 2
+- internal:non-consecutive serials in Trilingual (Arabic, Persian and Urdu)-Language: 1
+- internal:non-consecutive serials in Urdu-Law: 1
+- internal:registration no. appears 2x in quarter: 14
