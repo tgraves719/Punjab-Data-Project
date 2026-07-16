@@ -284,7 +284,14 @@ const NTYPES={
  ap:{legend:[['author','#7a5a8a'],['printer','#8a5a44']],
   cap:'Authors and the presses that printed them (raise the slider to see only prolific authors). Reveals house authors, multi-press careers, and the one-press poets of the qissa market.'}};
 let net=null;
-function initNet(){if(!net){net=makeNet($('nwC'));
+function initNet(){if(!net){
+ /* full-bleed sizing: break out of main's 1200px column so the graph gets the
+    whole window (buffer sized 1:1 — no CSS downscaling blur) */
+ const cv=$('nwC'),colW=cv.parentElement.clientWidth||1140;
+ cv.width=Math.max(colW,Math.min(window.innerWidth-70,1900));
+ cv.height=Math.max(640,Math.min(window.innerHeight-250,1050));
+ cv.style.maxWidth='none';cv.style.marginLeft=Math.min(0,(colW-cv.width)/2)+'px';
+ net=makeNet(cv);
  $('nwMin').oninput=()=>{$('nwMinV').textContent=$('nwMin').value;net.rebuild();};
  $('nwType').onchange=()=>net.rebuild();}}
 function makeNet(cv){
@@ -347,27 +354,40 @@ function makeNet(cv){
  }
  const r=n=>4+Math.sqrt(n.n)*1.7;
  function step(){
-  const k=alpha;
-  for(let i=0;i<ns.length;i++){const a=ns[i];
-   for(let j=i+1;j<ns.length;j++){const b=ns[j];
-    let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy;if(d2<1)d2=1;
-    if(d2<250000){const f=1500*k/d2;dx*=f;dy*=f;a.vx+=dx;a.vy+=dy;b.vx-=dx;b.vy-=dy;}}}
+  /* uniform-grid neighbor search: repulsion + collision in ONE local pair pass,
+     ~O(n) instead of the old two O(n²) loops — this is what lets the
+     min-entries=1 hairball (~2,000 nodes) settle in seconds instead of minutes. */
+  const k=alpha,N=ns.length;
+  const CUT=N>900?230:500,CUT2=CUT*CUT,CELL=CUT;
+  const grid=new Map();
+  for(let i=0;i<N;i++){const n=ns[i];
+   const kk=Math.floor(n.x/CELL)+':'+Math.floor(n.y/CELL);
+   const cl=grid.get(kk);if(cl)cl.push(n);else grid.set(kk,[n]);}
+  const NB=[[0,0],[1,0],[0,1],[1,1],[1,-1]];
+  grid.forEach((cell,kk)=>{
+   const ci=kk.indexOf(':'),cx=+kk.slice(0,ci),cy=+kk.slice(ci+1);
+   for(const[ox,oy]of NB){
+    const other=(ox||oy)?grid.get((cx+ox)+':'+(cy+oy)):cell;
+    if(!other)continue;
+    for(let i=0;i<cell.length;i++){const a=cell[i];
+     for(let j=(other===cell?i+1:0);j<other.length;j++){const b=other[j];
+      let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy;if(d2<1)d2=1;
+      if(d2<CUT2){const f=1500*k/d2;a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f;}
+      const d=Math.sqrt(d2),minD=(r(a)+r(b))/Math.max(view.s,0.5)+3;
+      if(d<minD){const push=(minD-d)/d*0.45,px=dx*push,py=dy*push;
+       if(a!==drag){a.x+=px;a.y+=py}if(b!==drag){b.x-=px;b.y-=py}}
+     }}}});
   es.forEach(e=>{const a=ns[e.ai],b=ns[e.bi];
    let dx=b.x-a.x,dy=b.y-a.y;const d=Math.sqrt(dx*dx+dy*dy)||1;
    const rest=60+1.4*(r(a)+r(b));
    const f=(d-rest)/d*0.05*k*Math.min(2,0.5+e.w/2);
    dx*=f;dy*=f;a.vx+=dx;a.vy+=dy;b.vx-=dx;b.vy-=dy;});
-  const VMAX=55,BOUND=2800;
+  const VMAX=55,BOUND=8000;
   ns.forEach(n=>{n.vx-=n.x*0.006*k;n.vy-=n.y*0.006*k;
    const sp=Math.hypot(n.vx,n.vy);if(sp>VMAX){const s=VMAX/sp;n.vx*=s;n.vy*=s;}
    if(n!==drag){n.x+=n.vx;n.y+=n.vy}n.vx*=0.55;n.vy*=0.55;
    if(!isFinite(n.x)||!isFinite(n.y)){n.x=(Math.random()-0.5)*80;n.y=(Math.random()-0.5)*80;n.vx=n.vy=0;}
    n.x=n.x<-BOUND?-BOUND:n.x>BOUND?BOUND:n.x;n.y=n.y<-BOUND?-BOUND:n.y>BOUND?BOUND:n.y;});
-  for(let i=0;i<ns.length;i++)for(let j=i+1;j<ns.length;j++){
-   const a=ns[i],b=ns[j];let dx=b.x-a.x,dy=b.y-a.y;
-   const d=Math.max(0.5,Math.sqrt(dx*dx+dy*dy)),minD=(r(a)+r(b))/Math.max(view.s,0.5)+3;
-   if(d<minD){const push=(minD-d)/d*0.45;dx*=push;dy*=push;
-    if(a!==drag){a.x-=dx;a.y-=dy}if(b!==drag){b.x+=dx;b.y+=dy}}}
  }
  function fit(){
   if(!ns.length)return false;
@@ -375,7 +395,7 @@ function makeNet(cv){
   ns.forEach(n=>{if(n.x<x0)x0=n.x;if(n.x>x1)x1=n.x;if(n.y<y0)y0=n.y;if(n.y>y1)y1=n.y;});
   const pad=70;
   let s=Math.min((cv.width-2*pad)/Math.max(60,x1-x0),(cv.height-2*pad)/Math.max(60,y1-y0));
-  s=Math.max(0.25,Math.min(1.2,s));
+  s=Math.max(0.06,Math.min(1.2,s));  /* allow fitting the min-entries=1 hairball */
   const cx=(x0+x1)/2,cy=(y0+y1)/2;
   const ds=(s-view.s)*0.12,dox=((cv.width/2-cx*view.s)-view.ox)*0.12,doy=((cv.height/2-cy*view.s)-view.oy)*0.12;
   view.s+=ds;view.ox+=dox;view.oy+=doy;
@@ -421,7 +441,8 @@ function makeNet(cv){
  }
  function loop(){cancelAnimationFrame(raf);
   (function frame(){
-   if(alpha>0.02||drag){for(let i=0;i<2;i++)step();if(!drag)alpha*=0.985;}
+   if(alpha>0.02||drag){const reps=ns.length>1200?1:2;for(let i=0;i<reps;i++)step();
+    if(!drag)alpha*=(ns.length>900?0.97:0.985);}
    const moving=autofit?fit():false;
    draw();
    raf=(alpha>0.015||drag||moving)?requestAnimationFrame(frame):null;
