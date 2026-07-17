@@ -284,21 +284,29 @@ const NTYPES={
  ap:{legend:[['author','#7a5a8a'],['printer','#8a5a44']],
   cap:'Authors and the presses that printed them (raise the slider to see only prolific authors). Reveals house authors, multi-press careers, and the one-press poets of the qissa market.'}};
 let net=null;
-function initNet(){if(!net){
- /* full-bleed sizing: break out of main's 1200px column so the graph gets the
-    whole window (buffer sized 1:1 — no CSS downscaling blur) */
- const cv=$('nwC'),colW=cv.parentElement.clientWidth||1140;
- cv.width=Math.max(colW,Math.min(window.innerWidth-70,1900));
- cv.height=Math.max(640,Math.min(window.innerHeight-250,1050));
+function sizeNet(){
+ /* Desktop: full-bleed — break out of main's 1200px column. Small screens: fit
+    the viewport exactly (no negative margin, no horizontal overflow) and take a
+    shorter box so the controls stay reachable. Buffer stays 1:1 with CSS px, so
+    cpos()'s client→buffer mapping is exact on both. */
+ const cv=$('nwC'),colW=cv.parentElement.clientWidth||1140,small=window.innerWidth<760;
+ cv.width=small?Math.max(280,colW):Math.max(colW,Math.min(window.innerWidth-70,1900));
+ cv.height=small?Math.max(380,Math.min(window.innerHeight-230,720))
+                :Math.max(640,Math.min(window.innerHeight-250,1050));
  cv.style.maxWidth='none';cv.style.marginLeft=Math.min(0,(colW-cv.width)/2)+'px';
- net=makeNet(cv);
+}
+function initNet(){if(!net){
+ sizeNet();net=makeNet($('nwC'));
  $('nwMin').oninput=()=>{$('nwMinV').textContent=$('nwMin').value;net.rebuild();};
- $('nwType').onchange=()=>net.rebuild();}}
+ $('nwType').onchange=()=>net.rebuild();
+ // re-fit on rotate/resize (only while the tab is showing)
+ let rt=null;addEventListener('resize',()=>{if(!$('nw').classList.contains('on'))return;
+  clearTimeout(rt);rt=setTimeout(()=>{sizeNet();net.refit();},250);});}}
 function makeNet(cv){
  const ctx=cv.getContext('2d');
  let ns=[],es=[],drag=null,pan=null,hover=null,sel=null,raf=null,alpha=0,autofit=true;
  const view={s:1,ox:cv.width/2,oy:cv.height/2};
- const SMIN=0.08,SMAX=12;
+ const SMIN=0.05,SMAX=12;
  function zoomAt(mx,my,f){autofit=false;
   const wx=(mx-view.ox)/view.s,wy=(my-view.oy)/view.s;
   view.s=Math.max(SMIN,Math.min(SMAX,view.s*f));
@@ -349,7 +357,7 @@ function makeNet(cv){
   $('nwCap').textContent=NTYPES[type].cap;
   $('nwLegend').innerHTML=NTYPES[type].legend.map(([t,c])=>
    '<span class="dot" style="background:'+c+'"></span>'+t).join('')+
-   ' · node size = entries · scroll to zoom, drag background to pan, drag a node to move it, click to highlight';
+   ' · node size = entries · scroll or pinch to zoom · drag the background to pan · drag a node to move it · tap/click to highlight';
   loop();
  }
  const r=n=>4+Math.sqrt(n.n)*1.7;
@@ -450,38 +458,68 @@ function makeNet(cv){
  function world(ev){const b=cv.getBoundingClientRect();
   const mx=(ev.clientX-b.left)*cv.width/b.width,my=(ev.clientY-b.top)*cv.height/b.height;
   return[(mx-view.ox)/view.s,(my-view.oy)/view.s];}
- function at(wx,wy){for(let i=ns.length-1;i>=0;i--){const n=ns[i];
-  const dx=wx-n.x,dy=wy-n.y,rr=(r(n)+4)/view.s;
+ /* pad: hit slop in screen px — fingers are blunter than cursors */
+ function at(wx,wy,pad){for(let i=ns.length-1;i>=0;i--){const n=ns[i];
+  const dx=wx-n.x,dy=wy-n.y,rr=(r(n)+(pad||4))/view.s;
   if(dx*dx+dy*dy<rr*rr)return n;}return null;}
  function cpos(ev){const b=cv.getBoundingClientRect();
   return[(ev.clientX-b.left)*cv.width/b.width,(ev.clientY-b.top)*cv.height/b.height];}
- cv.onmousemove=ev=>{
+ /* Pointer Events — one path for mouse, touch and pen. Two fingers pinch-zoom
+    and pan together; one finger drags a node or the background; tap toggles the
+    highlight and shows the node's stats (there is no hover on touch). The
+    canvas sets touch-action:none, so the browser never steals these gestures —
+    which is exactly why the old mouse-only handlers left mobile inert. */
+ const ptrs=new Map();let pinch=null;
+ const slop=ev=>ev.pointerType==='mouse'?4:14;
+ const mid=()=>{const[a,b]=[...ptrs.values()];
+  return[(a[0]+b[0])/2,(a[1]+b[1])/2,Math.hypot(a[0]-b[0],a[1]-b[1])||1];};
+ function showTip(n,cx,cy){const t=$('tip');t.style.display='block';
+  t.style.left=Math.min(cx+14,window.innerWidth-290)+'px';t.style.top=(cy+10)+'px';
+  t.innerHTML='<b>'+esc(n.label)+'</b><br>'+n.type+' · '+n.n+' entries · '+
+   fmt(n.cop)+' copies · '+n.deg+' connections';}
+ cv.onpointerdown=ev=>{
+  // capture keeps a drag alive if the finger leaves the canvas; never let a
+  // rejected capture (odd pointer states, synthetic events) kill the gesture
+  try{cv.setPointerCapture(ev.pointerId)}catch(e){}
+  ptrs.set(ev.pointerId,cpos(ev));
+  if(ptrs.size===2){const[mx,my,d]=mid();pinch={mx,my,d};drag=null;pan=null;
+   $('tip').style.display='none';return;}
+  if(ptrs.size>2)return;
+  const[wx,wy]=world(ev);drag=at(wx,wy,slop(ev));
+  if(drag){alpha=Math.max(alpha,0.12);loop();}
+  else{const[mx,my]=cpos(ev);pan={mx,my,ox:view.ox,oy:view.oy};
+   cv.style.cursor='grabbing';$('tip').style.display='none';}};
+ cv.onpointermove=ev=>{
+  if(ptrs.has(ev.pointerId))ptrs.set(ev.pointerId,cpos(ev));
+  if(pinch&&ptrs.size>=2){const[mx,my,d]=mid();
+   zoomAt(mx,my,d/pinch.d);                    // scale about the pinch centre
+   view.ox+=mx-pinch.mx;view.oy+=my-pinch.my;  // and track two-finger drag
+   pinch={mx,my,d};draw();return;}
   if(pan){const[mx,my]=cpos(ev);view.ox=pan.ox+(mx-pan.mx);view.oy=pan.oy+(my-pan.my);
    autofit=false;draw();return;}
   const[wx,wy]=world(ev);
   if(drag){drag.x=wx;drag.y=wy;return;}
+  if(ev.pointerType!=='mouse')return;
   hover=at(wx,wy);cv.style.cursor=hover?'pointer':'grab';
-  const t=$('tip');
-  if(hover){t.style.display='block';t.style.left=(ev.clientX+14)+'px';t.style.top=(ev.clientY+10)+'px';
-   t.innerHTML='<b>'+esc(hover.label)+'</b><br>'+hover.type+' · '+hover.n+' entries · '+
-    fmt(hover.cop)+' copies · '+hover.deg+' connections';}
-  else t.style.display='none';
+  if(hover)showTip(hover,ev.clientX,ev.clientY);else $('tip').style.display='none';
   if(!raf)draw();};
- cv.onmousedown=ev=>{const[wx,wy]=world(ev);drag=at(wx,wy);
-  if(drag){alpha=Math.max(alpha,0.12);loop();}
-  else{const[mx,my]=cpos(ev);pan={mx,my,ox:view.ox,oy:view.oy};cv.style.cursor='grabbing';$('tip').style.display='none';}};
- cv.onmouseup=ev=>{
-  if(pan){pan=null;cv.style.cursor='grab';return;}
-  if(drag){const[wx,wy]=world(ev);const n=at(wx,wy);
-  if(n===drag)sel=(sel===drag?null:drag);
-  drag=null;alpha=Math.max(alpha,0.25);loop();}};
- cv.onmouseleave=()=>{$('tip').style.display='none';hover=null;drag=null;pan=null;if(!raf)draw();};
+ const endPtr=ev=>{
+  ptrs.delete(ev.pointerId);if(ptrs.size<2)pinch=null;
+  if(pan){pan=null;cv.style.cursor='grab';}
+  if(drag){const[wx,wy]=world(ev);const n=at(wx,wy,slop(ev));
+   if(n===drag)sel=(sel===drag?null:drag);
+   if(ev.pointerType!=='mouse'){                // touch has no hover: tap = stats
+    if(sel)showTip(sel,ev.clientX,ev.clientY);else $('tip').style.display='none';}
+   drag=null;alpha=Math.max(alpha,0.25);loop();}};
+ cv.onpointerup=endPtr;cv.onpointercancel=endPtr;
+ cv.onpointerleave=ev=>{if(ev.pointerType==='mouse'){
+  $('tip').style.display='none';hover=null;if(!raf)draw();}};
  cv.onwheel=ev=>{ev.preventDefault();const[mx,my]=cpos(ev);
   zoomAt(mx,my,Math.exp(-ev.deltaY*0.0015));};
  $('nwIn').onclick=()=>zoomAt(cv.width/2,cv.height/2,1.35);
  $('nwOut').onclick=()=>zoomAt(cv.width/2,cv.height/2,1/1.35);
  $('nwFit').onclick=()=>{autofit=true;loop();};
- rebuild();return{rebuild};
+ rebuild();return{rebuild,refit(){autofit=true;loop();}};
 }
 /* ---------- market ---------- */
 (function(){
