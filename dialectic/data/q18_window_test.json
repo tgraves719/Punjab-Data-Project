@@ -1,0 +1,1633 @@
+{
+ "80": {
+  "1867-75||tract": {
+   "CHRISTIAN": 83,
+   "SIKH": 6,
+   "NONE": 75,
+   "MUSLIM": 13,
+   "MIXED": 20,
+   "HINDU": 6
+  },
+  "1867-75||NULL-edition": {
+   "NONE": 16,
+   "MUSLIM": 1,
+   "SIKH": 2
+  },
+  "1867-75||risala": {
+   "NONE": 63,
+   "MUSLIM": 26,
+   "SIKH": 5,
+   "MIXED": 2,
+   "HINDU": 6,
+   "CHRISTIAN": 2
+  },
+  "1867-75||pamphlet": {
+   "NONE": 11,
+   "CHRISTIAN": 2,
+   "MUSLIM": 3
+  },
+  "1867-75||NULL-price": {
+   "NONE": 46
+  },
+  "1881-84||risala": {
+   "NONE": 114,
+   "MUSLIM": 17,
+   "HINDU": 8,
+   "SIKH": 3,
+   "CHRISTIAN": 2
+  },
+  "1881-84||tract": {
+   "CHRISTIAN": 63,
+   "MIXED": 11,
+   "NONE": 19,
+   "HINDU": 7,
+   "SIKH": 2,
+   "MUSLIM": 6
+  },
+  "1881-84||pamphlet": {
+   "CHRISTIAN": 5,
+   "MUSLIM": 3,
+   "NONE": 11,
+   "MIXED": 3,
+   "SIKH": 1
+  },
+  "1881-84||NULL-edition": {
+   "NONE": 9,
+   "SIKH": 2,
+   "CHRISTIAN": 1,
+   "MUSLIM": 1
+  },
+  "1881-84||hand-bill": {
+   "CHRISTIAN": 6,
+   "NONE": 17,
+   "MUSLIM": 4
+  },
+  "1885-87||risala": {
+   "MUSLIM": 22,
+   "NONE": 126,
+   "CHRISTIAN": 6,
+   "HINDU": 5,
+   "SIKH": 6
+  },
+  "1885-87||tract": {
+   "NONE": 13,
+   "CHRISTIAN": 1,
+   "SIKH": 3,
+   "MUSLIM": 2,
+   "HINDU": 1
+  },
+  "1885-87||pamphlet": {
+   "NONE": 5,
+   "MUSLIM": 1,
+   "CHRISTIAN": 1,
+   "HINDU": 2
+  },
+  "1885-87||NULL-edition": {
+   "NONE": 2,
+   "MUSLIM": 1,
+   "SIKH": 1
+  },
+  "1885-87||hand-bill": {
+   "NONE": 23,
+   "MUSLIM": 1,
+   "CHRISTIAN": 1,
+   "HINDU": 1
+  },
+  "1885-87||NULL-price": {
+   "NONE": 1
+  },
+  "1888-89||pamphlet": {
+   "SIKH": 1,
+   "NONE": 11
+  },
+  "1888-89||risala": {
+   "NONE": 112,
+   "HINDU": 3,
+   "MUSLIM": 19,
+   "SIKH": 8,
+   "CHRISTIAN": 5
+  },
+  "1888-89||tract": {
+   "HINDU": 5,
+   "NONE": 7,
+   "MUSLIM": 4,
+   "CHRISTIAN": 1
+  },
+  "1888-89||NULL-price": {
+   "NONE": 5
+  },
+  "1888-89||hand-bill": {
+   "NONE": 8,
+   "CHRISTIAN": 2
+  },
+  "1888-89||NULL-edition": {
+   "HINDU": 1,
+   "NONE": 5,
+   "SIKH": 1
+  },
+  "1889-91||pamphlet": {
+   "NONE": 11,
+   "MIXED": 1,
+   "MUSLIM": 3,
+   "CHRISTIAN": 2,
+   "SIKH": 1
+  },
+  "1889-91||risala": {
+   "NONE": 154,
+   "HINDU": 4,
+   "MUSLIM": 26,
+   "SIKH": 2,
+   "CHRISTIAN": 3
+  },
+  "1889-91||tract": {
+   "NONE": 27,
+   "MUSLIM": 8,
+   "MIXED": 1,
+   "SIKH": 1,
+   "CHRISTIAN": 1
+  },
+  "1889-91||hand-bill": {
+   "NONE": 16,
+   "HINDU": 1,
+   "MUSLIM": 1
+  },
+  "1889-91||NULL-edition": {
+   "NONE": 18,
+   "MUSLIM": 4,
+   "HINDU": 1,
+   "SIKH": 1
+  },
+  "1889-91||NULL-price": {
+   "NONE": 1
+  },
+  "1891_1893||pamphlet": {
+   "CHRISTIAN": 2,
+   "NONE": 19,
+   "HINDU": 2,
+   "SIKH": 1,
+   "MIXED": 1
+  },
+  "1891_1893||risala": {
+   "MUSLIM": 26,
+   "NONE": 94,
+   "SIKH": 4,
+   "CHRISTIAN": 3,
+   "HINDU": 1,
+   "MIXED": 1
+  },
+  "1891_1893||tract": {
+   "CHRISTIAN": 4,
+   "MUSLIM": 10,
+   "MIXED": 1,
+   "NONE": 43,
+   "SIKH": 5,
+   "HINDU": 3
+  },
+  "1891_1893||NULL-edition": {
+   "NONE": 8,
+   "MUSLIM": 3,
+   "SIKH": 3
+  },
+  "1891_1893||hand-bill": {
+   "NONE": 7,
+   "MUSLIM": 2,
+   "HINDU": 1
+  },
+  "1907-08||NULL-edition": {
+   "NONE": 786,
+   "MUSLIM": 139,
+   "SIKH": 61,
+   "HINDU": 33,
+   "CHRISTIAN": 34,
+   "MIXED": 7
+  },
+  "1907-08||NULL-price": {
+   "NONE": 980,
+   "MUSLIM": 175,
+   "SIKH": 64,
+   "HINDU": 44,
+   "CHRISTIAN": 12,
+   "MIXED": 4
+  },
+  "1907-08||risala": {
+   "HINDU": 22,
+   "NONE": 17,
+   "MUSLIM": 7,
+   "CHRISTIAN": 1
+  },
+  "1907-08||tract": {
+   "NONE": 12,
+   "HINDU": 1,
+   "SIKH": 28
+  },
+  "1907-08||pamphlet": {
+   "NONE": 36,
+   "HINDU": 6,
+   "MUSLIM": 12,
+   "MIXED": 1,
+   "CHRISTIAN": 3,
+   "SIKH": 3
+  },
+  "1908-1909||pamphlet": {
+   "NONE": 118,
+   "SIKH": 16,
+   "CHRISTIAN": 4,
+   "MUSLIM": 27,
+   "HINDU": 22,
+   "MIXED": 4
+  },
+  "1908-1909||NULL-edition": {
+   "CHRISTIAN": 194,
+   "NONE": 1735,
+   "MUSLIM": 214,
+   "MIXED": 20,
+   "SIKH": 108,
+   "HINDU": 51
+  },
+  "1908-1909||NULL-price": {
+   "NONE": 1475,
+   "MUSLIM": 189,
+   "SIKH": 93,
+   "HINDU": 44,
+   "CHRISTIAN": 45,
+   "MIXED": 10
+  },
+  "1908-1909||risala": {
+   "NONE": 33,
+   "MUSLIM": 10,
+   "HINDU": 14,
+   "CHRISTIAN": 1
+  },
+  "1908-1909||tract": {
+   "SIKH": 34,
+   "NONE": 26,
+   "HINDU": 1
+  },
+  "1910-1912||NULL-edition": {
+   "NONE": 3210,
+   "SIKH": 243,
+   "CHRISTIAN": 110,
+   "HINDU": 135,
+   "MUSLIM": 354,
+   "MIXED": 24
+  },
+  "1910-1912||NULL-price": {
+   "NONE": 3084,
+   "SIKH": 234,
+   "HINDU": 135,
+   "MUSLIM": 317,
+   "MIXED": 25,
+   "CHRISTIAN": 31
+  },
+  "1910-1912||pamphlet": {
+   "HINDU": 13,
+   "SIKH": 11,
+   "MUSLIM": 44,
+   "NONE": 125,
+   "MIXED": 11,
+   "CHRISTIAN": 6
+  },
+  "1910-1912||tract": {
+   "SIKH": 64,
+   "NONE": 57,
+   "CHRISTIAN": 5,
+   "HINDU": 17,
+   "MIXED": 1,
+   "MUSLIM": 7
+  },
+  "1910-1912||risala": {
+   "NONE": 30,
+   "MUSLIM": 9,
+   "HINDU": 4
+  },
+  "1910-1912||hand-bill": {
+   "SIKH": 7,
+   "NONE": 5,
+   "MIXED": 1
+  },
+  "1913-1915||NULL-edition": {
+   "MUSLIM": 360,
+   "NONE": 3170,
+   "SIKH": 189,
+   "MIXED": 24,
+   "HINDU": 168,
+   "CHRISTIAN": 65
+  },
+  "1913-1915||NULL-price": {
+   "MUSLIM": 322,
+   "NONE": 3433,
+   "SIKH": 219,
+   "MIXED": 12,
+   "HINDU": 172,
+   "CHRISTIAN": 37
+  },
+  "1913-1915||tract": {
+   "SIKH": 57,
+   "NONE": 59,
+   "MIXED": 6,
+   "MUSLIM": 9,
+   "HINDU": 15,
+   "CHRISTIAN": 6
+  },
+  "1913-1915||risala": {
+   "NONE": 47,
+   "HINDU": 3,
+   "MUSLIM": 17,
+   "MIXED": 1
+  },
+  "1913-1915||pamphlet": {
+   "MIXED": 6,
+   "NONE": 37,
+   "MUSLIM": 14,
+   "HINDU": 6,
+   "SIKH": 7,
+   "CHRISTIAN": 1
+  },
+  "1913-1915||hand-bill": {
+   "NONE": 1,
+   "MUSLIM": 1,
+   "SIKH": 2
+  },
+  "1916-1917||NULL-edition": {
+   "NONE": 1881,
+   "MUSLIM": 189,
+   "SIKH": 86,
+   "HINDU": 75,
+   "CHRISTIAN": 50,
+   "MIXED": 12
+  },
+  "1916-1917||NULL-price": {
+   "NONE": 1863,
+   "MUSLIM": 200,
+   "HINDU": 76,
+   "SIKH": 82,
+   "MIXED": 10,
+   "CHRISTIAN": 13
+  },
+  "1916-1917||pamphlet": {
+   "SIKH": 9,
+   "NONE": 51,
+   "MUSLIM": 12,
+   "MIXED": 2,
+   "CHRISTIAN": 1,
+   "HINDU": 2
+  },
+  "1916-1917||tract": {
+   "SIKH": 24,
+   "NONE": 35,
+   "MUSLIM": 1,
+   "HINDU": 2
+  },
+  "1916-1917||risala": {
+   "MUSLIM": 16,
+   "NONE": 31
+  },
+  "1916-1917||hand-bill": {
+   "NONE": 1
+  },
+  "1918-19||NULL-edition": {
+   "CHRISTIAN": 110,
+   "NONE": 1710,
+   "HINDU": 64,
+   "SIKH": 75,
+   "MUSLIM": 154,
+   "MIXED": 12
+  },
+  "1918-19||NULL-price": {
+   "NONE": 1767,
+   "MUSLIM": 142,
+   "SIKH": 71,
+   "MIXED": 9,
+   "HINDU": 49,
+   "CHRISTIAN": 12
+  },
+  "1918-19||tract": {
+   "SIKH": 35,
+   "MIXED": 3,
+   "NONE": 19,
+   "MUSLIM": 4,
+   "HINDU": 3
+  },
+  "1918-19||pamphlet": {
+   "HINDU": 1,
+   "NONE": 29,
+   "SIKH": 13,
+   "MUSLIM": 2
+  },
+  "1918-19||risala": {
+   "NONE": 22,
+   "MUSLIM": 7
+  },
+  "1920-21||NULL-edition": {
+   "NONE": 1823,
+   "MUSLIM": 252,
+   "SIKH": 101,
+   "CHRISTIAN": 142,
+   "HINDU": 73,
+   "MIXED": 11
+  },
+  "1920-21||NULL-price": {
+   "MUSLIM": 326,
+   "NONE": 2279,
+   "SIKH": 93,
+   "CHRISTIAN": 30,
+   "HINDU": 104,
+   "MIXED": 9
+  },
+  "1920-21||tract": {
+   "SIKH": 30,
+   "NONE": 21,
+   "HINDU": 3,
+   "CHRISTIAN": 13,
+   "MIXED": 2,
+   "MUSLIM": 1
+  },
+  "1920-21||pamphlet": {
+   "SIKH": 6,
+   "NONE": 29,
+   "MUSLIM": 4,
+   "HINDU": 1,
+   "CHRISTIAN": 1
+  },
+  "1920-21||risala": {
+   "NONE": 35,
+   "MUSLIM": 9
+  },
+  "1920-21||hand-bill": {
+   "SIKH": 3
+  },
+  "1922-23||NULL-price": {
+   "NONE": 2520,
+   "MUSLIM": 359,
+   "SIKH": 141,
+   "HINDU": 103,
+   "MIXED": 10,
+   "CHRISTIAN": 21
+  },
+  "1922-23||tract": {
+   "SIKH": 21,
+   "NONE": 14,
+   "HINDU": 5,
+   "MUSLIM": 5,
+   "MIXED": 1
+  },
+  "1922-23||NULL-edition": {
+   "CHRISTIAN": 157,
+   "NONE": 2340,
+   "SIKH": 140,
+   "MIXED": 13,
+   "HINDU": 90,
+   "MUSLIM": 285
+  },
+  "1922-23||pamphlet": {
+   "NONE": 62,
+   "SIKH": 12,
+   "MUSLIM": 17,
+   "HINDU": 6,
+   "CHRISTIAN": 1,
+   "MIXED": 2
+  },
+  "1922-23||risala": {
+   "MUSLIM": 17,
+   "NONE": 38,
+   "MIXED": 1,
+   "HINDU": 1
+  },
+  "1924-25||pamphlet": {
+   "NONE": 47,
+   "MUSLIM": 24,
+   "SIKH": 6,
+   "HINDU": 10,
+   "MIXED": 2
+  },
+  "1924-25||NULL-edition": {
+   "MUSLIM": 236,
+   "NONE": 2102,
+   "SIKH": 115,
+   "HINDU": 110,
+   "CHRISTIAN": 14,
+   "MIXED": 16
+  },
+  "1924-25||NULL-price": {
+   "NONE": 1920,
+   "MUSLIM": 196,
+   "HINDU": 87,
+   "SIKH": 119,
+   "MIXED": 12,
+   "CHRISTIAN": 9
+  },
+  "1924-25||risala": {
+   "NONE": 32,
+   "MUSLIM": 9,
+   "HINDU": 2
+  },
+  "1924-25||tract": {
+   "NONE": 11,
+   "SIKH": 15,
+   "HINDU": 5
+  },
+  "1924-25||hand-bill": {
+   "NONE": 1
+  },
+  "1926-27||NULL-edition": {
+   "NONE": 2645,
+   "MUSLIM": 235,
+   "HINDU": 131,
+   "SIKH": 168,
+   "MIXED": 4,
+   "CHRISTIAN": 16
+  },
+  "1926-27||NULL-price": {
+   "NONE": 2555,
+   "MUSLIM": 227,
+   "HINDU": 120,
+   "SIKH": 166,
+   "MIXED": 14,
+   "CHRISTIAN": 12
+  },
+  "1926-27||tract": {
+   "SIKH": 25,
+   "NONE": 22,
+   "CHRISTIAN": 1,
+   "MUSLIM": 1
+  },
+  "1926-27||pamphlet": {
+   "NONE": 67,
+   "MUSLIM": 23,
+   "CHRISTIAN": 3,
+   "HINDU": 17,
+   "SIKH": 3,
+   "MIXED": 1
+  },
+  "1926-27||risala": {
+   "NONE": 34,
+   "MUSLIM": 11
+  },
+  "1926-27||hand-bill": {
+   "NONE": 1
+  },
+  "1928-29||tract": {
+   "NONE": 24,
+   "SIKH": 23,
+   "CHRISTIAN": 1,
+   "HINDU": 5,
+   "MUSLIM": 1,
+   "MIXED": 1
+  },
+  "1928-29||NULL-edition": {
+   "NONE": 2440,
+   "MUSLIM": 163,
+   "HINDU": 90,
+   "CHRISTIAN": 9,
+   "SIKH": 157,
+   "MIXED": 10
+  },
+  "1928-29||NULL-price": {
+   "NONE": 2415,
+   "MUSLIM": 181,
+   "HINDU": 71,
+   "SIKH": 118,
+   "MIXED": 5,
+   "CHRISTIAN": 3
+  },
+  "1928-29||pamphlet": {
+   "HINDU": 2,
+   "NONE": 48,
+   "SIKH": 13,
+   "CHRISTIAN": 3,
+   "MUSLIM": 18,
+   "MIXED": 1
+  },
+  "1928-29||risala": {
+   "NONE": 14,
+   "MUSLIM": 13,
+   "HINDU": 1,
+   "SIKH": 1
+  },
+  "1930-31||NULL-edition": {
+   "SIKH": 170,
+   "NONE": 1895,
+   "MUSLIM": 283,
+   "HINDU": 96,
+   "CHRISTIAN": 10,
+   "MIXED": 26
+  },
+  "1930-31||NULL-price": {
+   "NONE": 1874,
+   "SIKH": 124,
+   "HINDU": 80,
+   "MUSLIM": 292,
+   "CHRISTIAN": 2,
+   "MIXED": 20
+  },
+  "1930-31||pamphlet": {
+   "MUSLIM": 12,
+   "NONE": 68,
+   "MIXED": 3,
+   "CHRISTIAN": 5,
+   "HINDU": 9,
+   "SIKH": 16
+  },
+  "1930-31||tract": {
+   "SIKH": 19,
+   "NONE": 48,
+   "MUSLIM": 21,
+   "HINDU": 15,
+   "CHRISTIAN": 1,
+   "MIXED": 1
+  },
+  "1930-31||risala": {
+   "NONE": 12,
+   "MUSLIM": 10,
+   "SIKH": 1
+  },
+  "1930-31||hand-bill": {
+   "NONE": 1
+  },
+  "1932-35||NULL-edition": {
+   "NONE": 3569,
+   "MUSLIM": 546,
+   "HINDU": 135,
+   "SIKH": 249,
+   "MIXED": 26,
+   "CHRISTIAN": 24
+  },
+  "1932-35||NULL-price": {
+   "MUSLIM": 799,
+   "SIKH": 239,
+   "NONE": 4116,
+   "HINDU": 132,
+   "MIXED": 29,
+   "CHRISTIAN": 23
+  },
+  "1932-35||pamphlet": {
+   "NONE": 24,
+   "SIKH": 7,
+   "MUSLIM": 15,
+   "MIXED": 2,
+   "HINDU": 1,
+   "CHRISTIAN": 1
+  },
+  "1932-35||tract": {
+   "SIKH": 20,
+   "NONE": 57,
+   "MUSLIM": 28,
+   "HINDU": 14,
+   "MIXED": 4,
+   "CHRISTIAN": 4
+  },
+  "1932-35||risala": {
+   "NONE": 15,
+   "MUSLIM": 23,
+   "HINDU": 3,
+   "SIKH": 1,
+   "CHRISTIAN": 1
+  },
+  "1932-35||hand-bill": {
+   "SIKH": 1
+  },
+  "1936-38||NULL-edition": {
+   "NONE": 2877,
+   "HINDU": 112,
+   "SIKH": 111,
+   "MUSLIM": 303,
+   "CHRISTIAN": 27,
+   "MIXED": 15
+  },
+  "1936-38||NULL-price": {
+   "SIKH": 141,
+   "NONE": 3590,
+   "HINDU": 80,
+   "MIXED": 9,
+   "MUSLIM": 432,
+   "CHRISTIAN": 20
+  },
+  "1936-38||tract": {
+   "SIKH": 8,
+   "MUSLIM": 7,
+   "HINDU": 32,
+   "NONE": 30,
+   "MIXED": 2,
+   "CHRISTIAN": 2
+  },
+  "1936-38||risala": {
+   "NONE": 23,
+   "MUSLIM": 2,
+   "SIKH": 1
+  },
+  "1936-38||pamphlet": {
+   "MUSLIM": 3,
+   "MIXED": 1,
+   "HINDU": 1,
+   "NONE": 1
+  },
+  "1936-38||hand-bill": {
+   "SIKH": 1
+  },
+  "1939-40||NULL-edition": {
+   "NONE": 2560,
+   "HINDU": 78,
+   "MUSLIM": 193,
+   "SIKH": 65,
+   "MIXED": 12,
+   "CHRISTIAN": 12
+  },
+  "1939-40||NULL-price": {
+   "MUSLIM": 372,
+   "NONE": 2966,
+   "MIXED": 15,
+   "SIKH": 81,
+   "HINDU": 68,
+   "CHRISTIAN": 10
+  },
+  "1939-40||tract": {
+   "NONE": 22,
+   "HINDU": 13,
+   "MUSLIM": 7,
+   "CHRISTIAN": 3,
+   "SIKH": 1,
+   "MIXED": 1
+  },
+  "1939-40||pamphlet": {
+   "NONE": 5,
+   "MUSLIM": 3
+  },
+  "1939-40||risala": {
+   "MUSLIM": 6,
+   "CHRISTIAN": 1,
+   "NONE": 6
+  },
+  "1941-42||NULL-edition": {
+   "MUSLIM": 162,
+   "NONE": 1977,
+   "HINDU": 87,
+   "SIKH": 41,
+   "MIXED": 6,
+   "CHRISTIAN": 6
+  },
+  "1941-42||NULL-price": {
+   "MUSLIM": 170,
+   "NONE": 2009,
+   "HINDU": 55,
+   "SIKH": 61,
+   "MIXED": 5,
+   "CHRISTIAN": 6
+  },
+  "1941-42||tract": {
+   "NONE": 7,
+   "MUSLIM": 6,
+   "HINDU": 15,
+   "SIKH": 3
+  },
+  "1941-42||risala": {
+   "MUSLIM": 5,
+   "NONE": 7
+  },
+  "1941-42||pamphlet": {
+   "SIKH": 1,
+   "NONE": 6,
+   "HINDU": 1
+  }
+ },
+ "260": {
+  "1867-75||tract": {
+   "CHRISTIAN": 77,
+   "MIXED": 33,
+   "NONE": 37,
+   "MUSLIM": 36,
+   "SIKH": 8,
+   "HINDU": 12
+  },
+  "1867-75||NULL-edition": {
+   "NONE": 9,
+   "MUSLIM": 3,
+   "CHRISTIAN": 3,
+   "HINDU": 2,
+   "SIKH": 1,
+   "MIXED": 1
+  },
+  "1867-75||risala": {
+   "NONE": 39,
+   "MUSLIM": 33,
+   "SIKH": 8,
+   "MIXED": 10,
+   "HINDU": 8,
+   "CHRISTIAN": 6
+  },
+  "1867-75||pamphlet": {
+   "MUSLIM": 7,
+   "NONE": 6,
+   "CHRISTIAN": 3
+  },
+  "1867-75||NULL-price": {
+   "NONE": 42,
+   "SIKH": 1,
+   "MUSLIM": 1,
+   "CHRISTIAN": 2
+  },
+  "1881-84||risala": {
+   "MUSLIM": 24,
+   "HINDU": 13,
+   "CHRISTIAN": 9,
+   "NONE": 70,
+   "MIXED": 20,
+   "SIKH": 8
+  },
+  "1881-84||tract": {
+   "CHRISTIAN": 60,
+   "MIXED": 25,
+   "NONE": 12,
+   "HINDU": 10,
+   "MUSLIM": 1
+  },
+  "1881-84||pamphlet": {
+   "MIXED": 6,
+   "MUSLIM": 5,
+   "CHRISTIAN": 3,
+   "NONE": 8,
+   "HINDU": 1
+  },
+  "1881-84||NULL-edition": {
+   "CHRISTIAN": 2,
+   "MUSLIM": 2,
+   "NONE": 5,
+   "HINDU": 1,
+   "SIKH": 3
+  },
+  "1881-84||hand-bill": {
+   "CHRISTIAN": 11,
+   "NONE": 6,
+   "MUSLIM": 9,
+   "MIXED": 1
+  },
+  "1885-87||risala": {
+   "MIXED": 5,
+   "MUSLIM": 40,
+   "NONE": 86,
+   "HINDU": 18,
+   "CHRISTIAN": 8,
+   "SIKH": 8
+  },
+  "1885-87||tract": {
+   "MUSLIM": 5,
+   "NONE": 8,
+   "CHRISTIAN": 1,
+   "SIKH": 3,
+   "MIXED": 2,
+   "HINDU": 1
+  },
+  "1885-87||pamphlet": {
+   "NONE": 5,
+   "MUSLIM": 1,
+   "CHRISTIAN": 1,
+   "HINDU": 2
+  },
+  "1885-87||NULL-edition": {
+   "NONE": 1,
+   "MUSLIM": 1,
+   "SIKH": 2
+  },
+  "1885-87||hand-bill": {
+   "NONE": 15,
+   "HINDU": 6,
+   "MUSLIM": 2,
+   "CHRISTIAN": 3
+  },
+  "1885-87||NULL-price": {
+   "CHRISTIAN": 1
+  },
+  "1888-89||pamphlet": {
+   "SIKH": 1,
+   "MUSLIM": 1,
+   "HINDU": 2,
+   "NONE": 7,
+   "CHRISTIAN": 1
+  },
+  "1888-89||risala": {
+   "MUSLIM": 36,
+   "NONE": 73,
+   "HINDU": 9,
+   "CHRISTIAN": 10,
+   "SIKH": 14,
+   "MIXED": 5
+  },
+  "1888-89||tract": {
+   "HINDU": 7,
+   "NONE": 3,
+   "MIXED": 2,
+   "MUSLIM": 3,
+   "CHRISTIAN": 2
+  },
+  "1888-89||NULL-price": {
+   "NONE": 5
+  },
+  "1888-89||hand-bill": {
+   "NONE": 5,
+   "CHRISTIAN": 5
+  },
+  "1888-89||NULL-edition": {
+   "HINDU": 1,
+   "SIKH": 3,
+   "NONE": 2,
+   "MIXED": 1
+  },
+  "1889-91||pamphlet": {
+   "NONE": 7,
+   "MUSLIM": 5,
+   "HINDU": 4,
+   "SIKH": 1,
+   "CHRISTIAN": 1
+  },
+  "1889-91||risala": {
+   "MUSLIM": 46,
+   "MIXED": 6,
+   "NONE": 118,
+   "HINDU": 4,
+   "SIKH": 8,
+   "CHRISTIAN": 7
+  },
+  "1889-91||tract": {
+   "MIXED": 3,
+   "NONE": 19,
+   "HINDU": 1,
+   "MUSLIM": 10,
+   "CHRISTIAN": 1,
+   "SIKH": 4
+  },
+  "1889-91||hand-bill": {
+   "MUSLIM": 6,
+   "NONE": 5,
+   "HINDU": 2,
+   "CHRISTIAN": 4,
+   "MIXED": 1
+  },
+  "1889-91||NULL-edition": {
+   "SIKH": 5,
+   "MIXED": 1,
+   "MUSLIM": 5,
+   "NONE": 10,
+   "HINDU": 3
+  },
+  "1889-91||NULL-price": {
+   "NONE": 1
+  },
+  "1891_1893||pamphlet": {
+   "HINDU": 6,
+   "NONE": 7,
+   "MIXED": 3,
+   "MUSLIM": 4,
+   "SIKH": 2,
+   "CHRISTIAN": 3
+  },
+  "1891_1893||risala": {
+   "MUSLIM": 39,
+   "NONE": 67,
+   "CHRISTIAN": 8,
+   "MIXED": 4,
+   "HINDU": 7,
+   "SIKH": 4
+  },
+  "1891_1893||tract": {
+   "CHRISTIAN": 5,
+   "MUSLIM": 13,
+   "MIXED": 4,
+   "NONE": 36,
+   "SIKH": 4,
+   "HINDU": 4
+  },
+  "1891_1893||NULL-edition": {
+   "NONE": 5,
+   "MUSLIM": 5,
+   "SIKH": 4
+  },
+  "1891_1893||hand-bill": {
+   "NONE": 1,
+   "CHRISTIAN": 1,
+   "MUSLIM": 5,
+   "HINDU": 3
+  },
+  "1907-08||NULL-edition": {
+   "NONE": 437,
+   "MUSLIM": 312,
+   "SIKH": 146,
+   "HINDU": 99,
+   "MIXED": 33,
+   "CHRISTIAN": 33
+  },
+  "1907-08||NULL-price": {
+   "NONE": 599,
+   "MUSLIM": 367,
+   "SIKH": 145,
+   "HINDU": 100,
+   "MIXED": 30,
+   "CHRISTIAN": 38
+  },
+  "1907-08||risala": {
+   "HINDU": 22,
+   "NONE": 11,
+   "MIXED": 1,
+   "MUSLIM": 10,
+   "SIKH": 2,
+   "CHRISTIAN": 1
+  },
+  "1907-08||tract": {
+   "NONE": 6,
+   "SIKH": 32,
+   "HINDU": 2,
+   "MIXED": 1
+  },
+  "1907-08||pamphlet": {
+   "NONE": 16,
+   "HINDU": 8,
+   "MUSLIM": 25,
+   "SIKH": 5,
+   "MIXED": 5,
+   "CHRISTIAN": 2
+  },
+  "1908-1909||pamphlet": {
+   "CHRISTIAN": 14,
+   "NONE": 66,
+   "SIKH": 24,
+   "MUSLIM": 49,
+   "HINDU": 27,
+   "MIXED": 11
+  },
+  "1908-1909||NULL-edition": {
+   "CHRISTIAN": 213,
+   "NONE": 975,
+   "MUSLIM": 510,
+   "MIXED": 140,
+   "HINDU": 231,
+   "SIKH": 253
+  },
+  "1908-1909||NULL-price": {
+   "CHRISTIAN": 196,
+   "NONE": 727,
+   "MUSLIM": 436,
+   "MIXED": 117,
+   "HINDU": 181,
+   "SIKH": 199
+  },
+  "1908-1909||risala": {
+   "NONE": 15,
+   "SIKH": 2,
+   "MUSLIM": 16,
+   "CHRISTIAN": 9,
+   "MIXED": 3,
+   "HINDU": 13
+  },
+  "1908-1909||tract": {
+   "SIKH": 37,
+   "MIXED": 1,
+   "NONE": 16,
+   "HINDU": 7
+  },
+  "1910-1912||NULL-edition": {
+   "NONE": 1662,
+   "HINDU": 533,
+   "SIKH": 691,
+   "CHRISTIAN": 139,
+   "MIXED": 215,
+   "MUSLIM": 836
+  },
+  "1910-1912||NULL-price": {
+   "NONE": 1578,
+   "HINDU": 506,
+   "SIKH": 633,
+   "CHRISTIAN": 121,
+   "MIXED": 211,
+   "MUSLIM": 777
+  },
+  "1910-1912||pamphlet": {
+   "HINDU": 31,
+   "MIXED": 14,
+   "MUSLIM": 95,
+   "NONE": 46,
+   "CHRISTIAN": 9,
+   "SIKH": 15
+  },
+  "1910-1912||tract": {
+   "SIKH": 81,
+   "NONE": 22,
+   "HINDU": 24,
+   "MIXED": 8,
+   "MUSLIM": 13,
+   "CHRISTIAN": 3
+  },
+  "1910-1912||risala": {
+   "NONE": 11,
+   "MUSLIM": 24,
+   "HINDU": 8
+  },
+  "1910-1912||hand-bill": {
+   "SIKH": 9,
+   "NONE": 3,
+   "MIXED": 1
+  },
+  "1913-1915||NULL-edition": {
+   "MUSLIM": 776,
+   "NONE": 1829,
+   "SIKH": 617,
+   "MIXED": 190,
+   "HINDU": 454,
+   "CHRISTIAN": 110
+  },
+  "1913-1915||NULL-price": {
+   "MUSLIM": 786,
+   "NONE": 1932,
+   "SIKH": 680,
+   "MIXED": 193,
+   "HINDU": 498,
+   "CHRISTIAN": 106
+  },
+  "1913-1915||tract": {
+   "SIKH": 69,
+   "HINDU": 24,
+   "NONE": 27,
+   "CHRISTIAN": 6,
+   "MIXED": 9,
+   "MUSLIM": 17
+  },
+  "1913-1915||risala": {
+   "MUSLIM": 32,
+   "NONE": 26,
+   "HINDU": 7,
+   "MIXED": 3
+  },
+  "1913-1915||pamphlet": {
+   "HINDU": 9,
+   "SIKH": 13,
+   "MIXED": 9,
+   "NONE": 21,
+   "MUSLIM": 18,
+   "CHRISTIAN": 1
+  },
+  "1913-1915||hand-bill": {
+   "MUSLIM": 2,
+   "SIKH": 2
+  },
+  "1916-1917||NULL-edition": {
+   "NONE": 1166,
+   "MUSLIM": 474,
+   "CHRISTIAN": 76,
+   "MIXED": 87,
+   "HINDU": 222,
+   "SIKH": 268
+  },
+  "1916-1917||NULL-price": {
+   "MUSLIM": 472,
+   "NONE": 1105,
+   "MIXED": 89,
+   "HINDU": 237,
+   "SIKH": 254,
+   "CHRISTIAN": 87
+  },
+  "1916-1917||pamphlet": {
+   "SIKH": 16,
+   "NONE": 28,
+   "HINDU": 6,
+   "MUSLIM": 19,
+   "MIXED": 4,
+   "CHRISTIAN": 4
+  },
+  "1916-1917||tract": {
+   "SIKH": 28,
+   "NONE": 21,
+   "MUSLIM": 3,
+   "HINDU": 3,
+   "MIXED": 6,
+   "CHRISTIAN": 1
+  },
+  "1916-1917||risala": {
+   "MUSLIM": 23,
+   "NONE": 19,
+   "HINDU": 2,
+   "MIXED": 2,
+   "SIKH": 1
+  },
+  "1916-1917||hand-bill": {
+   "CHRISTIAN": 1
+  },
+  "1918-19||NULL-edition": {
+   "CHRISTIAN": 135,
+   "MUSLIM": 377,
+   "SIKH": 268,
+   "NONE": 1061,
+   "HINDU": 200,
+   "MIXED": 84
+  },
+  "1918-19||NULL-price": {
+   "CHRISTIAN": 133,
+   "NONE": 1009,
+   "MUSLIM": 408,
+   "HINDU": 144,
+   "MIXED": 74,
+   "SIKH": 282
+  },
+  "1918-19||tract": {
+   "SIKH": 38,
+   "NONE": 6,
+   "MUSLIM": 12,
+   "HINDU": 4,
+   "MIXED": 4
+  },
+  "1918-19||pamphlet": {
+   "HINDU": 3,
+   "SIKH": 21,
+   "MUSLIM": 7,
+   "NONE": 13,
+   "MIXED": 1
+  },
+  "1918-19||risala": {
+   "NONE": 15,
+   "MUSLIM": 12,
+   "SIKH": 1,
+   "HINDU": 1
+  },
+  "1920-21||NULL-edition": {
+   "MUSLIM": 509,
+   "SIKH": 317,
+   "NONE": 1086,
+   "MIXED": 86,
+   "HINDU": 238,
+   "CHRISTIAN": 166
+  },
+  "1920-21||NULL-price": {
+   "MUSLIM": 737,
+   "NONE": 1257,
+   "MIXED": 105,
+   "SIKH": 310,
+   "HINDU": 284,
+   "CHRISTIAN": 148
+  },
+  "1920-21||tract": {
+   "SIKH": 29,
+   "NONE": 10,
+   "MIXED": 7,
+   "HINDU": 4,
+   "CHRISTIAN": 17,
+   "MUSLIM": 3
+  },
+  "1920-21||pamphlet": {
+   "SIKH": 8,
+   "MUSLIM": 8,
+   "HINDU": 3,
+   "NONE": 19,
+   "MIXED": 3
+  },
+  "1920-21||risala": {
+   "MUSLIM": 20,
+   "NONE": 21,
+   "MIXED": 1,
+   "HINDU": 1,
+   "CHRISTIAN": 1
+  },
+  "1920-21||hand-bill": {
+   "SIKH": 3
+  },
+  "1922-23||NULL-price": {
+   "NONE": 1320,
+   "MUSLIM": 827,
+   "CHRISTIAN": 142,
+   "SIKH": 442,
+   "HINDU": 272,
+   "MIXED": 151
+  },
+  "1922-23||tract": {
+   "SIKH": 27,
+   "MUSLIM": 8,
+   "HINDU": 6,
+   "NONE": 5
+  },
+  "1922-23||NULL-edition": {
+   "CHRISTIAN": 148,
+   "SIKH": 421,
+   "NONE": 1354,
+   "HINDU": 281,
+   "MIXED": 154,
+   "MUSLIM": 667
+  },
+  "1922-23||pamphlet": {
+   "HINDU": 9,
+   "SIKH": 16,
+   "MUSLIM": 45,
+   "NONE": 24,
+   "CHRISTIAN": 1,
+   "MIXED": 5
+  },
+  "1922-23||risala": {
+   "MUSLIM": 28,
+   "NONE": 24,
+   "CHRISTIAN": 2,
+   "MIXED": 2,
+   "HINDU": 1
+  },
+  "1924-25||pamphlet": {
+   "NONE": 29,
+   "SIKH": 9,
+   "MUSLIM": 31,
+   "MIXED": 4,
+   "HINDU": 16
+  },
+  "1924-25||NULL-edition": {
+   "MUSLIM": 572,
+   "NONE": 1316,
+   "SIKH": 284,
+   "HINDU": 272,
+   "MIXED": 105,
+   "CHRISTIAN": 44
+  },
+  "1924-25||NULL-price": {
+   "MUSLIM": 534,
+   "NONE": 1129,
+   "SIKH": 275,
+   "HINDU": 265,
+   "MIXED": 103,
+   "CHRISTIAN": 37
+  },
+  "1924-25||risala": {
+   "NONE": 19,
+   "MUSLIM": 17,
+   "CHRISTIAN": 4,
+   "HINDU": 3
+  },
+  "1924-25||tract": {
+   "NONE": 6,
+   "SIKH": 15,
+   "MIXED": 3,
+   "HINDU": 6,
+   "MUSLIM": 1
+  },
+  "1924-25||hand-bill": {
+   "NONE": 1
+  },
+  "1926-27||NULL-edition": {
+   "NONE": 1688,
+   "MUSLIM": 620,
+   "MIXED": 123,
+   "SIKH": 341,
+   "HINDU": 378,
+   "CHRISTIAN": 49
+  },
+  "1926-27||NULL-price": {
+   "MUSLIM": 655,
+   "NONE": 1548,
+   "MIXED": 116,
+   "SIKH": 360,
+   "HINDU": 368,
+   "CHRISTIAN": 47
+  },
+  "1926-27||tract": {
+   "SIKH": 25,
+   "MIXED": 3,
+   "NONE": 15,
+   "CHRISTIAN": 1,
+   "MUSLIM": 4,
+   "HINDU": 1
+  },
+  "1926-27||pamphlet": {
+   "NONE": 34,
+   "SIKH": 11,
+   "MUSLIM": 35,
+   "CHRISTIAN": 4,
+   "MIXED": 9,
+   "HINDU": 21
+  },
+  "1926-27||risala": {
+   "MUSLIM": 20,
+   "NONE": 21,
+   "HINDU": 1,
+   "CHRISTIAN": 1,
+   "SIKH": 1,
+   "MIXED": 1
+  },
+  "1926-27||hand-bill": {
+   "MUSLIM": 1
+  },
+  "1928-29||tract": {
+   "NONE": 16,
+   "SIKH": 29,
+   "MIXED": 2,
+   "MUSLIM": 2,
+   "HINDU": 6
+  },
+  "1928-29||NULL-edition": {
+   "MUSLIM": 487,
+   "NONE": 1628,
+   "HINDU": 277,
+   "SIKH": 353,
+   "MIXED": 80,
+   "CHRISTIAN": 44
+  },
+  "1928-29||NULL-price": {
+   "MUSLIM": 507,
+   "NONE": 1546,
+   "SIKH": 380,
+   "HINDU": 252,
+   "MIXED": 79,
+   "CHRISTIAN": 29
+  },
+  "1928-29||pamphlet": {
+   "HINDU": 7,
+   "NONE": 35,
+   "SIKH": 18,
+   "MUSLIM": 20,
+   "CHRISTIAN": 3,
+   "MIXED": 2
+  },
+  "1928-29||risala": {
+   "MUSLIM": 18,
+   "NONE": 9,
+   "MIXED": 1,
+   "SIKH": 1
+  },
+  "1930-31||NULL-edition": {
+   "SIKH": 364,
+   "NONE": 1137,
+   "MUSLIM": 622,
+   "HINDU": 236,
+   "CHRISTIAN": 36,
+   "MIXED": 85
+  },
+  "1930-31||NULL-price": {
+   "SIKH": 289,
+   "NONE": 1105,
+   "MUSLIM": 660,
+   "HINDU": 223,
+   "CHRISTIAN": 36,
+   "MIXED": 79
+  },
+  "1930-31||pamphlet": {
+   "MUSLIM": 20,
+   "SIKH": 33,
+   "CHRISTIAN": 4,
+   "HINDU": 9,
+   "NONE": 41,
+   "MIXED": 6
+  },
+  "1930-31||tract": {
+   "SIKH": 18,
+   "MUSLIM": 38,
+   "NONE": 27,
+   "HINDU": 17,
+   "CHRISTIAN": 1,
+   "MIXED": 4
+  },
+  "1930-31||risala": {
+   "NONE": 5,
+   "MUSLIM": 16,
+   "HINDU": 1,
+   "SIKH": 1
+  },
+  "1930-31||hand-bill": {
+   "NONE": 1
+  },
+  "1932-35||NULL-edition": {
+   "NONE": 2047,
+   "SIKH": 546,
+   "MUSLIM": 1276,
+   "HINDU": 396,
+   "MIXED": 198,
+   "CHRISTIAN": 86
+  },
+  "1932-35||NULL-price": {
+   "MUSLIM": 1619,
+   "SIKH": 506,
+   "NONE": 2497,
+   "HINDU": 422,
+   "MIXED": 199,
+   "CHRISTIAN": 95
+  },
+  "1932-35||pamphlet": {
+   "NONE": 17,
+   "SIKH": 8,
+   "MUSLIM": 19,
+   "MIXED": 3,
+   "HINDU": 2,
+   "CHRISTIAN": 1
+  },
+  "1932-35||tract": {
+   "SIKH": 28,
+   "MUSLIM": 45,
+   "NONE": 25,
+   "MIXED": 9,
+   "HINDU": 15,
+   "CHRISTIAN": 5
+  },
+  "1932-35||risala": {
+   "SIKH": 3,
+   "MUSLIM": 26,
+   "HINDU": 4,
+   "MIXED": 1,
+   "NONE": 8,
+   "CHRISTIAN": 1
+  },
+  "1932-35||hand-bill": {
+   "SIKH": 1
+  },
+  "1936-38||NULL-edition": {
+   "MIXED": 122,
+   "MUSLIM": 811,
+   "NONE": 1788,
+   "SIKH": 302,
+   "HINDU": 361,
+   "CHRISTIAN": 61
+  },
+  "1936-38||NULL-price": {
+   "MIXED": 130,
+   "SIKH": 301,
+   "MUSLIM": 1037,
+   "NONE": 2372,
+   "HINDU": 362,
+   "CHRISTIAN": 70
+  },
+  "1936-38||tract": {
+   "SIKH": 8,
+   "MUSLIM": 15,
+   "HINDU": 35,
+   "MIXED": 5,
+   "NONE": 17,
+   "CHRISTIAN": 1
+  },
+  "1936-38||risala": {
+   "MUSLIM": 4,
+   "NONE": 19,
+   "HINDU": 1,
+   "SIKH": 2
+  },
+  "1936-38||pamphlet": {
+   "MUSLIM": 5,
+   "HINDU": 1
+  },
+  "1936-38||hand-bill": {
+   "MIXED": 1
+  },
+  "1939-40||NULL-edition": {
+   "MUSLIM": 655,
+   "NONE": 1710,
+   "SIKH": 173,
+   "HINDU": 251,
+   "MIXED": 87,
+   "CHRISTIAN": 44
+  },
+  "1939-40||NULL-price": {
+   "MUSLIM": 844,
+   "NONE": 2121,
+   "SIKH": 154,
+   "CHRISTIAN": 47,
+   "HINDU": 248,
+   "MIXED": 98
+  },
+  "1939-40||tract": {
+   "SIKH": 2,
+   "NONE": 14,
+   "MUSLIM": 16,
+   "HINDU": 10,
+   "MIXED": 3,
+   "CHRISTIAN": 2
+  },
+  "1939-40||pamphlet": {
+   "MUSLIM": 5,
+   "NONE": 3
+  },
+  "1939-40||risala": {
+   "MUSLIM": 7,
+   "CHRISTIAN": 1,
+   "NONE": 5
+  },
+  "1941-42||NULL-edition": {
+   "MUSLIM": 453,
+   "NONE": 1359,
+   "HINDU": 257,
+   "SIKH": 133,
+   "MIXED": 62,
+   "CHRISTIAN": 15
+  },
+  "1941-42||NULL-price": {
+   "MUSLIM": 412,
+   "NONE": 1506,
+   "HINDU": 210,
+   "SIKH": 115,
+   "CHRISTIAN": 16,
+   "MIXED": 47
+  },
+  "1941-42||tract": {
+   "NONE": 3,
+   "MUSLIM": 9,
+   "HINDU": 14,
+   "MIXED": 4,
+   "SIKH": 1
+  },
+  "1941-42||risala": {
+   "MUSLIM": 5,
+   "NONE": 6,
+   "MIXED": 1
+  },
+  "1941-42||pamphlet": {
+   "SIKH": 1,
+   "HINDU": 3,
+   "NONE": 3,
+   "MUSLIM": 1
+  }
+ }
+}

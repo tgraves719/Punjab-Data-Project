@@ -1,0 +1,134 @@
+{
+ "1867-75": {
+  "CHRISTIAN": 525,
+  "SIKH": 281,
+  "MUSLIM": 629,
+  "HINDU": 370
+ },
+ "1881-84": {
+  "CHRISTIAN": 353,
+  "SIKH": 362,
+  "MUSLIM": 710,
+  "HINDU": 434
+ },
+ "1885-87": {
+  "CHRISTIAN": 258,
+  "SIKH": 350,
+  "MUSLIM": 647,
+  "HINDU": 400
+ },
+ "1888-89": {
+  "CHRISTIAN": 161,
+  "SIKH": 213,
+  "MUSLIM": 487,
+  "HINDU": 254
+ },
+ "1889-91": {
+  "CHRISTIAN": 199,
+  "SIKH": 205,
+  "MUSLIM": 710,
+  "HINDU": 318
+ },
+ "1891_1893": {
+  "CHRISTIAN": 288,
+  "SIKH": 288,
+  "MUSLIM": 962,
+  "HINDU": 391
+ },
+ "1907-08": {
+  "CHRISTIAN": 72,
+  "SIKH": 238,
+  "MUSLIM": 563,
+  "HINDU": 231
+ },
+ "1908-1909": {
+  "CHRISTIAN": 398,
+  "SIKH": 398,
+  "MUSLIM": 893,
+  "HINDU": 410
+ },
+ "1910-1912": {
+  "CHRISTIAN": 270,
+  "SIKH": 1039,
+  "MUSLIM": 1434,
+  "HINDU": 855
+ },
+ "1913-1915": {
+  "CHRISTIAN": 195,
+  "SIKH": 1057,
+  "MUSLIM": 1370,
+  "HINDU": 825
+ },
+ "1916-1917": {
+  "CHRISTIAN": 169,
+  "SIKH": 451,
+  "MUSLIM": 819,
+  "HINDU": 373
+ },
+ "1918-19": {
+  "CHRISTIAN": 269,
+  "SIKH": 499,
+  "MUSLIM": 803,
+  "HINDU": 302
+ },
+ "1920-21": {
+  "CHRISTIAN": 320,
+  "SIKH": 596,
+  "MUSLIM": 1197,
+  "HINDU": 486
+ },
+ "1922-23": {
+  "CHRISTIAN": 350,
+  "SIKH": 827,
+  "MUSLIM": 1450,
+  "HINDU": 538
+ },
+ "1924-25": {
+  "CHRISTIAN": 130,
+  "SIKH": 708,
+  "MUSLIM": 1218,
+  "HINDU": 598
+ },
+ "1926-27": {
+  "CHRISTIAN": 120,
+  "SIKH": 623,
+  "MUSLIM": 1303,
+  "HINDU": 733
+ },
+ "1928-29": {
+  "CHRISTIAN": 74,
+  "SIKH": 578,
+  "MUSLIM": 807,
+  "HINDU": 496
+ },
+ "1930-31": {
+  "CHRISTIAN": 70,
+  "SIKH": 506,
+  "MUSLIM": 1104,
+  "HINDU": 398
+ },
+ "1932-35": {
+  "CHRISTIAN": 227,
+  "SIKH": 986,
+  "MUSLIM": 3329,
+  "HINDU": 736
+ },
+ "1936-38": {
+  "CHRISTIAN": 194,
+  "SIKH": 552,
+  "MUSLIM": 1981,
+  "HINDU": 616
+ },
+ "1939-40": {
+  "CHRISTIAN": 126,
+  "SIKH": 269,
+  "MUSLIM": 1514,
+  "HINDU": 382
+ },
+ "1941-42": {
+  "CHRISTIAN": 49,
+  "SIKH": 203,
+  "MUSLIM": 915,
+  "HINDU": 365
+ }
+}
