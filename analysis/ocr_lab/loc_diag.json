@@ -1,0 +1,26 @@
+{
+ "page_fail": {
+  "ValueError: only 3 vertical rules found": 2,
+  "ValueError: only 2 vertical rules found": 4,
+  "ValueError: interior column block not found (best ratio ": 3,
+  "ValueError: only 0 vertical rules found": 1
+ },
+ "count_delta": {
+  "0": 88,
+  "1": 13,
+  "4": 1,
+  "2": 4,
+  "-1": 4,
+  "3": 1,
+  "-2": 1
+ },
+ "bracket": {
+  "last:height|False": 49,
+  "last:width|False": 18,
+  "last:height|True": 398,
+  "hit|True": 100,
+  "last:width|True": 90,
+  "hit|False": 9,
+  "line_too_short|False": 1
+ }
+}

@@ -219,3 +219,119 @@ output tokens; the golden 1910Q2 extractions remain the regression oracle for an
 future model/prompt change. Exact-match caveat: even Opus scores low on title/price
 against gold due to diacritic/punctuation variance — bake-off numbers are strict
 exact-match, relative comparison is what was decided on.
+
+## D-016 (2026-08-04) — Render DPI is a per-purpose choice; 140 destroys the Perso-Arabic diacritics
+**Context:** Native-script title capture has been a standing non-goal (PLAN §6). Before
+choosing any recogniser, the question is whether the orthography is physically present
+in our images at all. The scans are 2526x4163 (~306 DPI); `render.py` renders at 140.
+**Measurement (E0, analysis/ocr_lab/):** for naskh the binding feature is not x-height
+but the i'jam — the dots that alone separate b/t/th/p/n/y. Measured over 19 Perso-Arabic
+titles they are **9.8 mil** across with **10.6 mil** clearance to the letter body. That
+is 1.4 px and 1.6 px at 140 DPI — *below the 2 px sampling floor*, so dot identity is not
+merely degraded but unrepresentable; 3.0 px and 3.5 px at 306 DPI, i.e. recoverable with
+little margin. A blind read of 140 DPI crops produced the predicted error mode exactly:
+bodies right, dots wrong in 4 of 8 cases (Zindagi->Zadgi, Regimental->Rehmandal,
+Kawwa->Akwa). The 306 render is not empty magnification — its RMS difference from an
+upsampled 140 render is 38% of the crop's own contrast.
+**Decision:** DPI becomes a per-purpose parameter, not a global constant. Whole-page VLM
+extraction stays at 140 (token cost scales with pixels and the roman text survives
+comfortably); **any native-script work renders crops at the scans' native 306 DPI**.
+**Consequences:** `pipeline/crops.py` defaults to 306. Re-imaging the volumes at 600 DPI
+is now a costable decision rather than a wish — it would take the i'jam from 3.0 px to
+5.9 px. No existing extraction is invalidated: the romanized fields the corpus is built
+on were never at risk.
+
+## D-017 (2026-08-04) — Image-to-record joins must not use database row order
+**Context:** The first crop set paired every crop with the wrong register record.
+**Cause:** the database returns a page's entries grouped by section rather than in page
+order. Printed page 31 of 1910Q2 reads serials 73-79 (Miscellaneous) and then 1-3
+(Philosophy); the database returns 1, 2, 3, 73-79. Zipping detected entries against that
+order fails silently — every field is plausible, merely attached to the wrong image. It
+surfaced only because a montage showed *Gainda* where the index claimed *Vedanta
+Philosophy*.
+**Decision:** page order comes from the per-page extraction JSONs
+(`pipeline/data/<quarter>/extractions/pNNN.json`), which preserve it. Any join between
+images and records validates its alignment against an independent count from the
+register and drops pages that disagree, rather than assuming.
+**Consequences:** 32 of 42 pages of 1910Q2 align exactly and are used; the 10 failures
+are listed in the crop-set manifest. The same rule applies to the marginalia workstream
+and to any future native-script pass.
+
+## D-018 (2026-08-04) — Constraint checking is triage, not certification; and re-open the model choice
+**Context:** E3 asked whether the register's own grammar can flag extraction errors
+without a gold standard — the prerequisite for certifying the ~40 quarters of the
+1867-1942 run that will never have a validated transcription. `pipeline/constraints.py`
+implements the checks; it was scored against the 1910Q2 bake-off, where every candidate
+entry has a known error label, and then run over all twelve ingested quarters.
+**Findings:** (1) The serial advances by exactly +1 on all 237 within-section transitions
+in gold — the strongest constraint the document offers. (2) At the **entry** level a hard
+violation gives **~7x lift** (precision 0.56 vs 0.08 base) at 33% recall while flagging
+~5% of entries: a good way to order an adjudication queue. (3) At the **quarter** level
+it ordered the three bake-off models correctly but with heavily compressed scale (an 8x
+error gap appears as a 1.8x violation gap), and n=3 is not evidence on its own. (4) The
+errors are not where the grammar looks: Opus makes **zero reg errors in 321 entries**
+while making 20 printer-name errors. What carried the result was the **lexicon** check —
+a name occurring once within two edits of a name occurring 26 times is the frequent one,
+misread. It took entry lift from 2.8x to 6.7x. For this corpus, redundancy of entities
+beats redundancy of sequence. (5) Constraints are **complementary to the extractor's own
+flags**: corpus-wide, 172 entries carry a hard violation and 789 carry a flag, but only
+71 carry both — ~100 entries surface that nothing else would have shown.
+**Decision:** constraint output **ranks the adjudication queue** (on the union with the
+extractor's flags) and serves as a **regression alarm**; it does not certify a quarter.
+OCR_RESEARCH_AGENDA §8.2 corrected accordingly. Quality estimation at scale still needs
+a gold standard.
+**Consequences:**
+(a) **1911-1912 need a look before 1913 is ingested.** The four in-session 1910 quarters
+run at 0.7-1.6 hard violations per 100 entries; the eight API-batch quarters run at
+2.7-9.0 — 3 to 8 times higher, concentrated in serial_step, missing_serial and
+printer_near_duplicate. Read as an alarm, not as a measured error rate.
+(b) The checker's hard violations on the *golden* 1910Q2 extraction are all genuine
+variants (Mufid-i-Am/Mufid-i-'Am, Waziri-Hind/Wazir-i-Hind, Badar/Badr, Mac Key/MacKey,
+Rafah-i-'Am/Rafah-i-Am) — normalization debt for aliases.json.
+(c) **D-015 should be revisited.** Sonnet 5's batch arrived after that decision; scored
+on the register's validation fields it makes 18 key-field errors to Opus's 27 (the gap is
+almost entirely printer names, 8 vs 20) at roughly a third of the price. Opus keeps a
+one-error edge on reg, the field D-015 weighted most heavily — not an automatic reversal,
+but re-run bakeoff_1910Q2.py before 1913-1915, where the choice compounds.
+(d) Cross-run field comparison must fold diacritics, thousands separators, trailing
+points and case, and must exclude price/publisher/title/edition/date, whose differences
+are transcription convention rather than error — scoring them reported a 28% error rate
+for a model whose real key-field rate is 8.4%.
+(e) **Schema gap:** nothing in schema.md marks an entry as a title continuation (the
+long-dash anaphor), so an empty title cannot be distinguished from an omission without
+inference. Worth a field at the next schema revision.
+
+## D-019 (2026-08-04) — The flag queue is a source-anomaly register, not an error backlog
+**Context:** PLAN §5 treats ~986 flagged items as an adjudication backlog, and every
+HITL design in OCR_RESEARCH_AGENDA assumes flags are worth a historian's time. E5
+measured the channel two ways: on the 1910Q2 bake-off, where gold supplies error labels
+(E5a, no human needed), and by adjudicating a stratified sample of flags on the *golden*
+extraction against native-resolution crops (E5b).
+**Findings:** (1) On the bake-off, a flag predicts a key-field error with precision
+0.13 and recall 0.30-0.56 (lift 1.6-2.3x) — high recall, low precision, the mirror image
+of constraint violations (precision ~0.5, recall 0.33). (2) The two channels are nearly
+disjoint (Jaccard 0.05-0.11): their **intersection** has precision 0.67-1.00, their
+**union** recall 0.48-0.67. (3) Field-level flags are sharp where they fire — serial 16-20x
+lift, copies 36x, pcity 160x — but a flag on **reg has precision 0.00** for both good
+models: they flag registration numbers they then read correctly. (4) On the golden
+extraction, **0 of 17 adjudicated flags were transcription errors** (95% upper bound
+~16%). 53% were catalog artifacts (reg collisions, 'intique' set in the source, 1318
+Hijri against a 1910 date, a printer with no city, a missing edition ordinal, no price
+line), 35% genuinely degraded source, 12% merely unusual-but-legible values.
+**Decision:** the flag queue is **split at intake** into "check my reading" (~35%,
+a human re-reads pixels) and "the source is odd" (~65%, a finding to preserve). An
+artifact verdict is a **property of the document**, recorded permanently beside the
+record — not a task to be closed. Adjudication is prioritised as: flag AND violation
+first, then violation only, then flag only. Reg-only flags are deprioritised.
+**Consequences:** (a) The queue is smaller than it looks — projected over the corpus,
+~350 items want human eyes, ~640 are findings. (b) This strengthens the case for the
+claims model (agenda §7.1) before 1913 is ingested: artifacts need somewhere permanent
+to live. (c) Flags are well calibrated to their own semantics ("this is hard or odd")
+and were being read as something else ("this is wrong"); use constraint violations when
+the question is specifically where an extraction is wrong. (d) **Verbatim-layer breach
+to sweep for:** 1910Q2 p20 reg 504 — the page prints 'Stara-i-Hiud Press', the flag says
+so, but the stored value was silently normalised to 'Stara-i-Hind'. Check for other
+cases where a flag documents a correction the value already absorbed. (e) Any
+adjudication interface must render the **whole row including column 6**; the first
+worksheet cropped columns 2-5 and silently dropped every copyright flag, the fourth most
+flagged field in the corpus.

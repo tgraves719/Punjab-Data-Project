@@ -1,0 +1,127 @@
+{
+ "quarter": "1910Q2",
+ "gold_entries": 321,
+ "gold_violations": 10,
+ "models": [
+  {
+   "model": "claude-haiku-4-5",
+   "entries": 321,
+   "hard": 26,
+   "soft": 93,
+   "hard_per_100": 8.09968847352025,
+   "err_key": 0.7040498442367601,
+   "err_wide": 0.9501557632398754,
+   "page_rho": 0.29670805245098003,
+   "page_capture": 0.5265486725663717,
+   "pages_flagged_frac": 0.47619047619047616,
+   "entry": {
+    "hard only": {
+     "n": 321,
+     "flagged": 26,
+     "errors": 226,
+     "tp": 23,
+     "fp": 3,
+     "fn": 203,
+     "tn": 92,
+     "precision": 0.8846153846153846,
+     "recall": 0.10176991150442478,
+     "base_rate": 0.7040498442367601,
+     "lift": 1.2564669843430905
+    },
+    "hard or soft": {
+     "n": 321,
+     "flagged": 107,
+     "errors": 226,
+     "tp": 94,
+     "fp": 13,
+     "fn": 132,
+     "tn": 82,
+     "precision": 0.8785046728971962,
+     "recall": 0.415929203539823,
+     "base_rate": 0.7040498442367601,
+     "lift": 1.247787610619469
+    }
+   }
+  },
+  {
+   "model": "claude-opus-4-8",
+   "entries": 321,
+   "hard": 16,
+   "soft": 12,
+   "hard_per_100": 4.984423676012461,
+   "err_key": 0.08411214953271028,
+   "err_wide": 0.48598130841121495,
+   "page_rho": 0.373072579123928,
+   "page_capture": 0.4444444444444444,
+   "pages_flagged_frac": 0.2857142857142857,
+   "entry": {
+    "hard only": {
+     "n": 321,
+     "flagged": 16,
+     "errors": 27,
+     "tp": 9,
+     "fp": 7,
+     "fn": 18,
+     "tn": 287,
+     "precision": 0.5625,
+     "recall": 0.3333333333333333,
+     "base_rate": 0.08411214953271028,
+     "lift": 6.6875
+    },
+    "hard or soft": {
+     "n": 321,
+     "flagged": 25,
+     "errors": 27,
+     "tp": 10,
+     "fp": 15,
+     "fn": 17,
+     "tn": 279,
+     "precision": 0.4,
+     "recall": 0.37037037037037035,
+     "base_rate": 0.08411214953271028,
+     "lift": 4.755555555555556
+    }
+   }
+  },
+  {
+   "model": "claude-sonnet-5",
+   "entries": 321,
+   "hard": 14,
+   "soft": 12,
+   "hard_per_100": 4.361370716510903,
+   "err_key": 0.056074766355140186,
+   "err_wide": 0.4517133956386293,
+   "page_rho": 0.3137252470817571,
+   "page_capture": 0.3888888888888889,
+   "pages_flagged_frac": 0.21428571428571427,
+   "entry": {
+    "hard only": {
+     "n": 321,
+     "flagged": 12,
+     "errors": 18,
+     "tp": 6,
+     "fp": 6,
+     "fn": 12,
+     "tn": 297,
+     "precision": 0.5,
+     "recall": 0.3333333333333333,
+     "base_rate": 0.056074766355140186,
+     "lift": 8.916666666666666
+    },
+    "hard or soft": {
+     "n": 321,
+     "flagged": 22,
+     "errors": 18,
+     "tp": 8,
+     "fp": 14,
+     "fn": 10,
+     "tn": 289,
+     "precision": 0.36363636363636365,
+     "recall": 0.4444444444444444,
+     "base_rate": 0.056074766355140186,
+     "lift": 6.484848484848485
+    }
+   }
+  }
+ ]
+}

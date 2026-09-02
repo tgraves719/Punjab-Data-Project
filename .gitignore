@@ -35,3 +35,21 @@ Thumbs.db
 # Local build artifact (contains machine-local PDF deep-links); the published
 # copy is docs/index.html, built with: python build_site.py --public
 analysis/slice_1910/out/explore_1910.html
+
+# OCR lab. Everything here is regenerable; the measurement RESULTS (the *.md
+# memos, the small *_results.json, the fitted templates) are versioned because
+# they are the evidence for D-016..D-019 and for the figures quoted to partners.
+# What is excluded is bulk pixels and intermediate feature dumps.
+analysis/ocr_lab/cropset/
+analysis/ocr_lab/*montage*.png
+analysis/ocr_lab/zoom_*.png
+analysis/ocr_lab/loc_*.png
+# Intermediate per-entry feature/curve dumps (MBs; regenerate with loc_fit.py,
+# loc_lines_eval.py, loc_peak.py). loc_template.json / loc_eval.json /
+# loc_diag.json are results and ARE tracked.
+analysis/ocr_lab/loc_features.json
+analysis/ocr_lab/loc_lines.json
+analysis/ocr_lab/loc_curves.json
+
+# Private correspondence drafts (unsent letters, personal email)
+correspondence/

@@ -116,12 +116,27 @@ Items 2–3 of the original list are DONE (API-batch decided by bake-off, D-015;
    standard per-quarter pipeline. Keep extending aliases.json per year at ingestion.
 2. **Adjudication session(s):** ~986 queued items across twelve quarters. Priorities:
    the reg collisions and serial jumps (validation instruments), then the flagged
-   digits. 1910's queues are triaged; 1911–1912's are not.
+   digits. 1910's queues are triaged; 1911–1912's are not. **Rank the queue on the
+   union of extractor flags and `pipeline/constraints.py` hard violations** (D-018):
+   the two channels overlap on only 71 of 172+789 entries, and a hard violation carries
+   ~7x lift on key-field errors. Order the work: flag AND violation first (precision
+   0.67-1.00), then violation only, then flag only; deprioritise reg-only flags
+   (precision 0.00). **Split the queue at intake** (D-019): only ~35% asks a human to
+   re-read pixels; ~65% records a catalog anomaly that should be preserved beside the
+   record, not closed as a task. **Before 1913 is ingested**, look at 1911-1912: they
+   run 3-8x more hard violations per 100 entries than the golden 1910 quarters.
 3. **Davis meeting:** marginalia provenance (the hand now demonstrably spans the whole
    1910-1912 volume, tracking scripture serials to the last leaf); the three 4+-language
    polyglot lang values needing a canonical rule; xlsx reconciliation for 1920/1930/1940.
 4. **Aggregates layer** (see §8): emit per-quarter aggregate counts from postprocess —
    the data contract for time-dynamics views; cheap now, costly to retrofit.
+5. **Native-script capture** (new, 2026-08-04): the ladder is in OCR_RESEARCH_AGENDA §6.
+   Immediate items, in order: (a) run E3 — constraint violations vs the Davis diff, $0;
+   (b) with an API key, re-run E2 with one independent model call per arm, which is the
+   only way to isolate them; (c) build the record-level evaluation harness and a
+   difficulty-stratified gold set before any further model comparison; (d) adopt the
+   claims model (agenda §7.1) **before ingesting 1913** — retrofit cost grows every
+   quarter.
 
 ## 8. Scaling & observatory roadmap (added 2026-07-16)
 
@@ -153,7 +168,12 @@ Everything else (SQLite, per-quarter pipeline, manifests) scales to the full
 - No re-extraction or correction of verbatim fields (adjudication is a separate pass).
 - No FEP/network-theoretic modeling yet — descriptive statistics and network
   construction only; theory enters after Davis has seen the descriptive layer.
-- No OCR of native-script title strings (title_native flag marks them; deferred).
+- ~~No OCR of native-script title strings (title_native flag marks them; deferred).~~
+  **Superseded 2026-08-04:** promoted to a named workstream — see
+  [OCR_RESEARCH_AGENDA.md](OCR_RESEARCH_AGENDA.md) and D-016/D-017. It is where the
+  project's research contribution sits: 4,044 native-script titles are printed beside
+  their own romanization, which is free supervision for a constrained-recognition task
+  that nobody has framed. First results in `analysis/ocr_lab/RESULTS.md`.
 - No comparative-province work (Batch 7 / SV 412/1–48) until Punjab pipeline is stable.
 
 ## 7. Risks / watch items

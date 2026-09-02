@@ -1,0 +1,227 @@
+{
+ "claude-opus-4-8": {
+  "n": 321,
+  "errors": 27,
+  "flag": {
+   "n": 321,
+   "flagged": 60,
+   "errors": 27,
+   "tp": 8,
+   "fp": 52,
+   "fn": 19,
+   "tn": 242,
+   "precision": 0.13333333333333333,
+   "recall": 0.2962962962962963,
+   "base_rate": 0.08411214953271028,
+   "lift": 1.5851851851851853
+  },
+  "flagged": 60,
+  "violations": 16,
+  "both": 6,
+  "field": {
+   "reg": {
+    "n": 321,
+    "flagged": 5,
+    "errors": 0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 0,
+    "tn": 316,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.0,
+    "lift": NaN
+   },
+   "serial": {
+    "n": 321,
+    "flagged": 10,
+    "errors": 4,
+    "tp": 2,
+    "fp": 8,
+    "fn": 2,
+    "tn": 309,
+    "precision": 0.2,
+    "recall": 0.5,
+    "base_rate": 0.012461059190031152,
+    "lift": 16.05
+   },
+   "copies": {
+    "n": 321,
+    "flagged": 13,
+    "errors": 2,
+    "tp": 0,
+    "fp": 13,
+    "fn": 2,
+    "tn": 306,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.006230529595015576,
+    "lift": 0.0
+   },
+   "printer": {
+    "n": 321,
+    "flagged": 2,
+    "errors": 20,
+    "tp": 1,
+    "fp": 1,
+    "fn": 19,
+    "tn": 300,
+    "precision": 0.5,
+    "recall": 0.05,
+    "base_rate": 0.06230529595015576,
+    "lift": 8.025
+   },
+   "pcity": {
+    "n": 321,
+    "flagged": 1,
+    "errors": 2,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "tn": 319,
+    "precision": 1.0,
+    "recall": 0.5,
+    "base_rate": 0.006230529595015576,
+    "lift": 160.5
+   }
+  }
+ },
+ "claude-sonnet-5": {
+  "n": 321,
+  "errors": 18,
+  "flag": {
+   "n": 321,
+   "flagged": 78,
+   "errors": 18,
+   "tp": 10,
+   "fp": 68,
+   "fn": 8,
+   "tn": 235,
+   "precision": 0.1282051282051282,
+   "recall": 0.5555555555555556,
+   "base_rate": 0.056074766355140186,
+   "lift": 2.286324786324786
+  },
+  "flagged": 78,
+  "violations": 12,
+  "both": 4,
+  "field": {
+   "reg": {
+    "n": 321,
+    "flagged": 2,
+    "errors": 1,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tn": 318,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.003115264797507788,
+    "lift": 0.0
+   },
+   "serial": {
+    "n": 321,
+    "flagged": 8,
+    "errors": 4,
+    "tp": 2,
+    "fp": 6,
+    "fn": 2,
+    "tn": 311,
+    "precision": 0.25,
+    "recall": 0.5,
+    "base_rate": 0.012461059190031152,
+    "lift": 20.0625
+   },
+   "copies": {
+    "n": 321,
+    "flagged": 6,
+    "errors": 6,
+    "tp": 4,
+    "fp": 2,
+    "fn": 2,
+    "tn": 313,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "base_rate": 0.018691588785046728,
+    "lift": 35.666666666666664
+   },
+   "printer": {
+    "n": 321,
+    "flagged": 1,
+    "errors": 8,
+    "tp": 0,
+    "fp": 1,
+    "fn": 8,
+    "tn": 312,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.024922118380062305,
+    "lift": 0.0
+   },
+   "pcity": null
+  }
+ },
+ "claude-haiku-4-5": {
+  "n": 321,
+  "errors": 226,
+  "flag": {
+   "n": 321,
+   "flagged": 26,
+   "errors": 226,
+   "tp": 21,
+   "fp": 5,
+   "fn": 205,
+   "tn": 90,
+   "precision": 0.8076923076923077,
+   "recall": 0.09292035398230089,
+   "base_rate": 0.7040498442367601,
+   "lift": 1.147208985704561
+  },
+  "flagged": 26,
+  "violations": 26,
+  "both": 5,
+  "field": {
+   "reg": {
+    "n": 306,
+    "flagged": 1,
+    "errors": 74,
+    "tp": 1,
+    "fp": 0,
+    "fn": 73,
+    "tn": 232,
+    "precision": 1.0,
+    "recall": 0.013513513513513514,
+    "base_rate": 0.24183006535947713,
+    "lift": 4.135135135135135
+   },
+   "serial": {
+    "n": 306,
+    "flagged": 1,
+    "errors": 36,
+    "tp": 0,
+    "fp": 1,
+    "fn": 36,
+    "tn": 269,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.11764705882352941,
+    "lift": 0.0
+   },
+   "copies": {
+    "n": 306,
+    "flagged": 1,
+    "errors": 40,
+    "tp": 0,
+    "fp": 1,
+    "fn": 40,
+    "tn": 265,
+    "precision": 0.0,
+    "recall": 0.0,
+    "base_rate": 0.13071895424836602,
+    "lift": 0.0
+   },
+   "printer": null,
+   "pcity": null
+  }
+ }
+}

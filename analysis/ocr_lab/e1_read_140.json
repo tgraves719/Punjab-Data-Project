@@ -1,0 +1,29 @@
+{
+ "arm": "C-140",
+ "description": "Blind read of the Perso-Arabic title crops as the current pipeline delivers them (140 DPI, upscaled for display). Image only — no romanization available to the reader at the time of reading.",
+ "reader": "claude-opus-5, in-session, single pass",
+ "stimulus": "montage_PA_140.png",
+ "date": "2026-08-04",
+ "hygiene_note": "Rows 1-6, 13, 14 and 15 are fully blind: their romanizations had not been seen in this session when the montage was read. The remaining rows had appeared in an earlier text dump and are marked prior_exposure=true; they are excluded from the headline figure. Rows 12 and 15 additionally have the romanization printed inside the crop itself, because the native-span cut failed on those entries — marked leaked_in_crop.",
+ "readings": [
+  {"n": 1,  "key": "1910Q2_p4_s2_r494",   "read": "مرقات", "legible": "full", "prior_exposure": false, "leaked_in_crop": false},
+  {"n": 2,  "key": "1910Q2_p25_s27_r641", "read": "گوسائیں تلسی داس جی مہاراج کی زادگی", "legible": "partial", "prior_exposure": false, "leaked_in_crop": false, "note": "last word read with alif; dots ambiguous"},
+  {"n": 3,  "key": "1910Q2_p25_s29_r637", "read": "سچی ما تا ئین", "legible": "partial", "prior_exposure": false, "leaked_in_crop": false, "note": "word division uncertain"},
+  {"n": 4,  "key": "1910Q2_p26_s21_r634", "read": "قصہ طوطا و مینا مکمل", "legible": "full", "prior_exposure": false, "leaked_in_crop": false},
+  {"n": 5,  "key": "1910Q2_p26_s22_r620", "read": "راجہ سریال لیلا", "legible": "partial", "prior_exposure": false, "leaked_in_crop": false},
+  {"n": 6,  "key": "1910Q2_p26_s1_r582",  "read": "رہمنڈل اردو ریڈر", "legible": "partial", "prior_exposure": false, "leaked_in_crop": false, "note": "first word unresolved"},
+  {"n": 7,  "key": "1910Q2_p28_s56_r699", "read": "معین النساء المعروف بہ معلم نسواں", "legible": "partial", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 8,  "key": "1910Q2_p28_s57_r570", "read": "نقل رپورٹ دہ سالہ جامع مسجد شاہ آباد", "legible": "partial", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 9,  "key": "1910Q2_p29_s60_r628", "read": "رسالہ مختصر نویسی نمبر ۱", "legible": "partial", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 10, "key": "1910Q2_p30_s71_r432", "read": "آئینہ پنجاب", "legible": "full", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 11, "key": "1910Q2_p31_s73_r590", "read": "کتا", "legible": "full", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 12, "key": "1910Q2_p31_s74_r591", "read": "گینڈا", "legible": "full", "prior_exposure": true, "leaked_in_crop": true},
+  {"n": 13, "key": "1910Q2_p31_s75_r592", "read": "بیل", "legible": "full", "prior_exposure": false, "leaked_in_crop": false},
+  {"n": 14, "key": "1910Q2_p31_s76_r593", "read": "اکوا", "legible": "partial", "prior_exposure": false, "leaked_in_crop": false, "note": "leading alif may be spurious ink"},
+  {"n": 15, "key": "1910Q2_p31_s77_r594", "read": "گیدڑ", "legible": "full", "prior_exposure": false, "leaked_in_crop": true},
+  {"n": 16, "key": "1910Q2_p31_s2_r640",  "read": "ویدانت فلسفی", "legible": "partial", "prior_exposure": true, "leaked_in_crop": false},
+  {"n": 17, "key": "1910Q2_p35_s35_r506", "read": "دھرم راج جنیدراوہی", "legible": "none", "prior_exposure": true, "leaked_in_crop": false, "note": "second half not resolvable"},
+  {"n": 18, "key": "1910Q2_p35_s38_r473", "read": "", "legible": "none", "prior_exposure": true, "leaked_in_crop": false, "note": "crop contains only a rule/dash — native-span cut failed"},
+  {"n": 19, "key": "1910Q2_p35_s39_r584", "read": "تحفہ شیعہ", "legible": "partial", "prior_exposure": true, "leaked_in_crop": false}
+ ]
+}

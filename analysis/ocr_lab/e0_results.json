@@ -1,0 +1,1109 @@
+[
+ {
+  "key": "1910Q2_p4_s2_r494",
+  "lang": "Arabic",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 32,
+   "dot_h": 3,
+   "dot_w": 5,
+   "dot_gap": 1,
+   "n_dots": 9,
+   "n_bodies": 9,
+   "width": 640,
+   "dots_per_100px": 1.40625,
+   "ink_frac": 0.34805219364599094
+  },
+  "lo": {
+   "body_h": 14,
+   "dot_h": 4.0,
+   "dot_w": 5.0,
+   "dot_gap": 0.0,
+   "n_dots": 4,
+   "n_bodies": 11,
+   "width": 291,
+   "dots_per_100px": 1.3745704467353952,
+   "ink_frac": 0.34662853702588803
+  }
+ },
+ {
+  "key": "1910Q2_p5_s6_r417",
+  "lang": "Hindi",
+  "script": "Devanagari",
+  "hi": {
+   "body_h": 16.0,
+   "dot_h": 3,
+   "dot_w": 7,
+   "dot_gap": 17,
+   "n_dots": 23,
+   "n_bodies": 32,
+   "width": 792,
+   "dots_per_100px": 2.904040404040404,
+   "ink_frac": 0.3412402715681404
+  },
+  "lo": {
+   "body_h": 7.0,
+   "dot_h": 3.0,
+   "dot_w": 6.5,
+   "dot_gap": 6,
+   "n_dots": 12,
+   "n_bodies": 28,
+   "width": 342,
+   "dots_per_100px": 3.508771929824561,
+   "ink_frac": 0.3448105761641673
+  }
+ },
+ {
+  "key": "1910Q2_p5_s6_r480",
+  "lang": "Hindi",
+  "script": "Devanagari",
+  "hi": {
+   "body_h": 19,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 15.5,
+   "n_dots": 33,
+   "n_bodies": 29,
+   "width": 693,
+   "dots_per_100px": 4.761904761904762,
+   "ink_frac": 0.34378477189635986
+  },
+  "lo": {
+   "body_h": 10.0,
+   "dot_h": 2,
+   "dot_w": 6,
+   "dot_gap": 7,
+   "n_dots": 15,
+   "n_bodies": 24,
+   "width": 317,
+   "dots_per_100px": 4.73186119873817,
+   "ink_frac": 0.3385416666666667
+  }
+ },
+ {
+  "key": "1910Q2_p9_s2_r567",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 34.5,
+   "dot_h": 3.0,
+   "dot_w": 2.0,
+   "dot_gap": 1.5,
+   "n_dots": 20,
+   "n_bodies": 12,
+   "width": 686,
+   "dots_per_100px": 2.9154518950437316,
+   "ink_frac": 0.34532202491386166
+  },
+  "lo": {
+   "body_h": 15,
+   "dot_h": 5,
+   "dot_w": 3,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 11,
+   "width": 298,
+   "dots_per_100px": 1.0067114093959733,
+   "ink_frac": 0.3436942675159236
+  }
+ },
+ {
+  "key": "1910Q2_p10_s12_r565",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 37.5,
+   "dot_h": 2.5,
+   "dot_w": 2.0,
+   "dot_gap": 0.0,
+   "n_dots": 2,
+   "n_bodies": 4,
+   "width": 262,
+   "dots_per_100px": 0.7633587786259542,
+   "ink_frac": 0.3449074074074074
+  },
+  "lo": {
+   "body_h": 21,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 3,
+   "width": 111,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.34398263027295284
+  }
+ },
+ {
+  "key": "1910Q2_p10_s13_r561",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 45.0,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 4,
+   "width": 407,
+   "dots_per_100px": 0.7371007371007371,
+   "ink_frac": 0.3499180999180999
+  },
+  "lo": {
+   "body_h": 20.0,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 4,
+   "width": 182,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.34620689655172415
+  }
+ },
+ {
+  "key": "1910Q2_p10_s17_r674",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 46,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 0.0,
+   "n_dots": 1,
+   "n_bodies": 3,
+   "width": 297,
+   "dots_per_100px": 0.3367003367003367,
+   "ink_frac": 0.34763260946956215
+  },
+  "lo": {
+   "body_h": 21,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 3,
+   "width": 136,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.3488505747126437
+  }
+ },
+ {
+  "key": "1910Q2_p11_s23_r463",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 46,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 8.5,
+   "n_dots": 23,
+   "n_bodies": 9,
+   "width": 815,
+   "dots_per_100px": 2.8220858895705523,
+   "ink_frac": 0.34136894021412245
+  },
+  "lo": {
+   "body_h": 20,
+   "dot_h": 2,
+   "dot_w": 4,
+   "dot_gap": 3.0,
+   "n_dots": 7,
+   "n_bodies": 9,
+   "width": 359,
+   "dots_per_100px": 1.9498607242339834,
+   "ink_frac": 0.3372187900687726
+  }
+ },
+ {
+  "key": "1910Q2_p12_s80_r549",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 5.0,
+   "dot_h": 2.0,
+   "dot_w": 3.0,
+   "dot_gap": 3.5,
+   "n_dots": 20,
+   "n_bodies": 30,
+   "width": 755,
+   "dots_per_100px": 2.6490066225165565,
+   "ink_frac": 0.3443708609271523
+  },
+  "lo": {
+   "body_h": 15.5,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 1.0,
+   "n_dots": 10,
+   "n_bodies": 8,
+   "width": 333,
+   "dots_per_100px": 3.003003003003003,
+   "ink_frac": 0.33804347826086956
+  }
+ },
+ {
+  "key": "1910Q2_p12_s82_r523",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 28.0,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 0.0,
+   "n_dots": 10,
+   "n_bodies": 8,
+   "width": 792,
+   "dots_per_100px": 1.2626262626262625,
+   "ink_frac": 0.3484408702367321
+  },
+  "lo": {
+   "body_h": 20.5,
+   "dot_h": 5,
+   "dot_w": 19,
+   "dot_gap": 0.0,
+   "n_dots": 5,
+   "n_bodies": 4,
+   "width": 363,
+   "dots_per_100px": 1.3774104683195592,
+   "ink_frac": 0.3435171385991058
+  }
+ },
+ {
+  "key": "1910Q2_p13_s84_r551",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 43,
+   "dot_h": 10,
+   "dot_w": 19,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 5,
+   "width": 577,
+   "dots_per_100px": 0.5199306759098787,
+   "ink_frac": 0.34764595103578155
+  },
+  "lo": {
+   "body_h": 20,
+   "dot_h": 5.0,
+   "dot_w": 13.0,
+   "dot_gap": 0.0,
+   "n_dots": 2,
+   "n_bodies": 5,
+   "width": 264,
+   "dots_per_100px": 0.7575757575757576,
+   "ink_frac": 0.3488888888888889
+  }
+ },
+ {
+  "key": "1910Q2_p14_s93_r545",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 35.5,
+   "dot_h": 2,
+   "dot_w": 2,
+   "dot_gap": 1.5,
+   "n_dots": 23,
+   "n_bodies": 14,
+   "width": 818,
+   "dots_per_100px": 2.8117359413202934,
+   "ink_frac": 0.3464878834095916
+  },
+  "lo": {
+   "body_h": 18,
+   "dot_h": 2.0,
+   "dot_w": 3.0,
+   "dot_gap": 1,
+   "n_dots": 6,
+   "n_bodies": 11,
+   "width": 374,
+   "dots_per_100px": 1.6042780748663101,
+   "ink_frac": 0.34954165005978477
+  }
+ },
+ {
+  "key": "1910Q2_p17_s116_r557",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 33.0,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 1.0,
+   "n_dots": 33,
+   "n_bodies": 12,
+   "width": 743,
+   "dots_per_100px": 4.441453566621804,
+   "ink_frac": 0.341496770925668
+  },
+  "lo": {
+   "body_h": 15.0,
+   "dot_h": 2.5,
+   "dot_w": 2.5,
+   "dot_gap": 0,
+   "n_dots": 6,
+   "n_bodies": 10,
+   "width": 337,
+   "dots_per_100px": 1.7804154302670623,
+   "ink_frac": 0.3428641251221896
+  }
+ },
+ {
+  "key": "1910Q2_p17_s119_r541",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 31.5,
+   "dot_h": 2.0,
+   "dot_w": 2.5,
+   "dot_gap": 0.0,
+   "n_dots": 10,
+   "n_bodies": 10,
+   "width": 658,
+   "dots_per_100px": 1.5197568389057752,
+   "ink_frac": 0.3452722063037249
+  },
+  "lo": {
+   "body_h": 16.5,
+   "dot_h": 3,
+   "dot_w": 15,
+   "dot_gap": 0.0,
+   "n_dots": 1,
+   "n_bodies": 8,
+   "width": 301,
+   "dots_per_100px": 0.33222591362126247,
+   "ink_frac": 0.3467357230475671
+  }
+ },
+ {
+  "key": "1910Q2_p18_s123_r599",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 19,
+   "dot_h": 2,
+   "dot_w": 2,
+   "dot_gap": 2,
+   "n_dots": 51,
+   "n_bodies": 23,
+   "width": 1038,
+   "dots_per_100px": 4.913294797687861,
+   "ink_frac": 0.3489616784414472
+  },
+  "lo": {
+   "body_h": 16,
+   "dot_h": 4,
+   "dot_w": 3,
+   "dot_gap": 0.0,
+   "n_dots": 15,
+   "n_bodies": 15,
+   "width": 450,
+   "dots_per_100px": 3.3333333333333335,
+   "ink_frac": 0.3413052631578947
+  }
+ },
+ {
+  "key": "1910Q2_p18_s125_r455",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 30,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 1,
+   "n_dots": 17,
+   "n_bodies": 13,
+   "width": 565,
+   "dots_per_100px": 3.0088495575221237,
+   "ink_frac": 0.34485683987274657
+  },
+  "lo": {
+   "body_h": 13.5,
+   "dot_h": 4,
+   "dot_w": 4,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 12,
+   "width": 242,
+   "dots_per_100px": 1.2396694214876034,
+   "ink_frac": 0.34140484290574347
+  }
+ },
+ {
+  "key": "1910Q2_p18_s129_r675",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 8,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 0.0,
+   "n_dots": 2,
+   "n_bodies": 7,
+   "width": 55,
+   "dots_per_100px": 3.6363636363636362,
+   "ink_frac": 0.34585858585858587
+  },
+  "lo": {
+   "body_h": 20.0,
+   "dot_h": 2.5,
+   "dot_w": 2.0,
+   "dot_gap": 0.0,
+   "n_dots": 4,
+   "n_bodies": 2,
+   "width": 25,
+   "dots_per_100px": 16.0,
+   "ink_frac": 0.32761904761904764
+  }
+ },
+ {
+  "key": "1910Q2_p18_s130_r449",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 10.0,
+   "dot_h": 2,
+   "dot_w": 2,
+   "dot_gap": 3.0,
+   "n_dots": 41,
+   "n_bodies": 30,
+   "width": 863,
+   "dots_per_100px": 4.750869061413673,
+   "ink_frac": 0.34876013904982617
+  },
+  "lo": {
+   "body_h": 16.0,
+   "dot_h": 4,
+   "dot_w": 4,
+   "dot_gap": 1.0,
+   "n_dots": 11,
+   "n_bodies": 14,
+   "width": 392,
+   "dots_per_100px": 2.806122448979592,
+   "ink_frac": 0.3394606494221244
+  }
+ },
+ {
+  "key": "1910Q2_p19_s132_r452",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 34.5,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 0,
+   "n_dots": 7,
+   "n_bodies": 8,
+   "width": 476,
+   "dots_per_100px": 1.4705882352941178,
+   "ink_frac": 0.3428796046720575
+  },
+  "lo": {
+   "body_h": 16.5,
+   "dot_h": 2.5,
+   "dot_w": 11.0,
+   "dot_gap": 0,
+   "n_dots": 2,
+   "n_bodies": 8,
+   "width": 218,
+   "dots_per_100px": 0.9174311926605505,
+   "ink_frac": 0.3481240981240981
+  }
+ },
+ {
+  "key": "1910Q2_p19_s133_r676",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 23.0,
+   "dot_h": 3.0,
+   "dot_w": 4.5,
+   "dot_gap": 0.0,
+   "n_dots": 18,
+   "n_bodies": 12,
+   "width": 513,
+   "dots_per_100px": 3.508771929824561,
+   "ink_frac": 0.34653061224489795
+  },
+  "lo": {
+   "body_h": 11,
+   "dot_h": 3.5,
+   "dot_w": 3.0,
+   "dot_gap": 0.0,
+   "n_dots": 4,
+   "n_bodies": 11,
+   "width": 235,
+   "dots_per_100px": 1.702127659574468,
+   "ink_frac": 0.3437950937950938
+  }
+ },
+ {
+  "key": "1910Q2_p19_s139_r385",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 4.5,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 7.5,
+   "n_dots": 45,
+   "n_bodies": 68,
+   "width": 1119,
+   "dots_per_100px": 4.021447721179625,
+   "ink_frac": 0.32483577128702007
+  },
+  "lo": {
+   "body_h": 9.0,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 5,
+   "n_dots": 21,
+   "n_bodies": 18,
+   "width": 512,
+   "dots_per_100px": 4.1015625,
+   "ink_frac": 0.31625600961538464
+  }
+ },
+ {
+  "key": "1910Q2_p20_s145_r579",
+  "lang": "Punjabi",
+  "script": "Gurmukhi",
+  "hi": {
+   "body_h": 3.0,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 86,
+   "width": 604,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.34216335540838855
+  },
+  "lo": {
+   "body_h": 18.5,
+   "dot_h": 2.0,
+   "dot_w": 3.0,
+   "dot_gap": 3,
+   "n_dots": 16,
+   "n_bodies": 8,
+   "width": 276,
+   "dots_per_100px": 5.797101449275362,
+   "ink_frac": 0.3343088071348941
+  }
+ },
+ {
+  "key": "1910Q2_p25_s27_r641",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 24,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 22.0,
+   "n_dots": 27,
+   "n_bodies": 25,
+   "width": 717,
+   "dots_per_100px": 3.7656903765690375,
+   "ink_frac": 0.34222125025233835
+  },
+  "lo": {
+   "body_h": 11,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 13.0,
+   "n_dots": 11,
+   "n_bodies": 23,
+   "width": 328,
+   "dots_per_100px": 3.3536585365853657,
+   "ink_frac": 0.3414002428166734
+  }
+ },
+ {
+  "key": "1910Q2_p25_s29_r637",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 4.0,
+   "dot_h": 2.0,
+   "dot_w": 3.0,
+   "dot_gap": 12.5,
+   "n_dots": 18,
+   "n_bodies": 42,
+   "width": 792,
+   "dots_per_100px": 2.272727272727273,
+   "ink_frac": 0.34542410714285715
+  },
+  "lo": {
+   "body_h": 8,
+   "dot_h": 2.0,
+   "dot_w": 3.0,
+   "dot_gap": 0.0,
+   "n_dots": 12,
+   "n_bodies": 11,
+   "width": 363,
+   "dots_per_100px": 3.3057851239669422,
+   "ink_frac": 0.34120734908136485
+  }
+ },
+ {
+  "key": "1910Q2_p26_s21_r634",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 41,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 0,
+   "n_dots": 12,
+   "n_bodies": 7,
+   "width": 427,
+   "dots_per_100px": 2.810304449648712,
+   "ink_frac": 0.34402332361516036
+  },
+  "lo": {
+   "body_h": 16.0,
+   "dot_h": 2,
+   "dot_w": 6,
+   "dot_gap": 1,
+   "n_dots": 1,
+   "n_bodies": 6,
+   "width": 177,
+   "dots_per_100px": 0.5649717514124294,
+   "ink_frac": 0.3324009324009324
+  }
+ },
+ {
+  "key": "1910Q2_p26_s22_r620",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 5,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 3.5,
+   "n_dots": 10,
+   "n_bodies": 15,
+   "width": 307,
+   "dots_per_100px": 3.257328990228013,
+   "ink_frac": 0.34816653934300995
+  },
+  "lo": {
+   "body_h": 18.5,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 0.0,
+   "n_dots": 1,
+   "n_bodies": 6,
+   "width": 141,
+   "dots_per_100px": 0.7092198581560284,
+   "ink_frac": 0.3385753931544866
+  }
+ },
+ {
+  "key": "1910Q2_p26_s1_r582",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 5.0,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 6,
+   "n_dots": 28,
+   "n_bodies": 40,
+   "width": 865,
+   "dots_per_100px": 3.2369942196531793,
+   "ink_frac": 0.34066124285961574
+  },
+  "lo": {
+   "body_h": 16,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 2.0,
+   "n_dots": 7,
+   "n_bodies": 11,
+   "width": 377,
+   "dots_per_100px": 1.856763925729443,
+   "ink_frac": 0.34450710108604843
+  }
+ },
+ {
+  "key": "1910Q2_p28_s56_r699",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 3,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 109,
+   "width": 1006,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.3496702012190031
+  },
+  "lo": {
+   "body_h": 17,
+   "dot_h": 2.5,
+   "dot_w": 3.0,
+   "dot_gap": 2.5,
+   "n_dots": 18,
+   "n_bodies": 15,
+   "width": 453,
+   "dots_per_100px": 3.9735099337748343,
+   "ink_frac": 0.3433109833971903
+  }
+ },
+ {
+  "key": "1910Q2_p28_s57_r570",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 5.0,
+   "dot_h": 2.0,
+   "dot_w": 2.0,
+   "dot_gap": 1,
+   "n_dots": 18,
+   "n_bodies": 46,
+   "width": 750,
+   "dots_per_100px": 2.4,
+   "ink_frac": 0.32875862068965517
+  },
+  "lo": {
+   "body_h": 16.0,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 12,
+   "n_dots": 13,
+   "n_bodies": 10,
+   "width": 343,
+   "dots_per_100px": 3.7900874635568513,
+   "ink_frac": 0.34564301911240686
+  }
+ },
+ {
+  "key": "1910Q2_p29_s60_r628",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 34,
+   "dot_h": 3,
+   "dot_w": 4,
+   "dot_gap": 2,
+   "n_dots": 33,
+   "n_bodies": 13,
+   "width": 835,
+   "dots_per_100px": 3.9520958083832336,
+   "ink_frac": 0.330118709948524
+  },
+  "lo": {
+   "body_h": 15,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 4,
+   "n_dots": 9,
+   "n_bodies": 13,
+   "width": 371,
+   "dots_per_100px": 2.4258760107816713,
+   "ink_frac": 0.3485702778896496
+  }
+ },
+ {
+  "key": "1910Q2_p30_s71_r432",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 33,
+   "dot_h": 2.5,
+   "dot_w": 3.0,
+   "dot_gap": 3.5,
+   "n_dots": 10,
+   "n_bodies": 13,
+   "width": 607,
+   "dots_per_100px": 1.6474464579901154,
+   "ink_frac": 0.3433149206964499
+  },
+  "lo": {
+   "body_h": 15,
+   "dot_h": 6,
+   "dot_w": 7,
+   "dot_gap": 0,
+   "n_dots": 1,
+   "n_bodies": 13,
+   "width": 267,
+   "dots_per_100px": 0.37453183520599254,
+   "ink_frac": 0.34438536127619646
+  }
+ },
+ {
+  "key": "1910Q2_p31_s73_r590",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 15,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 3,
+   "n_dots": 7,
+   "n_bodies": 5,
+   "width": 67,
+   "dots_per_100px": 10.447761194029852,
+   "ink_frac": 0.3421129645888206
+  },
+  "lo": {
+   "body_h": 16.5,
+   "dot_h": 2,
+   "dot_w": 2,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 2,
+   "width": 31,
+   "dots_per_100px": 9.67741935483871,
+   "ink_frac": 0.32959326788218796
+  }
+ },
+ {
+  "key": "1910Q2_p31_s74_r591",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 37,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 2.5,
+   "n_dots": 17,
+   "n_bodies": 9,
+   "width": 829,
+   "dots_per_100px": 2.0506634499396865,
+   "ink_frac": 0.3405709690390028
+  },
+  "lo": {
+   "body_h": 16,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 0.0,
+   "n_dots": 5,
+   "n_bodies": 9,
+   "width": 360,
+   "dots_per_100px": 1.3888888888888888,
+   "ink_frac": 0.33688654353562003
+  }
+ },
+ {
+  "key": "1910Q2_p31_s75_r592",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 39,
+   "dot_h": 3.0,
+   "dot_w": 3.0,
+   "dot_gap": 2,
+   "n_dots": 4,
+   "n_bodies": 3,
+   "width": 94,
+   "dots_per_100px": 4.25531914893617,
+   "ink_frac": 0.3257727820152549
+  },
+  "lo": {
+   "body_h": 19.0,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 2,
+   "width": 43,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.31492248062015504
+  }
+ },
+ {
+  "key": "1910Q2_p31_s76_r593",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 6.5,
+   "dot_h": 3,
+   "dot_w": 2,
+   "dot_gap": 4,
+   "n_dots": 3,
+   "n_bodies": 8,
+   "width": 81,
+   "dots_per_100px": 3.7037037037037037,
+   "ink_frac": 0.34098765432098765
+  },
+  "lo": {
+   "body_h": 18.0,
+   "dot_h": 2,
+   "dot_w": 2,
+   "dot_gap": 1.0,
+   "n_dots": 3,
+   "n_bodies": 2,
+   "width": 28,
+   "dots_per_100px": 10.714285714285714,
+   "ink_frac": 0.3207990599294947
+  }
+ },
+ {
+  "key": "1910Q2_p31_s77_r594",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 34,
+   "dot_h": 3,
+   "dot_w": 3,
+   "dot_gap": 1,
+   "n_dots": 19,
+   "n_bodies": 11,
+   "width": 620,
+   "dots_per_100px": 3.064516129032258,
+   "ink_frac": 0.33629972412565634
+  },
+  "lo": {
+   "body_h": 16,
+   "dot_h": 2.5,
+   "dot_w": 2.0,
+   "dot_gap": 0.0,
+   "n_dots": 4,
+   "n_bodies": 9,
+   "width": 284,
+   "dots_per_100px": 1.408450704225352,
+   "ink_frac": 0.3491217967175353
+  }
+ },
+ {
+  "key": "1910Q2_p31_s2_r640",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 32,
+   "dot_h": 3.0,
+   "dot_w": 3.0,
+   "dot_gap": 9,
+   "n_dots": 24,
+   "n_bodies": 17,
+   "width": 830,
+   "dots_per_100px": 2.891566265060241,
+   "ink_frac": 0.3478485370051635
+  },
+  "lo": {
+   "body_h": 15.5,
+   "dot_h": 4,
+   "dot_w": 4,
+   "dot_gap": 1,
+   "n_dots": 5,
+   "n_bodies": 14,
+   "width": 361,
+   "dots_per_100px": 1.3850415512465375,
+   "ink_frac": 0.3448275862068966
+  }
+ },
+ {
+  "key": "1910Q2_p35_s35_r506",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 32.0,
+   "dot_h": 3.0,
+   "dot_w": 2.5,
+   "dot_gap": 1,
+   "n_dots": 30,
+   "n_bodies": 22,
+   "width": 1033,
+   "dots_per_100px": 2.904162633107454,
+   "ink_frac": 0.33318812520167795
+  },
+  "lo": {
+   "body_h": 14,
+   "dot_h": 4,
+   "dot_w": 3,
+   "dot_gap": 0,
+   "n_dots": 5,
+   "n_bodies": 19,
+   "width": 462,
+   "dots_per_100px": 1.0822510822510822,
+   "ink_frac": 0.344373972280949
+  }
+ },
+ {
+  "key": "1910Q2_p35_s38_r473",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 4.5,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 18,
+   "n_dots": 21,
+   "n_bodies": 22,
+   "width": 824,
+   "dots_per_100px": 2.5485436893203883,
+   "ink_frac": 0.3267728999577881
+  },
+  "lo": {
+   "body_h": 2,
+   "dot_h": 0.0,
+   "dot_w": 0.0,
+   "dot_gap": 0.0,
+   "n_dots": 0,
+   "n_bodies": 11,
+   "width": 370,
+   "dots_per_100px": 0.0,
+   "ink_frac": 0.34874321081217635
+  }
+ },
+ {
+  "key": "1910Q2_p35_s39_r584",
+  "lang": "Urdu",
+  "script": "Perso-Arabic",
+  "hi": {
+   "body_h": 31.0,
+   "dot_h": 5.5,
+   "dot_w": 4.0,
+   "dot_gap": 0.0,
+   "n_dots": 10,
+   "n_bodies": 8,
+   "width": 644,
+   "dots_per_100px": 1.5527950310559007,
+   "ink_frac": 0.3425627611726052
+  },
+  "lo": {
+   "body_h": 14.5,
+   "dot_h": 4,
+   "dot_w": 4,
+   "dot_gap": 0.0,
+   "n_dots": 3,
+   "n_bodies": 8,
+   "width": 286,
+   "dots_per_100px": 1.048951048951049,
+   "ink_frac": 0.3435171385991058
+  }
+ },
+ {
+  "key": "1910Q2_p40_s17_r478",
+  "lang": "Bilingual (Arabic and Urdu)",
+  "script": "Perso-Arabic (mixed)",
+  "hi": {
+   "body_h": 24,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 6.0,
+   "n_dots": 15,
+   "n_bodies": 7,
+   "width": 131,
+   "dots_per_100px": 11.450381679389313,
+   "ink_frac": 0.33083969465648855
+  },
+  "lo": {
+   "body_h": 11,
+   "dot_h": 2,
+   "dot_w": 3,
+   "dot_gap": 7,
+   "n_dots": 3,
+   "n_bodies": 5,
+   "width": 60,
+   "dots_per_100px": 5.0,
+   "ink_frac": 0.3217391304347826
+  }
+ }
+]

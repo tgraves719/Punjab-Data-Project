@@ -1,0 +1,44 @@
+{
+ "experiment": "E5b — adjudication of flags on the golden (in-session) extraction",
+ "date": "2026-08-04",
+ "adjudicator": "claude-opus-5, reading native-resolution entry crops against the extractor's recorded value and stated doubt",
+ "sample": "18 flags drawn round-robin across flagged fields from the four 1910 quarters (seed 7); 16 rendered, 14 adjudicable",
+ "taxonomy": {
+  "error": "transcription is wrong — the flag caught a real mistake",
+  "degraded": "transcription is right (or the best available reading); the source really is hard to read",
+  "artifact": "transcription is right; the CATALOG is irregular here — a collision, an omission, a printer's error",
+  "plausibility": "transcription is right and the source is perfectly legible; the flag reports an unusual value, not a doubtful reading",
+  "not_adjudicable": "the rendered crop does not show the field in question"
+ },
+ "verdicts": [
+  {"n": 1,  "quarter": "1910Q1", "page": 42, "reg": "249",  "field": "reg",          "verdict": "artifact",     "note": "reg 249 is clearly printed; it genuinely collides with p28 s12. A catalog fact, not a misreading."},
+  {"n": 2,  "quarter": "1910Q2", "page": 10, "reg": "413",  "field": "copies",       "verdict": "plausibility", "note": "187 is crisply printed. Flag reports an atypical (non-round) print run, not a doubtful digit."},
+  {"n": 3,  "quarter": "1910Q2", "page": 14, "reg": "553",  "field": "gloss",        "verdict": "artifact",     "note": "the page really does print 'intique'. Transcription faithful; the Reporter's compositor erred."},
+  {"n": 4,  "quarter": "1910Q2", "page": 20, "reg": "504",  "field": "printer",      "verdict": "artifact",     "note": "page prints 'Stara-i-Hiud Press' (broken n). Flag records it, but the stored value was silently normalised to 'Stara-i-Hind' — a small verbatim-layer deviation worth noting."},
+  {"n": 5,  "quarter": "1910Q2", "page": 22, "reg": "395",  "field": "copies",       "verdict": "plausibility", "note": "'1,090' is clearly printed. Unusual, correct."},
+  {"n": 6,  "quarter": "1910Q2", "page": 32, "reg": "484",  "field": "copyright",    "verdict": "not_adjudicable", "note": "column 6 falls outside the rendered crop."},
+  {"n": 7,  "quarter": "1910Q2", "page": 40, "reg": "569",  "field": "pcity",        "verdict": "artifact",     "note": "page reads 'Magazine P r e s s,' with a trailing comma and no city. Empty value is correct."},
+  {"n": 8,  "quarter": "1910Q3", "page": 14, "reg": "830",  "field": "author",       "verdict": "artifact",     "note": "'Marik Singh, B.' is clearly printed. If it is a misprint for Malik, it is the catalog's."},
+  {"n": 9,  "quarter": "1910Q3", "page": 22, "reg": "962",  "field": "date",         "verdict": "artifact",     "note": "page prints '1318 Hijri' against a June 1910 Christian date; 1328 would be correct. Source error, faithfully transcribed."},
+  {"n": 10, "quarter": "1910Q3", "page": 26, "reg": "724",  "field": "pp_verbatim",  "verdict": "degraded",     "note": "pagination genuinely smudged; 108 is a reasonable reading, 168 not excluded. A real 'check my reading' case."},
+  {"n": 11, "quarter": "1910Q3", "page": 41, "reg": "933",  "field": "edition",      "verdict": "artifact",     "note": "page reads 'litho., edition.' with no ordinal. Empty value is correct."},
+  {"n": 12, "quarter": "1910Q3", "page": 49, "reg": "714",  "field": "title",        "verdict": "degraded",     "note": "last word smudged; reading resolved from the gloss ('wearing of chaplets'), which supports Sihra. Correct, and correctly reasoned."},
+  {"n": 13, "quarter": "1910Q4", "page": 2,  "reg": "1393", "field": "price",        "verdict": "artifact",     "note": "no price line printed before the next section header. Empty value is correct."},
+  {"n": 14, "quarter": "1910Q4", "page": 5,  "reg": "1037", "field": "reg",          "verdict": "artifact",     "note": "1037 clearly printed; collides with a Q3 entry. Catalog fact."},
+  {"n": 15, "quarter": "1910Q4", "page": 20, "reg": "1161", "field": "copyright",    "verdict": "not_adjudicable", "note": "column 6 falls outside the rendered crop."},
+  {"n": 16, "quarter": "1910Q4", "page": 29, "reg": "1215", "field": "serial",       "verdict": "degraded",     "note": "serial genuinely obscured by the earlier hand's pencil X; 6 inferred from the run. Plausible, not directly verifiable."},
+
+  {"n": 17, "quarter": "1910Q3", "page": 22, "reg": "815",  "field": "copies",       "verdict": "degraded",     "note": "second draw (seed 11), after the crop was widened to column 6. Leading digit of '1,000' is cut at the column rule; reading is right but not directly verifiable."},
+  {"n": 18, "quarter": "1910Q3", "page": 48, "reg": "1056", "field": "copyright",    "verdict": "degraded",     "note": "second draw. Column 6 now visible and the flag is exactly right: 'No. 1__ dated the 6__ September, 191_' is cut at the right page edge."},
+  {"n": 19, "quarter": "1910Q4", "page": 31, "reg": "1323", "field": "serial",       "verdict": "degraded",     "note": "second draw. Margin serial overwritten by the earlier hand's pencil; 100 inferred from the run."}
+ ],
+ "second_draw_note": "Items 17-19 come from a separate stratified draw (seed 11) made to verify the widened crop. They are pooled with the first draw in the totals; both are random draws over the same population, but the pooling is stated because it was not planned in advance.",
+ "totals": {
+  "adjudicable": 17,
+  "error": 0,
+  "degraded": 6,
+  "artifact": 9,
+  "plausibility": 2,
+  "not_adjudicable": 2
+ }
+}

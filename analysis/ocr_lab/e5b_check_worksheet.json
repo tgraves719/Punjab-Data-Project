@@ -1,0 +1,38 @@
+[
+ {
+  "n": 1,
+  "quarter": "1910Q3",
+  "printed_page": 22,
+  "reg": "815",
+  "serial": 10,
+  "field": "copies",
+  "issue": "first digit faint; read as 1,000",
+  "extracted_value": "1000",
+  "title": "Nawin Durga Prabodh",
+  "verdict": null
+ },
+ {
+  "n": 2,
+  "quarter": "1910Q3",
+  "printed_page": 48,
+  "reg": "1056",
+  "serial": 1,
+  "field": "copyright",
+  "issue": "register number and day partially legible",
+  "extracted_value": "H. Amir Muhammad, Pesháwar city; No. 15(?), dated the (?) September, 1910.",
+  "title": "Quran Sharif Mutarjam",
+  "verdict": null
+ },
+ {
+  "n": 3,
+  "quarter": "1910Q4",
+  "printed_page": 31,
+  "reg": "1323",
+  "serial": 100,
+  "field": "serial",
+  "issue": "margin serial obscured by pencil X; read as 100 (follows 99)",
+  "extracted_value": 100,
+  "title": "Ruidad-i-Mubahsa-i-Patti",
+  "verdict": null
+ }
+]
