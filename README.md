@@ -7,57 +7,75 @@ Thomas Graves, with Prof. Emmett Davis.
 
 **→ https://www.mixedrealitymusician.com/Punjab-Data-Project/** *(GitHub Pages, served from `docs/`)*
 
-An interactive explorer of the complete year **1910**: all four quarterly
-*Catalogues of Books registered in the Punjab* under Act XXV of 1867 and Act X
-of 1890 — **1,408 entries, 1,960,018 registered copies** (India Office SV 412/44).
-Filterable entry table, printer–publisher network, script-market analysis,
-curated exhibits, and a built-in scan viewer that opens every record's source
-page image.
+An interactive explorer of three complete years, **1910–1912**: all twelve quarterly
+*Catalogues of Books registered in the Punjab* under Act XXV of 1867 and Act X of 1890 —
+**4,502 entries, 6,944,051 registered copies**, 350 printers, 1,726 publishers, 59 printing
+cities (India Office Records SV 412/44, Punjab, Vol 13). Filterable entry table,
+printer–publisher network, script-market analysis, curated exhibits, and a built-in scan
+viewer that opens every record's source page image.
 
 ## What this repo contains
 
 | Path | Contents |
 |---|---|
 | `docs/` | The published site: the self-contained explorer (`index.html`) plus the rendered page scans (`pages/<quarter>/`) it links to |
-| `pipeline/` | Extraction pipeline: `render.py` → per-page extraction JSONs → `postprocess.py` (normalization, SQLite) → `validate.py` (sequence checks, adjudication queues); `schema.md`, `aliases.json`, per-quarter manifests |
+| `pipeline/` | Extraction pipeline: `render.py` → per-page extraction JSONs → `extract_api.py` (Batch API) → `postprocess.py` (normalization, SQLite) → `validate.py` (sequence checks, adjudication queues); `schema.md`, `aliases.json`, per-quarter manifests |
+| `pipeline/constraints.py` | Independent quality check built on the register's own grammar and entity vocabulary; ranks the adjudication queue (D-018) |
+| `pipeline/localize.py`, `lines.py`, `crops.py` | Native-script title localization: finds the vernacular title within each entry and pairs it with its printed romanization |
 | `pipeline/data/<quarter>/extractions/` | The verbatim record layer: one JSON per catalog page, the catalog's own words preserved (misprints, editorializing and all) |
 | `pipeline/data/<quarter>/out/` | Derived open data: `entries.csv`, `adjudication_queue.csv`, `validation_report.md` |
 | `pipeline/data/<quarter>/marginalia_*.md` | Documentation of the handwritten verso indexes found in the bound volumes |
-| `analysis/slice_1910/` | Analysis scripts over the year: `build_network.py`, `script_market.py`, `build_site.py` (regenerates `docs/index.html`), with CSV/PNG outputs in `out/` |
+| `analysis/slice_1910/` | Analysis over the corpus: `build_network.py`, `script_market.py`, `build_site.py` (regenerates `docs/index.html`) |
+| `analysis/ocr_lab/` | The native-script workstream: legibility measurements (`E0B_RESULTS.md`), localization results, and `REIMAGING_PILOT.md` — the 21-page experiment that decides whether re-imaging the volumes is worth buying |
+| `analysis/integrity/` | Sweeps testing whether the stored record matches its own specification (`INTEGRITY_SWEEP.md`) |
+| `dialectic/` | The method dialogue behind the August decisions. `dead_ends.md` first |
+| `OCR_RESEARCH_AGENDA.md` | Governing document for transcription and extraction |
 | `PLAN.md` / `DECISIONS.md` | Plan of record and the numbered decision log (D-001…) governing every normalization fold and method choice |
 
 ## Method in one paragraph
 
 Three layers, kept separate: **page image → verbatim record → normalized layer.**
-Every entry carries full provenance (printed page + PDF page); the catalog's
-wording is never silently corrected — uncertain readings are flagged into
-per-quarter adjudication queues with stated reasoning. Registration numbers run
-as one annual sequence (1–1410 in 1910) and serial numbers chain across quarters
-within each language–topic section; both are used as validation instruments.
+Every entry carries full provenance (printed page + PDF page); the catalog's wording is not
+silently corrected — uncertain readings are flagged into per-quarter adjudication queues with
+stated reasoning. Registration numbers run as one annual sequence and serial numbers chain
+across quarters within each language–topic section; both are used as validation instruments.
+The verbatim layer has been swept against the extractor's own flags and holds with five
+identified exceptions (`analysis/integrity/INTEGRITY_SWEEP.md`).
+
+## Two things to know before querying the data
+
+- **`copies` is a TEXT column and 12.7% of its values carry a thousands separator.**
+  `sum(cast(copies as integer))` silently undercounts by 16.7%. Use
+  `sum(cast(replace(copies, ',', '') as integer))`. See `analysis/integrity/INTEGRITY_SWEEP.md`.
+- **The register's own completeness is stratified by language.** `method` is blank for 3.3%
+  of Urdu entries but 71.5% of Punjabi and 88.2% of Hindi; `char` is annotated for 28.9% of
+  Punjabi entries against 0.7% of Urdu. Cross-language comparison on sparse fields needs a
+  recorded-versus-blank control. This is a property of the imperial record, not of the
+  extraction. See `analysis/ocr_lab/E0B_RESULTS.md` §3.
 
 ## What is deliberately not here
 
-- The bound-volume scans (~25 GB of India Office PDFs) — only the per-page PNG
-  renders needed by the explorer are published, under `docs/pages/`.
-- The SQLite database (`punjab.db`) — regenerable:
-  `cd pipeline && python postprocess.py manifest_1910Q1.json` (repeat per quarter).
-- Private working material (interpretive memos, collaborator transcription files).
+- The bound-volume scans (~25 GB of India Office PDFs) — only the per-page renders needed by
+  the explorer are published, under `docs/pages/`.
+- The SQLite database (`punjab.db`) — regenerable, see below.
+- Private working material (interpretive memos, correspondence, collaborator transcription
+  files).
 
 ## Rebuilding the site
 
 ```
 cd pipeline
-python postprocess.py manifest_1910Q1.json   # …Q2, Q3, Q4: rebuilds punjab.db
+python postprocess.py manifest_1910Q1.json   # repeat for all twelve quarters: rebuilds punjab.db
 cd ../analysis/slice_1910
 python build_network.py && python script_market.py
-python build_site.py --public               # web build: no local-path PDF links
-cp out/explore_1910.html ../../docs/index.html
-python build_site.py                        # local build (with PDF deep-links)
+python build_site.py --public                # web build: no local-path PDF links
+cp out/explore_1910_1912.html ../../docs/index.html
+python build_site.py                         # local build (with PDF deep-links)
 ```
 
 ## Source
 
-*Catalogue of Books registered in the Punjab under Act XXV of 1867 and Act X of
-1890*, quarterly, British Library India Office Records SV 412/44. Public-domain
-government record. Print runs measure publisher supply decisions under a
-legal-deposit regime — not readership, not literacy.
+*Catalogue of Books registered in the Punjab under Act XXV of 1867 and Act X of 1890*,
+quarterly, British Library India Office Records **SV 412/44** (Punjab; 26 bound volumes,
+1867–1942 — the years here are Vol 13). Public-domain government record. Print runs measure
+publisher supply decisions under a legal-deposit regime — not readership, not literacy.
