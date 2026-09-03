@@ -96,3 +96,46 @@ pass — but they are no longer unknown.
 
 The sweep is cheap and should run after every year is ingested; it depends only on the
 extractor continuing to flag aggressively, which D-019 established it does.
+
+---
+
+## 3. Addendum — the most famous press in North India is missing from our top-printer list
+
+Found while cross-checking Prof. Davis's bibliography against the corpus, and recorded
+here because it is the same class of problem: the stored layer not meaning what a reader
+of the analysis would assume.
+
+`norm_printer` holds the Newal Kishore establishment under **six** values differing in the
+spelling of the proprietor's name (`Nawal`/`Newal`, `Kishor`/`Kishore`) as well as in the
+works. Folding **only the spelling**, which is unambiguous alias debt, merges six buckets
+and takes the distinct-printer count from **350 to 344**:
+
+| entries | value |
+|---:|---|
+| 82 | Newal Kishore Gas Printing Works |
+| 78 | Newal Kishore Press |
+| 36 | Newal Kishore Steam Press |
+| 3 | (joint imprints and one further works) |
+
+**197 entries for the firm** — which would make it the **third-largest printing
+establishment in the corpus**, level with Hindustan Steam Press (200) and behind only
+Wazir-i-Hind (433) and Sri Gurmat (270). It currently appears nowhere in the top eight,
+because it is split three ways.
+
+Two separable issues:
+
+1. **Spelling variants are debt** and should go into `aliases.json` at the next pass. This
+   is the same normalisation debt D-018(b) recorded for Mufid-i-Am, Wazir-i-Hind and
+   others; Newal Kishore is simply the costliest instance.
+2. **Works versus firm is a genuine analytic choice, not a bug**, and it should be made
+   deliberately rather than by default. The Gas Printing Works, the Steam Press and the
+   Press may be distinct plants of one house. For a network analysis of the print economy
+   the firm is usually the actor; for a study of production capacity the works may be.
+   Whichever is chosen, the other should remain recoverable — this is exactly what the
+   verbatim/normalised split is for. Worth putting to Prof. Davis.
+
+The reason this matters beyond one entity: Newal Kishore is the best-known press in North
+India and the subject of a standard monograph (Ulrike Stark, *An Empire of Books*, 2007 —
+absent from the bibliography, and worth adding). Any book historian reading a top-printer
+table for colonial Punjab will look for it first. Its absence reads as a data error even
+when the underlying counts are correct.

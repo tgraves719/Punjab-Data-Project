@@ -53,3 +53,8 @@ analysis/ocr_lab/loc_curves.json
 
 # Private correspondence drafts (unsent letters, personal email)
 correspondence/
+
+# Prof. Davis's bibliography, converted from the .docx he circulates. His
+# unpublished scholarly work-in-progress -- ours to use, not ours to publish.
+# Remove this line only once he has agreed to it appearing in a public repo.
+bibliography/
