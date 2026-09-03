@@ -1,0 +1,721 @@
+{
+ "breach_candidates": [
+  {
+   "quarter": "1910Q2",
+   "printed_page": "20",
+   "serial": "141",
+   "reg": "504",
+   "field": "printer",
+   "page_reading": "Stara-i-Hiud Press",
+   "stored": [
+    "Stara-i-Hind Press, Delhi.",
+    "Stara-i-Hind Press"
+   ],
+   "flag": "printed 'Stara-i-Hiud Press' \u2014 likely Sitara-i-Hind Press"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "19",
+   "serial": "146",
+   "reg": "379",
+   "field": "price",
+   "page_reading": "Price, 4 annas",
+   "stored": [
+    "Rs. 4 annas"
+   ],
+   "flag": "printed 'Price, 4 annas'"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "37",
+   "serial": "63",
+   "reg": "795",
+   "field": "price",
+   "page_reading": "Price, 3 annas",
+   "stored": [
+    "Rs. 3 annas"
+   ],
+   "flag": "printed 'Price, 3 annas'"
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "12",
+   "serial": "177",
+   "reg": "917",
+   "field": "pubcity",
+   "page_reading": "Peshawar",
+   "stored": [
+    "Pesh, war"
+   ],
+   "flag": "printed 'Peshawar'"
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "27",
+   "serial": "16",
+   "reg": "1096",
+   "field": "price",
+   "page_reading": "Frice",
+   "stored": [
+    "6 annas."
+   ],
+   "flag": "printed 'Frice' for 'Price'"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "11",
+   "serial": "265",
+   "reg": "1531",
+   "field": "price",
+   "page_reading": "Price, 12 annas",
+   "stored": [
+    "Rs. 12 annas"
+   ],
+   "flag": "printed 'Price, 12 annas'"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "11",
+   "serial": "268",
+   "reg": "1379",
+   "field": "price",
+   "page_reading": "Price, 12 annas",
+   "stored": [
+    "Rs. 12 annas"
+   ],
+   "flag": "printed 'Price, 12 annas'"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "2",
+   "serial": "5",
+   "reg": "1008",
+   "field": "price",
+   "page_reading": "Pr.ce",
+   "stored": [
+    "9 annas, 6 pies"
+   ],
+   "flag": "printed 'Pr.ce'"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "46",
+   "serial": "1",
+   "reg": "901",
+   "field": "author",
+   "page_reading": "a ias",
+   "stored": [
+    "Abdul Basit, Maulavi, alias Saiyid Muhammad Alam"
+   ],
+   "flag": "'alias' printed as 'a ias' unclear"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "9",
+   "serial": "3",
+   "reg": "1513",
+   "field": "author",
+   "page_reading": "Nan.k",
+   "stored": [
+    "Lahora Singh, Bhai"
+   ],
+   "flag": "name 'Nanak' printed 'Nan.k' partly obscured"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "43",
+   "serial": "80",
+   "reg": "1314",
+   "field": "copyright",
+   "page_reading": "M. Muhammad Abdullah, Editor",
+   "stored": [],
+   "flag": "reads 'M. Muhammad Abdullah, Editor \"Vakil\", Amritsar; No. 207, dated the 7th November, 1912'"
+  }
+ ],
+ "typed_by_spec": [
+  {
+   "quarter": "1910Q2",
+   "printed_page": "15",
+   "serial": "103",
+   "reg": "559",
+   "field": "copies",
+   "page_reading": "1,005",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed appears as '1,005' \u2014 likely 1,000 with ink defect"
+  },
+  {
+   "quarter": "1910Q2",
+   "printed_page": "15",
+   "serial": "105",
+   "reg": "54",
+   "field": "copies",
+   "page_reading": "1,006",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed appears as '1,006' \u2014 likely 1,000 with ink defect"
+  },
+  {
+   "quarter": "1910Q2",
+   "printed_page": "21",
+   "serial": "2",
+   "reg": "608",
+   "field": "reg",
+   "page_reading": "6C8",
+   "stored": [
+    "608"
+   ],
+   "flag": "printed '6C8' \u2014 read as 608"
+  },
+  {
+   "quarter": "1910Q4",
+   "printed_page": "28",
+   "serial": "70",
+   "reg": "1278",
+   "field": "date",
+   "page_reading": "4th November, 1911",
+   "stored": [
+    "1910-11-04"
+   ],
+   "flag": "printed '4th November, 1911' \u2014 impossible for a Dec 1910 quarter; read as 1910"
+  },
+  {
+   "quarter": "1911Q1",
+   "printed_page": "28",
+   "serial": "3",
+   "reg": "318",
+   "field": "date",
+   "page_reading": "Janary",
+   "stored": [
+    "1911-01"
+   ],
+   "flag": "printed 'Janary'"
+  },
+  {
+   "quarter": "1911Q1",
+   "printed_page": "33",
+   "serial": "13",
+   "reg": "69",
+   "field": "copies",
+   "page_reading": "25o",
+   "stored": [
+    "250"
+   ],
+   "flag": "'250' printed as '25o'"
+  },
+  {
+   "quarter": "1911Q1",
+   "printed_page": "35",
+   "serial": "34",
+   "reg": "329",
+   "field": "copies",
+   "page_reading": "4C0",
+   "stored": [
+    "400"
+   ],
+   "flag": "reads '4C0', likely 400"
+  },
+  {
+   "quarter": "1911Q1",
+   "printed_page": "38",
+   "serial": "15",
+   "reg": "7",
+   "field": "copies",
+   "page_reading": "2,0C0",
+   "stored": [
+    "2000"
+   ],
+   "flag": "printed '2,0C0', read as 2000"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "19",
+   "serial": "148",
+   "reg": "473",
+   "field": "copies",
+   "page_reading": "1,C00",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,C00' ambiguous"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "23",
+   "serial": "34",
+   "reg": "691",
+   "field": "date",
+   "page_reading": "16th",
+   "stored": [
+    "1911-04-16"
+   ],
+   "flag": "day printed as '16th' with ambiguous first digit"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "44",
+   "serial": "23",
+   "reg": "604",
+   "field": "copies",
+   "page_reading": "7C0",
+   "stored": [
+    "700"
+   ],
+   "flag": "printed '7C0', likely 700"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "47",
+   "serial": "23",
+   "reg": "526",
+   "field": "date",
+   "page_reading": "29th March, 19.1.",
+   "stored": [
+    "1911-03-29"
+   ],
+   "flag": "printed '29th March, 19.1.' year digits unclear"
+  },
+  {
+   "quarter": "1911Q2",
+   "printed_page": "51",
+   "serial": "54",
+   "reg": "786",
+   "field": "edition",
+   "page_reading": "adition",
+   "stored": [
+    "1st"
+   ],
+   "flag": "printed 'adition'"
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "12",
+   "serial": "173",
+   "reg": "945",
+   "field": "date",
+   "page_reading": "3nd May",
+   "stored": [
+    "1911-05-03"
+   ],
+   "flag": "printed '3nd May' \u2014 day digit ambiguous"
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "18",
+   "serial": "222",
+   "reg": "1,171",
+   "field": "method",
+   "page_reading": "iitho.",
+   "stored": [
+    "litho."
+   ],
+   "flag": "printed 'iitho.' apparent typo for litho."
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "44",
+   "serial": "6",
+   "reg": "849",
+   "field": "copies",
+   "page_reading": "1,0C0",
+   "stored": [
+    "1000"
+   ],
+   "flag": "reading '1,000' as printed '1,0C0'"
+  },
+  {
+   "quarter": "1911Q3",
+   "printed_page": "50",
+   "serial": "3",
+   "reg": "1,189",
+   "field": "edition",
+   "page_reading": "editien",
+   "stored": [
+    "1st"
+   ],
+   "flag": "printed 'editien'"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "10",
+   "serial": "259",
+   "reg": "1504",
+   "field": "copies",
+   "page_reading": "1,0C0",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,0C0' partly degraded"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "11",
+   "serial": "270",
+   "reg": "1506",
+   "field": "date",
+   "page_reading": "20th",
+   "stored": [
+    "1911-10-20"
+   ],
+   "flag": "day reads '20th'?"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "15",
+   "serial": "303",
+   "reg": "1196",
+   "field": "edition",
+   "page_reading": "R.",
+   "stored": [],
+   "flag": "printed 'R.' meaning uncertain"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "16",
+   "serial": "314",
+   "reg": "1367",
+   "field": "copies",
+   "page_reading": "4C0",
+   "stored": [
+    "400"
+   ],
+   "flag": "printed '4C0', reading as 400"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "27",
+   "serial": "20",
+   "reg": "1496",
+   "field": "copies",
+   "page_reading": "Do.",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed 'Do.' resolved to 1000"
+  },
+  {
+   "quarter": "1911Q4",
+   "printed_page": "46",
+   "serial": "5",
+   "reg": "1240",
+   "field": "copies",
+   "page_reading": "5C0",
+   "stored": [
+    "500"
+   ],
+   "flag": "printed '5C0', likely 500"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "2",
+   "serial": "1",
+   "reg": "302",
+   "field": "format",
+   "page_reading": "b\u00b0",
+   "stored": [
+    "8\u00b0"
+   ],
+   "flag": "size digit degraded, reads 'b\u00b0'"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "16",
+   "serial": "32",
+   "reg": "217",
+   "field": "copies",
+   "page_reading": "2,C00",
+   "stored": [
+    "2000"
+   ],
+   "flag": "printed '2,C00', reading as 2000"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "24",
+   "serial": "2",
+   "reg": "325",
+   "field": "edition",
+   "page_reading": "R.",
+   "stored": [],
+   "flag": "reads 'R.' unclear"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "34",
+   "serial": "30",
+   "reg": "42",
+   "field": "copies",
+   "page_reading": "1,090",
+   "stored": [
+    "1,000"
+   ],
+   "flag": "reads '1,090' or '1,000'"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "45",
+   "serial": "",
+   "reg": "288",
+   "field": "date",
+   "page_reading": "80th January, 1912",
+   "stored": [
+    "1912-01-30"
+   ],
+   "flag": "reads '80th January, 1912' likely 30th"
+  },
+  {
+   "quarter": "1912Q1",
+   "printed_page": "45",
+   "serial": "",
+   "reg": "289",
+   "field": "copies",
+   "page_reading": "1,C60",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,C60' unclear"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "7",
+   "serial": "7",
+   "reg": "575",
+   "field": "date",
+   "page_reading": ".2th March",
+   "stored": [
+    "1912-03-12"
+   ],
+   "flag": "day reads '.2th March' \u2014 first digit unclear"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "7",
+   "serial": "8",
+   "reg": "489",
+   "field": "copies",
+   "page_reading": "1,0C0",
+   "stored": [
+    "1000"
+   ],
+   "flag": "reads '1,0C0', third digit unclear"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "8",
+   "serial": "1",
+   "reg": "605",
+   "field": "edition",
+   "page_reading": "edtion",
+   "stored": [
+    "1st"
+   ],
+   "flag": "printed 'edtion'"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "9",
+   "serial": "24",
+   "reg": "580",
+   "field": "date",
+   "page_reading": "20th",
+   "stored": [
+    "1912-03-20"
+   ],
+   "flag": "day reads '20th' but leading digit unclear"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "14",
+   "serial": "85",
+   "reg": "595",
+   "field": "copies",
+   "page_reading": "1,C00",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,C00' ambiguous, read 1000"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "16",
+   "serial": "101",
+   "reg": "719",
+   "field": "copies",
+   "page_reading": "5C0",
+   "stored": [
+    "500"
+   ],
+   "flag": "reads '5C0', likely 500"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "28",
+   "serial": "26",
+   "reg": "387",
+   "field": "copies",
+   "page_reading": "1,0C0",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,0C0', reading as 1000"
+  },
+  {
+   "quarter": "1912Q2",
+   "printed_page": "43",
+   "serial": "12",
+   "reg": "497",
+   "field": "date",
+   "page_reading": "2?th February",
+   "stored": [
+    "1912-02-28"
+   ],
+   "flag": "day reads '2?th February' unclear"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "25",
+   "serial": "36",
+   "reg": "814",
+   "field": "method",
+   "page_reading": "R.",
+   "stored": [
+    "litho."
+   ],
+   "flag": "printed 'R.' after litho., unclear"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "40",
+   "serial": "55",
+   "reg": "1053",
+   "field": "copies",
+   "page_reading": "1,C00",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1,C00', reading as 1000"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "48",
+   "serial": "1",
+   "reg": "771",
+   "field": "format",
+   "page_reading": "1C\u00b0",
+   "stored": [
+    "16\u00b0"
+   ],
+   "flag": "size reading '16\u00b0' uncertain, printed '1C\u00b0'"
+  },
+  {
+   "quarter": "1912Q3",
+   "printed_page": "50",
+   "serial": "7",
+   "reg": "996",
+   "field": "copies",
+   "page_reading": "1,C00",
+   "stored": [
+    "1,000"
+   ],
+   "flag": "printed '1,C00' \u2014 C likely 0"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "6",
+   "serial": "2",
+   "reg": "1237",
+   "field": "date",
+   "page_reading": "19.2",
+   "stored": [
+    "1912-08"
+   ],
+   "flag": "printed '19.2', reading as 1912"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "12",
+   "serial": "8",
+   "reg": "1163",
+   "field": "date",
+   "page_reading": "16th",
+   "stored": [
+    "1912-08-16"
+   ],
+   "flag": "day reads '16th' but partly unclear"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "25",
+   "serial": "302",
+   "reg": "1423",
+   "field": "date",
+   "page_reading": "19.2.",
+   "stored": [
+    "1912-10-31"
+   ],
+   "flag": "printed '19.2.' date digits unclear"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "38",
+   "serial": "143",
+   "reg": "1220",
+   "field": "copies",
+   "page_reading": "5C0",
+   "stored": [
+    "500"
+   ],
+   "flag": "printed '5C0', likely 500"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "38",
+   "serial": "145",
+   "reg": "1149",
+   "field": "copies",
+   "page_reading": "1C00",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed '1C00', likely 1000"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "42",
+   "serial": "77",
+   "reg": "1197",
+   "field": "copies",
+   "page_reading": "5C0",
+   "stored": [
+    "500"
+   ],
+   "flag": "printed '5C0' ambiguous, read as 500"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "47",
+   "serial": "9",
+   "reg": "1340",
+   "field": "date",
+   "page_reading": "19.2.",
+   "stored": [
+    "1912-09"
+   ],
+   "flag": "printed as '19.2.' partly illegible"
+  },
+  {
+   "quarter": "1912Q4",
+   "printed_page": "48",
+   "serial": "16",
+   "reg": "1383",
+   "field": "copies",
+   "page_reading": "1,C00",
+   "stored": [
+    "1000"
+   ],
+   "flag": "printed as '1,C00', ambiguous digit read as 1000"
+  }
+ ]
+}
