@@ -1,0 +1,278 @@
+[
+ {
+  "q": "1910Q1",
+  "p": 13,
+  "pdf": 13,
+  "n": 3,
+  "sub": 3,
+  "med": 0,
+  "scripts": {
+   "Gurmukhi": 3
+  },
+  "dom": "Gurmukhi",
+  "why": "A decisive: Gurmukhi sub-pixel"
+ },
+ {
+  "q": "1910Q1",
+  "p": 24,
+  "pdf": 24,
+  "n": 4,
+  "sub": 2,
+  "med": 1.75,
+  "scripts": {
+   "Perso-Arabic": 4
+  },
+  "dom": "Perso-Arabic",
+  "why": "A decisive: Perso-Arabic sub-pixel"
+ },
+ {
+  "q": "1910Q1",
+  "p": 28,
+  "pdf": 28,
+  "n": 4,
+  "sub": 2,
+  "med": 2.75,
+  "scripts": {
+   "Perso-Arabic": 4
+  },
+  "dom": "Perso-Arabic",
+  "why": "A decisive: Perso-Arabic sub-pixel"
+ },
+ {
+  "q": "1910Q2",
+  "p": 10,
+  "pdf": 62,
+  "n": 3,
+  "sub": 3,
+  "med": 0.0,
+  "scripts": {
+   "Gurmukhi": 3
+  },
+  "dom": "Gurmukhi",
+  "why": "A decisive: Gurmukhi sub-pixel"
+ },
+ {
+  "q": "1910Q2",
+  "p": 18,
+  "pdf": 70,
+  "n": 4,
+  "sub": 2,
+  "med": 1.5,
+  "scripts": {
+   "Perso-Arabic (Punjabi)": 4
+  },
+  "dom": "Perso-Arabic (Punjabi)",
+  "why": "A decisive: Punjabi-in-Persian sub-pixel"
+ },
+ {
+  "q": "1910Q2",
+  "p": 35,
+  "pdf": 87,
+  "n": 3,
+  "sub": 2,
+  "med": 1,
+  "scripts": {
+   "Perso-Arabic": 3
+  },
+  "dom": "Perso-Arabic",
+  "why": "A decisive: Perso-Arabic sub-pixel"
+ },
+ {
+  "q": "1910Q3",
+  "p": 16,
+  "pdf": 112,
+  "n": 3,
+  "sub": 2,
+  "med": 0.0,
+  "scripts": {
+   "Gurmukhi": 3
+  },
+  "dom": "Gurmukhi",
+  "why": "A decisive: Gurmukhi sub-pixel"
+ },
+ {
+  "q": "1910Q3",
+  "p": 21,
+  "pdf": 117,
+  "n": 2,
+  "sub": 2,
+  "med": 1.0,
+  "scripts": {
+   "Perso-Arabic (Punjabi)": 2
+  },
+  "dom": "Perso-Arabic (Punjabi)",
+  "why": "A decisive: Punjabi-in-Persian sub-pixel"
+ },
+ {
+  "q": "1910Q3",
+  "p": 39,
+  "pdf": 135,
+  "n": 3,
+  "sub": 2,
+  "med": 0.0,
+  "scripts": {
+   "Perso-Arabic": 3
+  },
+  "dom": "Perso-Arabic",
+  "why": "A decisive: Perso-Arabic sub-pixel"
+ },
+ {
+  "q": "1910Q4",
+  "p": 30,
+  "pdf": 184,
+  "n": 4,
+  "sub": 1,
+  "med": 1.75,
+  "scripts": {
+   "Perso-Arabic": 4
+  },
+  "dom": "Perso-Arabic",
+  "why": "B breadth: dense page"
+ },
+ {
+  "q": "1911Q1",
+  "p": 34,
+  "pdf": 227,
+  "n": 3,
+  "sub": 0,
+  "med": 7,
+  "scripts": {
+   "Perso-Arabic": 3
+  },
+  "dom": "Perso-Arabic",
+  "why": "C control: comfortable clearance"
+ },
+ {
+  "q": "1911Q2",
+  "p": 6,
+  "pdf": 244,
+  "n": 2,
+  "sub": 2,
+  "med": 0.0,
+  "scripts": {
+   "Devanagari": 2
+  },
+  "dom": "Devanagari",
+  "why": "A decisive: Devanagari sub-pixel"
+ },
+ {
+  "q": "1911Q2",
+  "p": 23,
+  "pdf": 261,
+  "n": 4,
+  "sub": 1,
+  "med": 4.0,
+  "scripts": {
+   "Gurmukhi": 4
+  },
+  "dom": "Gurmukhi",
+  "why": "B breadth: dense page"
+ },
+ {
+  "q": "1911Q3",
+  "p": 21,
+  "pdf": 321,
+  "n": 4,
+  "sub": 0,
+  "med": 5.0,
+  "scripts": {
+   "Perso-Arabic (Punjabi)": 1,
+   "Gurmukhi": 3
+  },
+  "dom": "Gurmukhi",
+  "why": "C control: comfortable clearance"
+ },
+ {
+  "q": "1911Q4",
+  "p": 3,
+  "pdf": 357,
+  "n": 2,
+  "sub": 1,
+  "med": 1.5,
+  "scripts": {
+   "Devanagari": 2
+  },
+  "dom": "Devanagari",
+  "why": "A decisive: Devanagari sub-pixel"
+ },
+ {
+  "q": "1911Q4",
+  "p": 19,
+  "pdf": 373,
+  "n": 3,
+  "sub": 0,
+  "med": 5,
+  "scripts": {
+   "Gurmukhi": 1,
+   "Perso-Arabic": 2
+  },
+  "dom": "Perso-Arabic",
+  "why": "C control: comfortable clearance"
+ },
+ {
+  "q": "1912Q1",
+  "p": 23,
+  "pdf": 425,
+  "n": 3,
+  "sub": 0,
+  "med": 6,
+  "scripts": {
+   "Devanagari": 2,
+   "Perso-Arabic": 1
+  },
+  "dom": "Devanagari",
+  "why": "C control: comfortable clearance"
+ },
+ {
+  "q": "1912Q2",
+  "p": 4,
+  "pdf": 457,
+  "n": 3,
+  "sub": 3,
+  "med": 0.0,
+  "scripts": {
+   "Devanagari": 3
+  },
+  "dom": "Devanagari",
+  "why": "A decisive: Devanagari sub-pixel"
+ },
+ {
+  "q": "1912Q3",
+  "p": 10,
+  "pdf": 513,
+  "n": 4,
+  "sub": 3,
+  "med": 0.5,
+  "scripts": {
+   "Gurmukhi": 4
+  },
+  "dom": "Gurmukhi",
+  "why": "A decisive: Gurmukhi sub-pixel"
+ },
+ {
+  "q": "1912Q3",
+  "p": 11,
+  "pdf": 514,
+  "n": 4,
+  "sub": 2,
+  "med": 1.0,
+  "scripts": {
+   "Gurmukhi": 4
+  },
+  "dom": "Gurmukhi",
+  "why": "A decisive: Gurmukhi sub-pixel"
+ },
+ {
+  "q": "1912Q4",
+  "p": 25,
+  "pdf": 578,
+  "n": 3,
+  "sub": 1,
+  "med": 7,
+  "scripts": {
+   "Perso-Arabic (Punjabi)": 3
+  },
+  "dom": "Perso-Arabic (Punjabi)",
+  "why": "A decisive: Punjabi-in-Persian sub-pixel"
+ }
+]
