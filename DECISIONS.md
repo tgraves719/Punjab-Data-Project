@@ -335,3 +335,39 @@ cases where a flag documents a correction the value already absorbed. (e) Any
 adjudication interface must render the **whole row including column 6**; the first
 worksheet cropped columns 2-5 and silently dropped every copyright flag, the fourth most
 flagged field in the corpus.
+
+## D-020 (2026-09-02) — The verbatim sweep is closed; `copies` needs a normalised twin
+**Context:** D-019(d) recorded one case where the stored value silently absorbed a
+correction and asked for a sweep. `analysis/integrity/verbatim_sweep.py` performs it,
+using the extractor's own flags as an independent witness of what each page prints:
+where a flag quotes a page reading, compare it against the value stored for that field.
+Full results in `analysis/integrity/INTEGRITY_SWEEP.md`.
+**Findings:** (1) 132 flag-quotes report a page reading; 60 diverge from the store. 49 of
+those are in fields the schema declares normalised (`copies` digits-only, `date` ISO-ish,
+`edition` ordinal, `method`/`format` controlled) — the flag records broken type in the
+source and the store holds the specified normalisation. **Not breaches; the schema
+working.** (2) Of the 11 candidates in declared-verbatim fields, 5 are genuine: the
+Stara-i-Hiud case from D-019(d), now confirmed the **only** silent spelling correction in
+the corpus, plus **4 prices where a printed `"Price,"` label was replaced by a fabricated
+`"Rs."`**. That is a correctness defect as well as a fidelity one — an anna is 1/16 of a
+rupee, so `"Rs. 4 annas"` is not a well-formed price. Contained: the incoherent form
+occurs exactly 4 times in 4,374 priced entries, and they are precisely these four.
+(3) One extraction error found running the other way: 1911Q3 p12 s177 reg 917 stores
+`pubcity = "Pesh, war"` where the page prints *Peshawar*. (4) **Separately and more
+seriously:** `copies` is specified "digits only" but **573 of 4,502 values (12.7%) carry
+a thousands separator** in a TEXT column, so `sum(cast(copies as integer))` returns
+5,784,297 against a true 6,944,051 — a silent **16.7% undercount** from the query a
+person writes first, with no error raised. `build_site.py` strips non-digits and is
+unaffected; the discrepancy surfaced only because a draft document and the live site
+disagreed.
+**Decision:** (a) the verbatim guarantee is stated as "intact with five known exceptions,
+each identified by quarter/page/serial/reg" — **never as "preserved exactly" unqualified**;
+(b) the five are NOT corrected here (PLAN §6: correction is a separate adjudication pass)
+but are no longer unknown; (c) `postprocess.py` should emit an integer `copies` column and
+retain the printed form as `copies_verbatim`, so the fix does not come out of the verbatim
+layer; (d) until then any published data dictionary carries the `replace()` idiom;
+(e) `verbatim_sweep.py` runs after every year is ingested.
+**Consequences:** (a) Three-layer discipline was applied to spelling and never to number
+formatting — `copies` serves verbatim and analytic duty in one column. Audit the other
+TEXT-typed numeric fields for the same shape. (b) README now carries both traps on the
+front page; a user of the open data cannot reach either from the schema alone.
