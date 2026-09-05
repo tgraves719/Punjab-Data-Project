@@ -5,7 +5,7 @@ Thomas Graves, with Prof. Emmett Davis.
 
 ## The live explorer
 
-**→ https://www.mixedrealitymusician.com/Punjab-Data-Project/** *(GitHub Pages, served from `docs/`)*
+**→ [https://tgraves719.github.io/Punjab-Data-Project/](https://tgraves719.github.io/Punjab-Data-Project/)** *(GitHub Pages, served from `docs/`)*
 
 An interactive explorer of three complete years, **1910–1912**: all twelve quarterly
 *Catalogues of Books registered in the Punjab* under Act XXV of 1867 and Act X of 1890 —
