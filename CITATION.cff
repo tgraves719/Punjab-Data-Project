@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: >-
+  Punjab Data Project: the imperial print register of British
+  Punjab, 1910-1912
+message: >-
+  Citation is requested, not required. The data is released
+  under CC0; please also cite the source record (see
+  references, below).
+type: dataset
+authors:
+  - given-names: Thomas
+    family-names: Graves
+  - given-names: Emmett
+    family-names: Davis
+    name-suffix: Prof.
+repository-code: 'https://github.com/tgraves719/Punjab-Data-Project'
+url: 'https://tgraves719.github.io/Punjab-Data-Project/'
+abstract: >-
+  A machine-readable dataset derived from the quarterly
+  Catalogue of Books registered in the Punjab, compiled under
+  Act XXV of 1867 and Act X of 1890. Covers twelve consecutive
+  quarters, 1910-1912: 4,502 structured bibliographic entries
+  recording 6,944,051 registered copies, across 350 printers,
+  1,726 publishers and 59 printing cities, in Urdu, Punjabi,
+  Hindi, English, Sindhi, Arabic, Persian and thirty further
+  languages and script combinations. Every record retains the
+  catalogue's own wording verbatim beside a normalised analytic
+  layer, and links to the scanned page it came from. Built
+  from India Office Records SV 412/44, Punjab, Vol 13.
+keywords:
+  - book history
+  - South Asia
+  - Punjab
+  - colonial India
+  - print culture
+  - Urdu
+  - digital humanities
+  - historical bibliography
+  - computational social science
+license:
+  - CC0-1.0
+  - GPL-3.0-or-later
+  - CC-BY-4.0
+references:
+  - type: report
+    title: >-
+      Catalogue of Books registered in the Punjab under Act XXV
+      of 1867 and Act X of 1890
+    authors:
+      - name: Government of the Punjab, Education Department
+    institution:
+      name: British Library, India Office Records
+    collection-title: 'India Office Records SV 412/44, Punjab, Vol 13'
+    year: 1912
+    notes: >-
+      Quarterly. The full Punjab run is 26 bound volumes,
+      1867-1942.

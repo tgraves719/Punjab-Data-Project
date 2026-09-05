@@ -79,3 +79,13 @@ python build_site.py                         # local build (with PDF deep-links)
 quarterly, British Library India Office Records **SV 412/44** (Punjab; 26 bound volumes,
 1867–1942 — the years here are Vol 13). Public-domain government record. Print runs measure
 publisher supply decisions under a legal-deposit regime — not readership, not literacy.
+
+## Licence and citation
+
+Three licences, because this repository holds three different kinds of thing: **code** is
+GPL-3.0-or-later, **data** is CC0 (it is a transcription of a public-domain government
+record, and mostly not ours to license), and **prose** is CC BY 4.0. Full statement and
+reasoning in [`LICENSING.md`](LICENSING.md); machine-readable citation in `CITATION.cff`.
+
+Citation is requested, not required. If you use the data, please cite the source record
+too — and tell us what you find wrong in it.
